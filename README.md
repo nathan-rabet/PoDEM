@@ -1,4 +1,4 @@
-# Générateur poèmes en ACROSTICHES
+# Générateur de poèmes en ACROSTICHES
 
 Créateur de poèmes acrostiches personnalisés selon les caractéristiques de l'utilisateur.
 Il y aura pour cela différents thèmes de génération : **amour, amitié, conflit, …**

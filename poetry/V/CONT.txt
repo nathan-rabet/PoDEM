@@ -1,0 +1,167 @@
+CONT
+tracer N
+artic N
+N rli qc p
+excla P
+N f preuve p
+val adv
+preuve adj
+co str N
+mesure adv
+grip N
+adven N
+constr N
+val x p N
+val N
+prat N
+fab fg N
+éprouver N
+struct N
+extrac N d
+culture N
+mun qc d N
+opérat v N
+f mvt p N
+N tracer p
+organe N
+commet N
+N q suff d
+f stat N
+extrac p N
+exercer N
+m an ds N
+N frapp p
+A q nutri
+N q orig d
+parler N
+N q dirige
+N q appa à
+N f stat p
+lire N
+cri mugir
+f stat p N
+soin p N
+opérat p N
+an mov eau
+diriger p N
+N gérer p
+tirer v N
+culture N  
+crier N
+adhér à N
+N q adhér
+touch p N
+dire N ct
+conduire N
+orig p N
+N q crie
+boire p N
+m qc ds N
+récolt N
+A nutri
+9
+mesure adj
+célébrer N
+N jouer à
+cri feuler
+N f mvt p
+cri chanter
+an mov sol
+versé en N
+co str p N
+tisser p N
+N jouer p
+f appa p N
+struct p N
+jouer d N
+f mvt sr N
+vêtir p N
+pare p N
+A pare an
+an mov org
+frapp v N
+stat N
+gérer N
+mesurer N
+N q joue
+f bruit p N
+rég qn p N
+cri hurler
+N q rpt an
+dli qc p N
+fab fg p N
+N q fab fg
+N f appa p
+artic p N
+N q av som
+cri glatir
+cri grogner
+dire adj
+cri cancaner
+mesure p N
+cri blatérer
+vêtir N
+jouer à N
+cri jaser
+mun qn d N
+prat p N
+cri barrir
+N q prat p
+reprod p N
+N opérat p
+an q pare
+compt adj
+N q condui
+an pare ov
+cri bramer
+cri roucouler
+prat ds N
+m qc sr N
+an pare an
+N grip p
+A crier
+N q f preu
+mun adj
+exam p N
+jouer N
+N q gère
+habiter N
+prat v N
+rli qc p N
+parler p N
+grip p N
+constr N d
+culture p N
+fac v N
+N f mvt sr
+co str adv
+N soin p
+f preuve N
+N dmu qc p
+fab fg adj
+dmu adj
+mun qc p N
+N rli qn p
+N m liq ds
+N m qn ds
+N suff de
+organe p N
+appart p N
+cri braire
+cri huir
+adven p N
+suff adj
+structur N
+co str adj
+an habit N
+N q rég qn
+N prat p
+appart à N
+situer adj
+m q ds p N
+N co str p
+dire N p
+mun an d N
+N q rési à
+N éprouver
+compt p N

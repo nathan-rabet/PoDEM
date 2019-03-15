@@ -313,3 +313,6 @@ class Verbe:
             verbe_radical = pronom + " " + verbe_radical
         
         return verbe_radical
+
+
+

@@ -3,3 +3,5 @@ Phrase composée
 
 Phrase simple
     SUJET + VERBE TRANSITIF + OBJET DE L'ACTION + COMPLEMENT DE LIEU
+
+

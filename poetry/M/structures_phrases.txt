@@ -1,0 +1,7 @@
+Phrase composée
+    Sujet 1 + Verbe transitif + **Conjonc de coord**  + Sujet 2 + Verbe transitif + Complément de lieu
+
+Phrase simple
+    SUJET + VERBE TRANSITIF + OBJET DE L'ACTION + COMPLEMENT DE LIEU
+
+

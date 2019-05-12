@@ -1,9 +1,11 @@
 from os import getcwd
 from os import environ
-from C.Class.Conjugueur.Verbe import Verbe
+#from C.Class.Structure.Structure import Semantique
 
 environ["POETRY_PATH"] = getcwd() + "/poetry"
 
-txt = Verbe("finir")
-print(txt.groupe())
-print(txt.conjuguer("2p","p","f","futur",True))
+import C.Class.Structure.Semantique as test
+
+
+test1 = test.Semantique.CA("M-")
+print (test1)

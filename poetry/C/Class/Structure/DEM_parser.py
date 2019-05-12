@@ -7,6 +7,13 @@ class DEM_parser:
     DEM_PATH = Path(DEM_PATH)
     DEM = open(DEM_PATH)
 
+    def M_selec(table):
+        words = []
+        for ligne in table:
+            words.append(ligne[0])
+        return words
+    M_selec = staticmethod(M_selec)
+
     def M(M, table=None):
         filtered = []
         reader = csv.reader(open(DEM_parser.DEM_PATH))

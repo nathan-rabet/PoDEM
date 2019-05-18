@@ -24,7 +24,7 @@ def ADJ(nom,dom):
     ADJ_V2 = VERIF_MOT(ADJ_V1)
     MOT = ADJ_V2[randint(0,len(ADJ_V2)-1)]
     CA_val = Cellule_de_la_ligne([Donne_ligne_numero(Trouve_ligne_mot(nom))],-1)
-    if not (CA_val == Liste_CA[0] or Liste_CA[1] or Liste_CA[3] or Liste_CA[5] or Liste_CA[6] or Liste_CA[7] or Liste_CA[9] or Liste_CA[10]) :
+    if not (CA_val == '-1' or '-3'or '-4' or '-5' or '-7' or '-8') :
         Accords = 'e'
 
     return (MOT + Accords)
@@ -107,6 +107,8 @@ def VerbeM(type,nom,dom,op='',pers='3p',nbr='s',tps="présent"):
         a = 0
         VER_DOM = DOM(dom)
         VER_V1 = CA(type,VER_DOM)
+        if VER_V1 == [] :
+            VER_V1 = CA(type) 
         if op :
             VER_V2 = OP(op,VER_V1)
         else :
@@ -131,17 +133,29 @@ def VerbeM(type,nom,dom,op='',pers='3p',nbr='s',tps="présent"):
                 a=1
     if type == 'Vp' :
         if pers == "1p" and nbr == "s":
-            pro = "m'"  
+            if Premiere_lettre_voyelle :
+                pro = "m'"  
+            else :
+                pro = 'me '
         elif pers == "2p" and nbr == "s":
-            pro = "t'"  
+            if Premiere_lettre_voyelle :
+                pro = "t'"  
+            else :
+                pro = 'te '   
         elif pers == "3p" and nbr == "s":
-            pro = "s'"  
+            if Premiere_lettre_voyelle :
+                pro = "s'"  
+            else :
+                pro = 'se '  
         elif pers == "1p" and nbr == "p":
             pro = "nous "  
         elif pers == "2p" and nbr == "p":
             pro = "vous "  
         elif pers == "3p" and nbr == "p":
-            pro = "s'"
+            if Premiere_lettre_voyelle :
+                pro = "s'"  
+            else :
+                pro = 'se '
         return pro + VER_F
     else :
         return VER_F
@@ -218,5 +232,12 @@ Et,Vir,E,Pq,Pi,Pe ='Et',',',' ','Pourquoi','?','!'
 MOT_PASSE = ['Hier','Avant hier','Il y a longtemps','Il fut un temps','Quelques années auparavant','Quelques jours auparavant','Quelques heures auparavant','Il y a fort longtemps','Dans le passé',"Dans l'ancien temps"]
     
 MOT_FUTUR = ['Demain','Après demain','Quelques années plus tard','Quelques jours plus tard','Quelques heures plus tard','Dans le futur','Bien plus tard','Bien longtemps après','Dans fort longtemps','Dans quelques temps']
+
+
+
+
+
+
+
 
 

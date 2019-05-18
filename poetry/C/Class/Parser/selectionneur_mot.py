@@ -7,20 +7,21 @@ def ADJ(nom,dom):
     """
     Selectionne un adjectif selon le thème (dom) et l'accord selon le nom (nom)
     """
-
     ADJ_DOM = DOM(dom)
     ADJ_CA = []
     Accords = ''
     Liste_CA = ['A-','K-','L-','A1','A2','A3','A4','A5','A6','A7','A8','A9']
     a = 0
     while (a<len(Liste_CA)):
-        ADJ_CA.append(CA(Liste_CA[a],ADJ_DOM)) 
+        
+        CA_def = CA(Liste_CA[a],ADJ_DOM)
+        ADJ_CA.append(CA_def) 
         a = a+1
     ADJ_V1 = Cellule_de_la_ligne(ADJ_CA)
     ADJ_V2 = VERIF_MOT(ADJ_V1)
     MOT = ADJ_V2[randint(0,len(ADJ_V2)-1)]
-    CA = Cellule_de_la_ligne(Trouve_ligne_mot(nom))
-    if not CA == Liste_CA[0] or Liste_CA[1] or Liste_CA[3] or Liste_CA[5] or Liste_CA[6] or Liste_CA[7] or Liste_CA[9] or Liste_CA[10] :
+    CA_val = Cellule_de_la_ligne(Trouve_ligne_mot(nom))
+    if not CA_val == Liste_CA[0] or Liste_CA[1] or Liste_CA[3] or Liste_CA[5] or Liste_CA[6] or Liste_CA[7] or Liste_CA[9] or Liste_CA[10] :
         Accords = 'e'
 
     return (MOT + Accords)
@@ -198,7 +199,7 @@ def Verbe_3(mot,pers,nbr,tps):
 
 
 """
-Mots utiles pour composé les phrases
+Mots utiles pour composer les phrases
 """
 
 

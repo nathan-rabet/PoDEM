@@ -7,8 +7,7 @@ from C.Class.Parser.DEM_parser import *
 from C.Class.Structure.Determinant import *
 from C.Class.Structure.Verbe import *
 from C.Class.Parser.selectionneur_mot import *
-print(style_langage("p"))
 
 
-
-
+ADJ("antimissile", "ARM")
+print(ADJ)

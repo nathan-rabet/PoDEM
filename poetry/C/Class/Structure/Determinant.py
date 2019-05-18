@@ -1,0 +1,87 @@
+from C.Class.Parser.DEM_parser import *
+from random import randint
+
+def article_def(nom):
+    no = Trouve_ligne_mot(nom)
+    
+    CA = Donne_ligne_numero(no)
+    CA = CA[-1]
+
+    M = Donne_ligne_numero(no)
+    M = M[0]
+
+    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8":
+        if Premiere_lettre_voyelle(M):
+            return "l'"
+        else:
+            return "le"
+    
+    elif CA == "-2" or CA == "-6" or CA == "-9":
+        if Premiere_lettre_voyelle(M):
+            return "l'"
+        else:
+            return "la"
+    else:
+        return False
+
+def demonstratif(nom):
+    no = Trouve_ligne_mot(nom)
+    CA = Donne_ligne_numero(no)
+    CA = CA[-1]
+
+    M = Donne_ligne_numero(no)
+    M = M[0]
+
+    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8":
+        if Premiere_lettre_voyelle(nom) or nom[0] == "h":
+            return "cet"
+        else:
+            return "ce"
+    
+    elif CA == "-2" or CA == "-6" or CA == "-9":
+        return "cette"
+    else:
+        return False
+
+def possessif(nom):
+
+    no = Trouve_ligne_mot(nom)
+    
+    CA = Donne_ligne_numero(no)
+    CA = CA[-1]
+
+    M = Donne_ligne_numero(no)
+    M = M[0]
+
+
+    rand = randint(0,5)
+
+    if (CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8"):
+        if rand == 0:
+            return "mon"
+        elif rand == 1:
+            return "ton"
+        elif rand == 2:
+            return "son"
+        elif rand == 3:
+            return "notre"
+        elif rand == 4:
+            return "votre"
+        elif rand == 5:
+            return "leur"
+    
+    elif (CA == "-2" or CA == "-6" or CA == "-9"):
+        if rand == 0:
+            return "ma"
+        elif rand == 1:
+            return "ta"
+        elif rand == 2:
+            return "sa"
+        elif rand == 3:
+            return "notre"
+        elif rand == 4:
+            return "votre"
+        elif rand == 5:
+            return "leur"
+    else:
+        return False

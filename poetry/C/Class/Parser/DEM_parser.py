@@ -376,6 +376,11 @@ def style_langage(style, table=None):
 
 
 def VERIF_MOT(LISTE):
+    """
+    Pour éviter toute incohérence, certaine expressions (comme les verbes) ne peuvent être composé que d'un seul mot
+
+    Cette fonction supprime toute les expressions qui possède plusieurs mots
+    """
 
         LISTE_V2 = []
         for i in LISTE :

@@ -20,7 +20,7 @@ def ADJ(nom,dom):
     ADJ_V1 = Cellule_de_la_ligne(ADJ_CA)
     ADJ_V2 = VERIF_MOT(ADJ_V1)
     MOT = ADJ_V2[randint(0,len(ADJ_V2)-1)]
-    CA_val = Cellule_de_la_ligne(Trouve_ligne_mot(nom))
+    CA_val = Cellule_de_la_ligne(DEM[Trouve_ligne_mot(nom)],-1)
     if not CA_val == Liste_CA[0] or Liste_CA[1] or Liste_CA[3] or Liste_CA[5] or Liste_CA[6] or Liste_CA[7] or Liste_CA[9] or Liste_CA[10] :
         Accords = 'e'
 
@@ -104,10 +104,10 @@ def Verbe(type,nom,dom,op='',pers='3p',nbr='s',tps="présent"):
         VER_V3 = Cellule_de_la_ligne(VER_V2)
         VER_V4 = VERIF_MOT(VER_V3)
         VER = VER_V4[randint(0,len(VER_V4)-1)]
-        CA=Cellule_de_la_ligne(Trouve_ligne_mot(nom))
-        if CA == -1 or CA == -5 or CA == -8 :
+        CA_val = Cellule_de_la_ligne(DEM[Trouve_ligne_mot(nom)],-1)
+        if CA_val == -1 or CA_val == -5 or CA_val == -8 :
             genre = 'm'
-        elif CA == -2 or CA == -6 or CA == -9 :
+        elif CA_val == -2 or CA_val == -6 or CA_val == -9 :
             genre = 'f'
         else :
             genre = 'n'

@@ -17,7 +17,7 @@ def init_DEM():
     DEM = open(DEM_PATH, "r")
 
     global reader
-    reader = csv.reader(DEM)
+    reader = csv.reader(DEM, delimiter='\t')
 
 def close_DEM():
     """ 
@@ -382,10 +382,10 @@ def VERIF_MOT(LISTE):
     Cette fonction supprime toute les expressions qui possède plusieurs mots
     """
 
-        LISTE_V2 = []
-        for i in LISTE :
-                mot = i
-                if not re.search(' ',mot[1:-2]) :
-                        LISTE_V2.append(mot)
-        return LISTE_V2
+    LISTE_V2 = []
+    for i in LISTE :
+            mot = i
+            if not re.search(' ',mot[1:-2]) :
+                    LISTE_V2.append(mot)
+    return LISTE_V2
          

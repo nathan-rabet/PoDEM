@@ -41,13 +41,13 @@ def article_def(nom):
         if Premiere_lettre_voyelle(M):
             return "l'"
         else:
-            return "le"
+            return "le "
     
     elif CA == "-2" or CA == "-6" or CA == "-9":
         if Premiere_lettre_voyelle(M):
             return "l'"
         else:
-            return "la"
+            return "la "
     else:
         return False
 
@@ -61,12 +61,12 @@ def demonstratif(nom):
 
     if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8":
         if Premiere_lettre_voyelle(nom) or nom[0] == "h":
-            return "cet"
+            return "cet "
         else:
-            return "ce"
+            return "ce "
     
     elif CA == "-2" or CA == "-6" or CA == "-9":
-        return "cette"
+        return "cette "
     else:
         return False
 
@@ -85,31 +85,31 @@ def possessif(nom):
 
     if (CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8"):
         if rand == 0:
-            return "mon"
+            return "mon "
         elif rand == 1:
-            return "ton"
+            return "ton "
         elif rand == 2:
-            return "son"
+            return "son "
         elif rand == 3:
-            return "notre"
+            return "notre "
         elif rand == 4:
-            return "votre"
+            return "votre "
         elif rand == 5:
-            return "leur"
+            return "leur "
     
     elif (CA == "-2" or CA == "-6" or CA == "-9"):
         if rand == 0:
-            return "ma"
+            return "ma "
         elif rand == 1:
-            return "ta"
+            return "ta "
         elif rand == 2:
-            return "sa"
+            return "sa "
         elif rand == 3:
-            return "notre"
+            return "notre "
         elif rand == 4:
-            return "votre"
+            return "votre "
         elif rand == 5:
-            return "leur"
+            return "leur "
     else:
         return False
 
@@ -123,10 +123,10 @@ def cardinal(nom) :
     CA = CA[-1]
 
     if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8":
-        return "un"
+        return "un "
     
     elif CA == "-2" or CA == "-6" or CA == "-9":
-        return "une"
+        return "une "
         
     else:
         return False

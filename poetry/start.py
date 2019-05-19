@@ -12,5 +12,5 @@ from C.Class.Semantique.Constructeur_phrase import *
 #a = Paragraphe(4,'MEC','f')
 #a = Constructeur_phrase('MEC','f')
 
-a =  Phrase_intj('MEC','p','imparfait')
+a =  Phrase_intj('MEC','p','futur simple')
 print(a)

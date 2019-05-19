@@ -5,7 +5,9 @@ import csv
 from os import environ
 from pathlib import Path
 
-def start():
+import re
+
+def startup():
     on = True
     
     clear_console()
@@ -13,6 +15,27 @@ def start():
     print(help_min())
     while on:
         cmd = input("GÉNÉRATEUR DE POÈMES >> ")
+
+        if re.search('start',cmd):
+            start()
+            on = False
+
+        elif re.search('DOM',cmd) and re.search('=',cmd):
+            entree_correcte_DOM = None
+            for i in readerDOM:
+                if re.search(i[0], cmd):
+                    entree_correcte_DOM = i[0]
+            if entree_correcte_DOM == None:
+                print("Ce thème n'existe pas !")
+
+        elif re.search('style',cmd) and re.search('=',cmd):
+            entree_correcte_style = ""
+            for i in ['', 'f','b','p','v','t','c','s','m','n']:
+                if re.search(i[0], cmd):
+                    entree_correcte_style = i[0]
+            if not entree_correcte_style in ['', 'f','b','p','v','t','c','s','m','n']:
+                print("Ce thème n'existe pas !")
+        
 
 
 
@@ -25,6 +48,9 @@ def clear_console():
         # Windows
         system('cls')
     
+
+def start():
+    pass
 
 def banner(flower=True,txt=True):
     t = ""
@@ -116,6 +142,7 @@ def show_DOM():
     """)
     for dom in readerDOM:
         print(dom[0] + "\t" + dom[1])
+    print("\nSi vous ne définissez pas de thème, le poème se fera à partir de n'importe quel thème.")
 
 def show_style():
     print(""" 
@@ -154,4 +181,6 @@ def show_style():
                             |          
 
     d	Altuglass
+
+    Si vous ne définissez pas de style, le poème se fera à partir de n'importe quel style.
         """)

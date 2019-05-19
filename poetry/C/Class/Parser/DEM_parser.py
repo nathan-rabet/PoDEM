@@ -71,7 +71,7 @@ def Premiere_lettre_voyelle(mot):
     Précise si un mot commence par une voyelle ou non.
     """
 
-    if mot[0].lower() in ["a","e","i","o","u","y"]:
+    if mot[0].lower() in ["a","e","i","o","u","y","é","è","à","ù","û","ü","î","ï"]:
         return True
     else:
         return False

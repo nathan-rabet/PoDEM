@@ -255,14 +255,16 @@ def VerbeM(type,nom,dom,style,tps="présent",op='',pers='3p',nbr='s',):
     a=1
     while a==1 :
         a = 0
-        VER_DOM = DOM(dom)
-        VER_V1 = CA(type,VER_DOM)
-        if VER_V1 == [] :
-            VER_V1 = CA(type) 
+        VER_V1 = CA(type)
+        VER_DOM = DOM(dom,VER_V1)
+        if VER_DOM == [] :
+            VER_DOM = CA(type) 
         if op :
-            VER_V2 = OP(op,VER_V1)
+            VER_V2 = OP(op,VER_DOM)
+            if VER_V2 == [] :
+                VER_V2 = OP(op,VER_V1)          
         else :
-            VER_V2 = VER_V1
+            VER_V2 = VER_DOM
 
         if not style == '' :
             VER_V3 = style_langage(style,VER_V2)

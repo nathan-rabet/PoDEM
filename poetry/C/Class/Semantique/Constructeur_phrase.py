@@ -19,9 +19,17 @@ MOT_FUTUR = ['Demain','Après demain','Quelques années plus tard','Quelques jou
 
 
 
+def Afficher_phrase(nbr_ligne,dom,style=''):
+
+	LISTE = Nombre_phrase(nbr_ligne,dom,style)
+	for i in LISTE :
+		phrase = i.capitalize()
+		print(phrase)
 
 
-def Paragraphe(nbr_ligne,dom,style) :
+
+
+def Nombre_phrase(nbr_ligne,dom,style) :
 	a = 0
 	Txt = []
 	while a<nbr_ligne :
@@ -141,11 +149,14 @@ def Phrase_normal(dom,style,tps):
 def Phrase_question(dom,style,tps):
 
 	N = NOM(dom,style)
+	M = NOM(dom,style)
 	Dn = deter_alea(N)
+	Dm = deter_alea(M)
 	ADJn = ADJ(N,dom,style)
+	ADJm = ADJ(M,dom,style)
 	ADV_M = ADV_MESURE()
 	V = VerbeM('Vt',N,dom,style,tps,'sent')
-	Phrase = Pq+e+Dn+N[0]+e+ADJn+e+V+e+ADV_M+e+Dm+M[0]+e+ADJm+e+pi
+	Phrase = pq+e+Dn+N[0]+e+ADJn+e+V+e+ADV_M+e+Dm+M[0]+e+ADJm+e+pi
 	return Phrase
 
 

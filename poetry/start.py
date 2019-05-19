@@ -9,8 +9,4 @@ from C.Class.Parser.selectionneur_mot import *
 from C.Class.Semantique.Constructeur_phrase import *
 
 
-#a = Paragraphe(4,'MEC','f')
-#a = Constructeur_phrase('MEC','f')
-
-a =   Phrase_question('MEC','','futur simple')
-print(a)
+Afficher_phrase(4,'RLA')

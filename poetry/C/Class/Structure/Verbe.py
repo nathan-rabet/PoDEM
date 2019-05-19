@@ -51,7 +51,7 @@ class Verbe:
         """ 
         Permet de conjuguer un verbe 
 
-        temps => temps souhaité : présent, imparfait, passé simple, futur
+        temps => temps souhaité : présent, imparfait, passé simple, futur simple
 
         pers => 1p ou 2p
 
@@ -255,7 +255,7 @@ class Verbe:
                     verbe_radical += "irent"
 
             #Futur
-            if temps == "futur":
+            if temps == "futur simple":
                 #1p singulier
                 if pers == "1p" and nombre == "s":
                     verbe_radical += "irai"

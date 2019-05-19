@@ -27,9 +27,11 @@ def NOM(dom,style) :
             for i in CA_def:
                 NOM_CA.append(i) 
         a = a+1
-    NOM_V1 = Cellule_de_la_ligne(NOM_CA)
-    NOM = NOM_V1[randint(0,len(NOM_V1)-1)]
-    return NOM
+    NOM_V1 = NOM_CA[randint(0,len(NOM_CA)-1)]
+    CA_NOM = NOM_V1[-1]
+    NOM = Cellule_de_la_ligne([NOM_V1])
+    NOM_CA = [NOM[0],CA_NOM]
+    return NOM_CA
 
 
 
@@ -61,8 +63,7 @@ def ADJ(nom,dom,style):
 
     ADJ_V1 = Cellule_de_la_ligne(ADJ_CA2)
     MOT = ADJ_V1[randint(0,len(ADJ_V1)-1)]
-    CA_val = Cellule_de_la_ligne([Donne_ligne_numero(Trouve_ligne_mot(nom))],-1)
-    CA_val =CA_val[0]
+    CA_val = nom[1]
     if  not (CA_val == '-1' or CA_val == '-3'or CA_val == '-4' or CA_val == '-5' or CA_val == '-7' or CA_val == '-8') :
         if (MOT[-1] == 'l' and MOT[-2] == 'u') or (MOT[-1] == 'l' and MOT[-2] == 'e') or (MOT[-1] == 'l' and MOT[-2] == 'e' and MOT[-3] == 'i') or (MOT[-1] == 'l' and MOT[-2] == 'i' and MOT[-3] == 'e'):
             Accords = 'le'
@@ -272,7 +273,7 @@ def VerbeM(type,nom,dom,style,tps="présent",op='',pers='3p',nbr='s',):
         VER_V4 = Cellule_de_la_ligne(VER_V3)
         VER_V5 = VERIF_MOT(VER_V4)
         VER = VER_V5[randint(0,len(VER_V5)-1)]
-        CA_val = Cellule_de_la_ligne([Donne_ligne_numero(Trouve_ligne_mot(nom))],-1)
+        CA_val = nom[1]
         CA_val = CA_val[0]
         if CA_val == -1 or CA_val == -5 or CA_val == -8 :
             genre = 'm'

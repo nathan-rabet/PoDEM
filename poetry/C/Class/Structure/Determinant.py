@@ -29,22 +29,17 @@ def deter_alea(nom) :
 
 
 def article_def(nom):
-    no = Trouve_ligne_mot(nom)
     
-    CA = Donne_ligne_numero(no)
-    CA = CA[-1]
-
-    M = Donne_ligne_numero(no)
-    M = M[0]
+    CA = nom[1]
 
     if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8":
-        if Premiere_lettre_voyelle(M):
+        if Premiere_lettre_voyelle(nom[0]):
             return "l'"
         else:
             return "le "
     
     elif CA == "-2" or CA == "-6" or CA == "-9":
-        if Premiere_lettre_voyelle(M):
+        if Premiere_lettre_voyelle(nom[0]):
             return "l'"
         else:
             return "la "
@@ -52,15 +47,11 @@ def article_def(nom):
         return False
 
 def demonstratif(nom):
-    no = Trouve_ligne_mot(nom)
-    CA = Donne_ligne_numero(no)
-    CA = CA[-1]
-
-    M = Donne_ligne_numero(no)
-    M = M[0]
+    
+    CA = nom[1]
 
     if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8":
-        if Premiere_lettre_voyelle(nom) or nom[0] == "h":
+        if Premiere_lettre_voyelle(nom[0]) or nom[0][0] == "h":
             return "cet "
         else:
             return "ce "
@@ -72,13 +63,7 @@ def demonstratif(nom):
 
 def possessif(nom):
 
-    no = Trouve_ligne_mot(nom)
-    
-    CA = Donne_ligne_numero(no)
-    CA = CA[-1]
-
-    M = Donne_ligne_numero(no)
-    M = M[0]
+    CA = nom[1]
 
 
     rand = randint(0,5)
@@ -118,9 +103,7 @@ def possessif(nom):
 def cardinal(nom) :
 
 
-    no = Trouve_ligne_mot(nom)
-    CA = Donne_ligne_numero(no)
-    CA = CA[-1]
+    CA = nom[1]
 
     if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8":
         return "un "
@@ -130,3 +113,7 @@ def cardinal(nom) :
         
     else:
         return False
+
+
+
+    

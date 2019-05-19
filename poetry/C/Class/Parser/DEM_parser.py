@@ -17,6 +17,7 @@ def init_DEM():
     DEM = open(DEM_PATH, "r",encoding='utf-8')
 
     global reader
+    global sep
     sep = "\t"
     reader = csv.reader(DEM, delimiter=sep)
 

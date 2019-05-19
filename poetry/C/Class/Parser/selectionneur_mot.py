@@ -253,7 +253,7 @@ Mots utiles pour composer les phrases
 """
 
 
-et,vir,e,pq,pi,pe,sdl ='Et',',',' ','Pourquoi','?','!','\n'
+et,vir,e,pq,pi,pe,pts,sdl ='Et',',',' ','Pourquoi','?','!','.','\n'
 
 MOT_PASSE = ['Hier','Avant hier','Il y a longtemps','Il fut un temps','Quelques années auparavant','Quelques jours auparavant','Quelques heures auparavant','Il y a fort longtemps','Dans le passé',"Dans l'ancien temps"]
     

@@ -3,6 +3,33 @@ from C.Class.Structure.Verbe import *
 from random import randint
 import csv
 
+
+
+def NOM(dom) :
+    
+    """
+    Selectionne un nom selon le thème (dom)
+    """
+
+    NOM_DOM = DOM(dom)
+    Liste_CA = ['-1','-2','-3','-4','-5','-6','-7','-8','-9']
+    NOM_CA = []
+    a = 0
+    while (a<len(Liste_CA)):
+        
+        CA_def = CA(Liste_CA[a],NOM_DOM)
+        if not CA_def == []:
+            for i in CA_def:
+                NOM_CA.append(i) 
+        a = a+1
+    NOM_V1 = Cellule_de_la_ligne(NOM_CA)
+    NOM = NOM_V1[randint(0,len(NOM_V1)-1)]
+    return NOM
+
+
+
+
+
 def ADJ(nom,dom):
     
     """
@@ -21,8 +48,7 @@ def ADJ(nom,dom):
                 ADJ_CA.append(i) 
         a = a+1
     ADJ_V1 = Cellule_de_la_ligne(ADJ_CA)
-    ADJ_V2 = VERIF_MOT(ADJ_V1)
-    MOT = ADJ_V2[randint(0,len(ADJ_V2)-1)]
+    MOT = ADJ_V1[randint(0,len(ADJ_V1)-1)]
     CA_val = Cellule_de_la_ligne([Donne_ligne_numero(Trouve_ligne_mot(nom))],-1)
     if not (CA_val == '-1' or '-3'or '-4' or '-5' or '-7' or '-8') :
         Accords = 'e'
@@ -30,8 +56,7 @@ def ADJ(nom,dom):
     return (MOT + Accords)
      
 
-
-    
+   
 
 
 def INTER():
@@ -228,7 +253,7 @@ Mots utiles pour composer les phrases
 """
 
 
-Et,Vir,E,Pq,Pi,Pe ='Et',',',' ','Pourquoi','?','!'
+et,vir,e,pq,pi,pe,sdl ='Et',',',' ','Pourquoi','?','!','\n'
 
 MOT_PASSE = ['Hier','Avant hier','Il y a longtemps','Il fut un temps','Quelques années auparavant','Quelques jours auparavant','Quelques heures auparavant','Il y a fort longtemps','Dans le passé',"Dans l'ancien temps"]
     

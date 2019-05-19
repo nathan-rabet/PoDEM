@@ -7,5 +7,6 @@ from C.Class.Parser.DEM_parser import *
 from C.Class.Structure.Determinant import *
 from C.Class.Parser.selectionneur_mot import *
 
-a = VerbeM("Vp","abscisse","TPS")
-print(a)
+
+
+

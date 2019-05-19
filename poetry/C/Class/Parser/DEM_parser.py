@@ -17,7 +17,8 @@ def init_DEM():
     DEM = open(DEM_PATH, "r",encoding='utf-8')
 
     global reader
-    reader = csv.reader(DEM, delimiter='\t')
+    sep = "\t"
+    reader = csv.reader(DEM, delimiter=sep)
 
 def close_DEM():
     """ 
@@ -51,7 +52,7 @@ def Donne_ligne_numero(no):
     for number, line in enumerate(DEM):
         if number == no:
             close_DEM()
-            return (line.replace("\n","")).split(",")
+            return (line.replace("\n","")).split(sep)
 
 
 def Cellule_de_la_ligne(table, index=0):

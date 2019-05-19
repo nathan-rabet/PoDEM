@@ -10,3 +10,5 @@ from C.Class.Parser.selectionneur_mot import *
 
 
 
+
+print(article_def('aspi'))

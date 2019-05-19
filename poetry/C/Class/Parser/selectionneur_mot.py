@@ -4,19 +4,24 @@ from random import randint
 import csv
 
 
-def NOM(dom) :
+def NOM(dom,style) :
     
     """
-    Selectionne un nom selon le thème (dom)
+    Selectionne un nom selon le thème (dom) et le style de langue (style)
     """
 
     NOM_DOM = DOM(dom)
+    if not style == '' :
+        NOM_DOM2 = style_langage(style,NOM_DOM)
+        if NOM_DOM2 == []  :
+            NOM_DOM2 = NOM_DOM 
+
     Liste_CA = ['-1','-2','-3','-4','-5','-6','-7','-8','-9']
     NOM_CA = []
     a = 0
     while (a<len(Liste_CA)):
         
-        CA_def = CA(Liste_CA[a],NOM_DOM)
+        CA_def = CA(Liste_CA[a],NOM_DOM2)
         if not CA_def == []:
             for i in CA_def:
                 NOM_CA.append(i) 
@@ -29,10 +34,10 @@ def NOM(dom) :
 
 
 
-def ADJ(nom,dom):
+def ADJ(nom,dom,style):
     
     """
-    Selectionne un adjectif selon le thème (dom) et l'accord selon le nom (nom)
+    Selectionne un adjectif selon le thème (dom), l'accord selon le nom (nom) et le style de langue (style)
     """
     ADJ_DOM = DOM(dom)
     ADJ_CA = []
@@ -46,7 +51,11 @@ def ADJ(nom,dom):
             for i in CA_def:
                 ADJ_CA.append(i) 
         a = a+1
-    ADJ_V1 = Cellule_de_la_ligne(ADJ_CA)
+    if not style == '' :
+        ADJ_CA2 = style_langage(style,ADJ_CA)
+        if ADJ_CA2 == []  :
+            NOM_DOM2 = ADJ_CA 
+    ADJ_V1 = Cellule_de_la_ligne(ADJ_CA2)
     MOT = ADJ_V1[randint(0,len(ADJ_V1)-1)]
     CA_val = Cellule_de_la_ligne([Donne_ligne_numero(Trouve_ligne_mot(nom))],-1)
     CA_val =CA_val[0]
@@ -158,13 +167,17 @@ def ADJ(nom,dom):
    
 
 
-def INTER():
+def INTER(style):
 
     """
-    Selectionne une interjection
+    Selectionne une interjection selon le style de langue (style)
     """
 
-    INTERJ_V1 = OP('intj')
+    INTERJ_V = OP('intj')
+    if not style == '' :
+        INTERJ_V1 = style_langage(style,INTERJ_V)
+        if INTERJ_V1 == []  :
+            INTERJ_V1 = INTERJ_V
     INTERJ_V2 = Cellule_de_la_ligne(INTERJ_V1)
     return INTERJ_V2[randint(0,len(INTERJ_V2)-1)]
 
@@ -180,16 +193,20 @@ def BRUIT() :
     BRUIT_V2 = Cellule_de_la_ligne(BRUIT_V1)
     return BRUIT_V2[randint(0,len(BRUIT_V2)-1)]
 
-def ADV(dom) :
+def ADV(dom,style) :
 
     """
-    Selectionne un adverbe selon le thème(dom)
+    Selectionne un adverbe selon le thème(dom) et le style de langue (style)
     """
 
     ADV_DOM = DOM(dom)
-    ADV_V1 = CA('M-',ADV_DOM)
-    if ADV_V1 == []:
-        ADV_V1 = CA('M-')
+    ADV_V = CA('M-',ADV_DOM)
+    if ADV_V == []:
+        ADV_V = CA('M-')
+    if not style == '' :
+        ADV_V1 = style_langage(style,ADV_V)
+        if ADV_V1 == []  :
+            ADV_V1 = ADV_V
     ADV_V2 = Cellule_de_la_ligne(ADV_V1)
     return ADV_V2[randint(0,len(ADV_V2)-1)]
 
@@ -220,10 +237,10 @@ def CONJ():
     return retour
 
 
-def VerbeM(type,nom,dom,op='',pers='3p',nbr='s',tps="présent"):
+def VerbeM(type,nom,dom,style,op='',pers='3p',nbr='s',tps="présent"):
 
     """
-    Selectionne un verbe selon le thème (dom), le type (type) et l'opérateur (op) et le conjuge selon le type(type), le temps (tps) et la personne (pers,nbr)
+    Selectionne un verbe selon le thème (dom), le type (type), l'opérateur (op) et le style de langue (style) et le conjuge selon le type (type), le temps (tps) et la personne (pers,nbr)
     """
 
     a=1
@@ -237,9 +254,14 @@ def VerbeM(type,nom,dom,op='',pers='3p',nbr='s',tps="présent"):
             VER_V2 = OP(op,VER_V1)
         else :
             VER_V2 = VER_V1
-        VER_V3 = Cellule_de_la_ligne(VER_V2)
-        VER_V4 = VERIF_MOT(VER_V3)
-        VER = VER_V4[randint(0,len(VER_V4)-1)]
+
+        if not style == '' :
+            VER_V3 = style_langage(style,VER_V2)
+        if VER_V3 == []  :
+            VER_V3 = VER_V2
+        VER_V4 = Cellule_de_la_ligne(VER_V3)
+        VER_V5 = VERIF_MOT(VER_V4)
+        VER = VER_V5[randint(0,len(VER_V5)-1)]
         CA_val = Cellule_de_la_ligne([Donne_ligne_numero(Trouve_ligne_mot(nom))],-1)
         CA_val = CA_val[0]
         if CA_val == -1 or CA_val == -5 or CA_val == -8 :

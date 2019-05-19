@@ -132,18 +132,19 @@ def VerbeM(type,nom,dom,op='',pers='3p',nbr='s',tps="présent"):
             if VER_F == '':
                 a=1
     if type == 'Vp' :
+        PLV = Premiere_lettre_voyelle(VER) 
         if pers == "1p" and nbr == "s":
-            if Premiere_lettre_voyelle :
+            if PLV :
                 pro = "m'"  
             else :
                 pro = 'me '
         elif pers == "2p" and nbr == "s":
-            if Premiere_lettre_voyelle :
+            if PLV :
                 pro = "t'"  
             else :
                 pro = 'te '   
         elif pers == "3p" and nbr == "s":
-            if Premiere_lettre_voyelle :
+            if PLV :
                 pro = "s'"  
             else :
                 pro = 'se '  
@@ -152,7 +153,7 @@ def VerbeM(type,nom,dom,op='',pers='3p',nbr='s',tps="présent"):
         elif pers == "2p" and nbr == "p":
             pro = "vous "  
         elif pers == "3p" and nbr == "p":
-            if Premiere_lettre_voyelle :
+            if PLV :
                 pro = "s'"  
             else :
                 pro = 'se '

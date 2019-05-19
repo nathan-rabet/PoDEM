@@ -9,4 +9,4 @@ from C.Class.Parser.selectionneur_mot import *
 from C.Class.Semantique.Constructeur_phrase import *
 
 
-Afficher_phrase(4,'RLA')
+Afficher_phrase(10,'RLA')

@@ -15,7 +15,8 @@ def NOM(dom,style) :
         NOM_DOM2 = style_langage(style,NOM_DOM)
         if NOM_DOM2 == []  :
             NOM_DOM2 = NOM_DOM 
-
+    else :
+        NOM_DOM2 = NOM_DOM        
     Liste_CA = ['-1','-2','-3','-4','-5','-6','-7','-8','-9']
     NOM_CA = []
     a = 0
@@ -54,7 +55,10 @@ def ADJ(nom,dom,style):
     if not style == '' :
         ADJ_CA2 = style_langage(style,ADJ_CA)
         if ADJ_CA2 == []  :
-            NOM_DOM2 = ADJ_CA 
+            ADJ_CA2 = ADJ_CA 
+    else :
+        ADJ_CA2 = ADJ_CA
+
     ADJ_V1 = Cellule_de_la_ligne(ADJ_CA2)
     MOT = ADJ_V1[randint(0,len(ADJ_V1)-1)]
     CA_val = Cellule_de_la_ligne([Donne_ligne_numero(Trouve_ligne_mot(nom))],-1)
@@ -178,6 +182,8 @@ def INTER(style):
         INTERJ_V1 = style_langage(style,INTERJ_V)
         if INTERJ_V1 == []  :
             INTERJ_V1 = INTERJ_V
+    else :
+        INTERJ_V1 = INTERJ_V
     INTERJ_V2 = Cellule_de_la_ligne(INTERJ_V1)
     return INTERJ_V2[randint(0,len(INTERJ_V2)-1)]
 
@@ -207,6 +213,8 @@ def ADV(dom,style) :
         ADV_V1 = style_langage(style,ADV_V)
         if ADV_V1 == []  :
             ADV_V1 = ADV_V
+    else :
+        ADV_V1 = ADV_V
     ADV_V2 = Cellule_de_la_ligne(ADV_V1)
     return ADV_V2[randint(0,len(ADV_V2)-1)]
 
@@ -237,7 +245,7 @@ def CONJ():
     return retour
 
 
-def VerbeM(type,nom,dom,style,op='',pers='3p',nbr='s',tps="présent"):
+def VerbeM(type,nom,dom,style,tps="présent",op='',pers='3p',nbr='s',):
 
     """
     Selectionne un verbe selon le thème (dom), le type (type), l'opérateur (op) et le style de langue (style) et le conjuge selon le type (type), le temps (tps) et la personne (pers,nbr)
@@ -257,7 +265,9 @@ def VerbeM(type,nom,dom,style,op='',pers='3p',nbr='s',tps="présent"):
 
         if not style == '' :
             VER_V3 = style_langage(style,VER_V2)
-        if VER_V3 == []  :
+            if VER_V3 == []  :
+                VER_V3 = VER_V2
+        else :
             VER_V3 = VER_V2
         VER_V4 = Cellule_de_la_ligne(VER_V3)
         VER_V5 = VERIF_MOT(VER_V4)
@@ -326,7 +336,8 @@ def Verbe_3(mot,pers,nbr,tps):
     """
     Conjugue les verbes du 3ème goupe
     """
-
+    if tps == 'passé simple' :
+        tps = 'passé composé'
     VERB = []
     VERB_V1 = []
     Verbe_PATH = environ["POETRY_PATH"] + "/M/Verbe_3g.csv"
@@ -369,17 +380,6 @@ def Verbe_3(mot,pers,nbr,tps):
 
 
 
-
-"""
-Mots utiles pour composer les phrases
-"""
-
-
-et,vir,e,pq,pi,pe,pts,sdl ='Et',',',' ','Pourquoi','?','!','.','\n'
-
-MOT_PASSE = ['Hier','Avant hier','Il y a longtemps','Il fut un temps','Quelques années auparavant','Quelques jours auparavant','Quelques heures auparavant','Il y a fort longtemps','Dans le passé',"Dans l'ancien temps"]
-    
-MOT_FUTUR = ['Demain','Après demain','Quelques années plus tard','Quelques jours plus tard','Quelques heures plus tard','Dans le futur','Bien plus tard','Bien longtemps après','Dans fort longtemps','Dans quelques temps']
 
 
 

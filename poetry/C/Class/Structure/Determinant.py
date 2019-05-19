@@ -1,6 +1,33 @@
 from C.Class.Parser.DEM_parser import *
 from random import randint
 
+def deter_alea(nom) :
+
+    alea = randint(0,3)
+
+    if alea == 0 :
+
+        deter = article_def(nom)
+
+    elif alea == 1 :
+
+        deter = demonstratif(nom)
+
+    elif alea == 2 :
+
+        deter = possessif(nom)
+
+    elif alea == 3 :
+
+        deter = cardinal(nom)
+
+    return deter
+
+
+
+
+
+
 def article_def(nom):
     no = Trouve_ligne_mot(nom)
     

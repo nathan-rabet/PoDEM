@@ -184,7 +184,7 @@ def Verbe_3(mot,pers,nbr,tps):
     VERB_V1 = []
     Verbe_PATH = environ["POETRY_PATH"] + "/M/Verbe_3g.csv"
     Verbe_PATH = Path(Verbe_PATH)
-    VERBE_3g = open(Verbe_PATH) 
+    VERBE_3g = open(Verbe_PATH,"r",encoding='utf-8') 
     Vreader = csv.reader(VERBE_3g)
     for ligne in Vreader: 
         if ligne[0] == mot :

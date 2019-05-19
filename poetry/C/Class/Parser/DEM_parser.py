@@ -14,7 +14,7 @@ def init_DEM():
     DEM_PATH = Path(environ["POETRY_PATH"] + "/M/DEM.csv")
 
     global DEM
-    DEM = open(DEM_PATH, "r")
+    DEM = open(DEM_PATH, "r",encoding='utf-8')
 
     global reader
     reader = csv.reader(DEM, delimiter='\t')

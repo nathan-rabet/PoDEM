@@ -48,7 +48,7 @@ def Constructeur_phrase(dom,style) :
 
 	if alea == 0 :
 
-		phrase = Phrase_intj1(dom,style,tps)
+		phrase = Phrase_intj(dom,style,tps)
 
 	elif alea == 1 :
 

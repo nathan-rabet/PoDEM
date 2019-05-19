@@ -7,8 +7,3 @@ from C.Class.Parser.DEM_parser import *
 from C.Class.Structure.Determinant import *
 from C.Class.Parser.selectionneur_mot import *
 
-
-
-
-
-print(article_def('aspi'))

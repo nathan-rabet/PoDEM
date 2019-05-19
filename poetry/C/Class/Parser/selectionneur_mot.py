@@ -4,7 +4,6 @@ from random import randint
 import csv
 
 
-
 def NOM(dom) :
     
     """
@@ -50,11 +49,111 @@ def ADJ(nom,dom):
     ADJ_V1 = Cellule_de_la_ligne(ADJ_CA)
     MOT = ADJ_V1[randint(0,len(ADJ_V1)-1)]
     CA_val = Cellule_de_la_ligne([Donne_ligne_numero(Trouve_ligne_mot(nom))],-1)
-    if not (CA_val == '-1' or '-3'or '-4' or '-5' or '-7' or '-8') :
-        Accords = 'e'
+    CA_val =CA_val[0]
+    if  not (CA_val == '-1' or CA_val == '-3'or CA_val == '-4' or CA_val == '-5' or CA_val == '-7' or CA_val == '-8') :
+        if (MOT[-1] == 'l' and MOT[-2] == 'u') or (MOT[-1] == 'l' and MOT[-2] == 'e') or (MOT[-1] == 'l' and MOT[-2] == 'e' and MOT[-3] == 'i') or (MOT[-1] == 'l' and MOT[-2] == 'i' and MOT[-3] == 'e'):
+            Accords = 'le'
+        elif MOT[-1] == 'u' and MOT[-2] == 'a' and MOT[-3] == 'e' :
+            Accords = 'lle'
+            MOT = MOT[0:-2]
+        elif MOT[-1] == 'u' and MOT[-2] == 'g' :
+            Accords = 'üe'
+            MOT = MOT[0:-1]
+        elif MOT[-1] == 'r' and MOT[-2] == 'e' and MOT[-3] == 'i' :
+            Accords = 'ère'
+            MOT = MOT[0:-2]
+        elif MOT[-1] == 't' and MOT[-2] == 'e' and MOT[-3] == 'i' :
+            Accords = 'ète'
+            MOT = MOT[0:-2]
+        elif (MOT[-1] == 'n' and MOT[-2] == 'o') or (MOT[-1] == 'n' and MOT[-2] == 'e') or (MOT[-1] == 'n' and MOT[-2] == 'e' and MOT[-3] == 'i'):
+            Accords = 'ne'
+        elif MOT == 'fou' :
+            Accords = ''
+            MOT = 'folle'
+        elif MOT == 'mou' :
+            Accords = ''
+            MOT = 'molle'
+        elif MOT == 'foufou' :
+            Accords = ''
+            MOT = 'fofolle'
+        elif MOT == 'chou' :
+            Accords = ''
+            MOT = 'choute'
+        elif MOT == 'chouchou' :
+            Accords = ''
+            MOT = 'chouchoute'
+        elif MOT == 'andalou ' :
+            Accords = ''
+            MOT = 'andalouse'
+        elif MOT[-1] == 'u' and MOT[-2] == 'o' :
+            Accords = 'e'
+        elif MOT == 'antérieur' or MOT == 'extérieur' or MOT == 'inférieur' or MOT == 'intérieur' or MOT == 'majeur' or MOT == 'meilleur' or MOT == 'mineur' or MOT == 'postérieur' or MOT == 'supérieur' or MOT == 'ultérieur' :
+            Accords = 'e'
+        elif MOT[-1] == 'r' and MOT[-2] == 'u' and MOT[-3] == 'e' and MOT[-4] == 't' :
+            Accords = 'rice'
+            MOT = MOT[0:-3]
+        elif MOT[-1] == 'r' and MOT[-2] == 'u' and MOT[-3] == 'e' :
+            Accords = 'se'
+            MOT = MOT[0:-1]
+        elif MOT == 'chérot' :
+            Accords = ''
+        elif MOT == 'bigot' or MOT == 'dévot' or MOT == 'fiérot' or MOT == 'idiot' or MOT == 'loupiot' or MOT == 'manchot' or MOT == 'petiot' or MOT == 'poivrot' :
+            Accords = 'e'
+        elif (MOT[-1] == 't' and MOT[-2] == 'o') or (MOT[-1] == 't' and MOT[-2] == 'e') :
+            Accords = 'te'
+        elif MOT == 'complet':
+            MOT = 'complète'
+        elif MOT == 'imcomplet':
+            MOT = 'imcomplète'
+            Accords = ''
+        elif MOT == 'discret':
+            MOT = 'discrète'
+            Accords = ''
+        elif MOT == 'indiscret':
+            MOT = 'indiscrète'
+            Accords = ''
+        elif MOT == 'inquiet':
+            MOT = 'inquiète'
+            Accords = ''
+        elif MOT == 'secret':
+            MOT = 'secrète'
+            Accords = ''
+        elif MOT == 'concret':
+            MOT = 'concrète'
+            Accords = ''
+        elif MOT == 'désuet':
+            MOT = 'désuète'
+            Accords = ''
+        elif MOT == 'faux':
+            MOT = 'fausse'
+            Accords = ''
+        elif MOT == 'roux':
+            MOT = 'rousse'
+            Accords = ''
+        elif MOT == 'doux':
+            MOT = 'douce'
+            Accords = ''
+        elif MOT == 'enchanteur':
+            MOT = 'enchanteresse'
+            Accords = ''
+        elif MOT == 'désenchanteur':
+            MOT = 'désenchanteresse'
+            Accords = ''       
+        elif MOT[-1] == 'x' :
+            MOT = MOT[0:-1]            
+            Accords = 'se'
+        elif MOT[-1] == 'c' :           
+            Accords = 'he'
+        elif MOT[-1] == 'f' :
+            MOT = MOT[0:-1]            
+            Accords = 've'
+        elif MOT[-1] == 's' :            
+            Accords = 'se'
+        else :
+            if not MOT[-1] == 'e':            
+                Accords = 'e'
 
     return (MOT + Accords)
-     
 
    
 
@@ -142,6 +241,7 @@ def VerbeM(type,nom,dom,op='',pers='3p',nbr='s',tps="présent"):
         VER_V4 = VERIF_MOT(VER_V3)
         VER = VER_V4[randint(0,len(VER_V4)-1)]
         CA_val = Cellule_de_la_ligne([Donne_ligne_numero(Trouve_ligne_mot(nom))],-1)
+        CA_val = CA_val[0]
         if CA_val == -1 or CA_val == -5 or CA_val == -8 :
             genre = 'm'
         elif CA_val == -2 or CA_val == -6 or CA_val == -9 :

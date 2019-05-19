@@ -85,3 +85,21 @@ def possessif(nom):
             return "leur"
     else:
         return False
+
+
+
+def cardinal(nom) :
+
+
+    no = Trouve_ligne_mot(nom)
+    CA = Donne_ligne_numero(no)
+    CA = CA[-1]
+
+    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8":
+        return "un"
+    
+    elif CA == "-2" or CA == "-6" or CA == "-9":
+        return "une"
+        
+    else:
+        return False

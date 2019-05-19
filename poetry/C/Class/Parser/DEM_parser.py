@@ -15,7 +15,6 @@ def init_DEM():
 
     global DEM
     DEM = open(DEM_PATH, "r",encoding='utf-8')
-
     global reader
     global sep
     sep = "\t"

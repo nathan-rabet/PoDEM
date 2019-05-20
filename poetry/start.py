@@ -9,8 +9,5 @@ from C.Class.Parser.selectionneur_mot import *
 from C.Class.Semantique.Constructeur_phrase import *
 from V.visual import *
 
-a=0
-while a< 100 :
-	Afficher_phrase(10,'',style='')
-	print(sdl)
-	a = a+1
+
+Afficher_phrase(10,'')

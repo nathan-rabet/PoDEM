@@ -294,7 +294,7 @@ class Verbe:
                     else:
                         pronom = "je "
                 elif nombre == "p":
-                    pronom = "nous"
+                    pronom = "nous "
             elif pers == '2p':
                 if nombre == "s":
                         pronom = "tu "

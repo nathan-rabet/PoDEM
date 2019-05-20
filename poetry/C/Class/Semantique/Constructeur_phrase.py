@@ -14,7 +14,6 @@ Mots utiles pour composer les phrases
 
 
 et,vir,e,pi,pe,pts,sdl,qui ='Et',',',' ','?','!','.','\n','Qui'
-
 MOT_PASSE = ['Hier','Avant hier','Il y a longtemps','Il fut un temps','Quelques années auparavant','Quelques jours auparavant','Quelques heures auparavant','Il y a fort longtemps','Dans le passé',"Dans l'ancien temps"]
     
 MOT_FUTUR = ['Demain','Après demain','Quelques années plus tard','Quelques jours plus tard','Quelques heures plus tard','Dans le futur','Bien plus tard','Bien longtemps après','Dans fort longtemps','Dans quelques temps']
@@ -50,7 +49,7 @@ def Constructeur_phrase(liste_dom,style) :
 	temps = ['présent', 'imparfait', 'passé simple', 'futur simple']
 	tps = temps[randint(0,3)]
 
-	alea = randint(0,11)
+	alea = randint(0,13)
 
 	if alea == 0 :
 
@@ -95,9 +94,18 @@ def Constructeur_phrase(liste_dom,style) :
 	elif alea == 10 :
 
 		phrase = Phrase_Vpro1(liste_dom,style,tps)
+
 	elif alea == 11 :
 
 		phrase = Phrase_question2(liste_dom,style,tps)
+
+	elif alea == 12 :
+
+		phrase = Phrase_question3(liste_dom,style,tps)
+
+	elif alea == 13 :
+
+		phrase = Phrase_Vpro2(liste_dom,style,tps)
 
 	return phrase
 
@@ -259,11 +267,38 @@ def Phrase_Vpro1(liste_dom,style,tps):
 	N = NOM(liste_dom,style)
 	Dn = deter_alea(N)
 	ADJn = ADJ(N,liste_dom,style)
-	pers = []
 	nbr = ['s','p']
 	pers = ['1p','2p','3p']
 	nbr = nbr[randint(0,len(nbr)-1)]
 	pers = pers[randint(0,len(pers)-1)]
 	V = VerbeM('Vt',N,liste_dom,style,tps,'',1,pers,nbr)
 	Phrase = V+e+Dn+N[0]+e+ADJn+pts
+	return Phrase
+
+def Phrase_question3(liste_dom,style,tps):
+
+	N = NOM(liste_dom,style)
+	M = NOM(liste_dom,style)
+	Dn = deter_alea(N)
+	Dm = deter_alea(M)
+	ADJn = ADJ(N,liste_dom,style)
+	ADJm = ADJ(M,liste_dom,style)
+	V = VerbeM('Vt',N,liste_dom,style,tps,'')
+	Phrase = QUESTION[randint(0,5)]+e+Dn+N[0]+e+ADJn+e+V+e+Dm+M[0]+e+ADJm+e+pi
+	return Phrase
+
+
+def Phrase_Vpro2(liste_dom,style,tps):
+
+	N = NOM(liste_dom,style)
+	Dn = deter_alea(N)
+	ADJn = ADJ(N,liste_dom,style)
+	ADV1 = ADV(liste_dom,style)
+	nbr = ['s','p']
+	pers = ['1p','2p','3p']
+	nbr = nbr[randint(0,len(nbr)-1)]
+	pers = pers[randint(0,len(pers)-1)]
+	V = VerbeM('Vt',N,liste_dom,style,tps,'sent',1,pers,nbr)
+	Phrase = V+e+ADV1+e+Dn+N[0]+e+ADJn+pts
+
 	return Phrase

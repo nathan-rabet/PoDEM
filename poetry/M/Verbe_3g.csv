@@ -36,10 +36,6 @@ admettre,Présent,admets,admets,admet,admettons,admettez,admettent
 admettre,Passé composé,ai admis,as admis,a admis,avons admis,avez admis,ont admis
 admettre,Imparfait,admettais,admettais,admettait,admettions,admettiez,admettaient
 admettre,Futur simple,admettrai,admettras,admettra,admettrons,admettrez,admettrons
-advenir,Présent,,,advient,,,
-advenir,Passé composé,,,est advenu,,,
-advenir,Imparfait,,,advenait,,,
-advenir,Futur simple,,,adviendra,,,
 aller,Présent,vais,vas,va,allons,allez,vont
 aller,Passé composé,suis allé,es allé,est allé,sommes allés,êtes allés,sont allés
 aller,Imparfait,allais,allais,allait,allions,alliez,allaient
@@ -100,10 +96,6 @@ bouillir,Présent,bous,bous,bout,bouillons,bouillez,bouillent
 bouillir,Passé composé,ai bouilli,asbouilli,a bouilli,avons bouilli,avez bouilli,ont bouilli
 bouillir,Imparfait,bouillais,bouillais,bouillait,bouillions,bouilliez,bouilliaient
 bouillir,Futur simple,bouillirai,bouilliras,bouillira,bouillirons,bouillirez,bouilliront
-braire,Présent,,,brait,,,braient
-braire,Passé composé,,,,,,
-braire,Imparfait,,,,,,
-braire,Futur simple,,,braira,,,brairont
 ceindre,Présent,ceins,ceins,ceint,ceignons,ceignez,ceignent
 ceindre,Passé composé,ai ceint,as ceint,a ceint,avons ceint,avez ceint,ont ceint
 ceindre,Imparfait,ceignais,ceignais,ceignait,ceignions,ceigniez,ceignaient
@@ -120,10 +112,6 @@ circonvenir,Présent,circonviens,circonviens,circonvient,circonvenons,circonvene
 circonvenir,Passé composé,ai circonvenu,as circonvenu,a circonvenu,avons circonvenu,avez circonvenu,ont circonvenu
 circonvenir,Imparfait,circonvenais,circonvenais,circonvenait,circonvenions,circonveniez,circonvenaient
 circonvenir,Futur simple,circonviendrai,circonviendras,circonviendra,circonviendrons,circinviendrez,circonviendront
-clore,Présent,clos,clos,clôt,,,closent
-clore,Passé composé,ai clos,as clos,a clos,avons clos,avez clos,ont clos
-clore,Imparfait,,,,,,
-clore,Futur simple,clorai,cloras,clora,clorons,clorez,cloront
 combattre,Présent,combats,combats,combat,combattons,combattez,combattent
 combattre,Passé composé,ai combattu,as combattu,a combattu,avons combattu,avez combattu,ont combattu
 combattre,Imparfait,combattais,combattais,combattais,combattions,combattiez,combattaient
@@ -284,10 +272,6 @@ décevoir,Présent,déçois,déçois,déçoit,décevons,décevez,déçoivent
 décevoir,Passé composé,ai déçu,as déçu,a déçu,avons déçu,avez déçu,ont déçu
 décevoir,Imparfait,décevais,décevais,décevait,décevions,déceviez,décevaient
 décevoir,Futur simple,décevrai,décevras,décevra,décevrons,décevrez,décevront
-déclore,Présent,déclos,déclos,déclot,,,déclosent
-déclore,Passé composé,ai déclos,as déclos,a déclos,avons déclos,avez déclos,ont déclos
-déclore,Imparfait,,,,,,
-déclore,Futur simple,déclorai,décloras,déclora,déclorons,déclorez,décloront
 décommettre,Présent,décommets,décommets,décommet,décommettons,décommettez,décommettent
 décommettre,Passé composé,ai décommis,as décommis,a décommis,avons décommis,avez décommis,ont décommis
 décommettre,Imparfait,décommettais,décommettais,décommettait,décommettions,décommettiez,décommettaient
@@ -456,10 +440,6 @@ dormir,Présent,dors,dors,dort,dormons,dormez,dorment
 dormir,Passé composé,ai dormi,as dormi,a dormi,avons dormi,avez dormi,ont dormi
 dormir,Imparfait,dormais,dormais,dormait,dormions,dormiez,dormaient
 dormir,Futur simple,dormirai,dormiras,dormira,dormirons,dormirez,dormiront
-éclore,Présent,éclos,éclos,éclot,,,éclosent
-éclore,Passé composé,ai éclos,as éclos,a éclos,avons éclos,avez éclos,ont éclos
-éclore,Imparfait,,,,,,
-éclore,Futur simple,éclorai,écloras,éclora,éclorons,éclorez,écloront
 éconduire,Présent,éconduis,éconduis,éconduit,éconduisons,éconduisez,éconduisent
 éconduire,Passé composé,ai éconduit,as éconduit,a éconduit,avons éconduit,avez éconduit,ont éconduit
 éconduire,Imparfait,éconduisais,éconduisais,éconduisait,éconduisions,éconduisiez,éconduisaient
@@ -496,10 +476,6 @@ enceindre,Présent,enceins,enceins,enceint,enceignons,enceignez,enceignent
 enceindre,Passé composé,ai enceint,as enceint,a enceint,avons enceint,avez enceint,ont enceint
 enceindre,Imparfait,enceignais,enceignais,enceignait,enceignions,enceigniez,enceignaient
 enceindre,Futur simple,enceindrai,enceindras,enceindra,enceindrons,enceindrez,enceindront
-enclore,Présent,enclos,enclos,enclot,enclosons,enclosez,enclosent
-enclore,Passé composé,ai enclos,as enclos,a enclos,avons enclos,avez enclos,ont enclos
-enclore,Imparfait,,,,,,
-enclore,Futur simple,enclorai,encloras,enclora,enclorons,enclorez,encloront
 encourir,Présent,encours,encours,encourt,encourons,encourez,encourent
 encourir,Passé composé,ai encouru,as encouru,a encouru,avons encouru,avez encouru,ont encouru
 encourir,Imparfait,encourais,encourais,encourait,encourions,encouriez,encouraient
@@ -576,10 +552,6 @@ faire,Présent,fais,fais,fait,faisons,faites,font
 faire,Passé composé,ai fait,as fait,a fait,avons fait,avez fait,ont fait
 faire,Imparfait,faisais,faisais,faisait,faisions,faisiez,faisaient
 faire,Futur simple,ferai,feras,fera,ferons,ferez,feront
-falloir,Présent,,,faut,,,
-falloir,Passé composé,,,a fallu,,,
-falloir,Imparfait,,,fallait,,,
-falloir,Futur simple,,,faudra,,,
 feindre,Présent,feins,feins,feint,feignons,feignez,feignent
 feindre,Passé composé,ai feint,as feint,a feint,avons feint,avez feint,ont feint
 feindre,Imparfait,feignais,feignais,feignait,feignions,feigniez,feignaient
@@ -596,10 +568,6 @@ foutre,Présent,fous,fous,fout,foutons,foutez,foutent
 foutre,Passé composé,ai foutu,as foutu,a foutu,avons foutu,avez foutu,ont foutu
 foutre,Imparfait,foutais,foutais,foutait,foutions,foutiez,foutaient
 foutre,Futur simple,foutrai,foutras,foutra,foutrons,foutrez,foutront
-frire,Présent,fris,fris,frit,,,
-frire,Passé composé,ai frit,as frit,a frit,avons frit,avez frit,ont frit
-frire,Imparfait,,,,,,
-frire,Futur simple,frirai,friras,frira,,,
 fuir,Présent,fuis,fuis,fuit,fuyons,fuyez,fuient
 fuir,Passé composé,ai fui,as fui,a fui,avons fui,avez fui,ont fui
 fuir,Imparfait,fuyais,fuyais,fuyait,fuyions,fuyiez,fuyaient
@@ -608,14 +576,6 @@ geindre,Présent,geins,geins,geint,geignons,geignez,geignent
 geindre,Passé composé,ai geint,as geint,a geint,avons geint,avez geint,ont geint
 geindre,Imparfait,geignais,geignais,geignait,geignions,geigniez,geignaient
 geindre,Futur simple,geindrai,geindras,geindra,geindrons,geindrez,geindront
-gésir,Présent,gis,gis,git,gisons,gisez,gisent
-gésir,Passé composé,,,,,,
-gésir,Imparfait,gisais,gisais,gisait,gisions,gisiez,gisaient
-gésir,Futur simple,,,,,,
-impartir,Présent,impartis,impartis,impartit,impartissons,impartissez,impartissent
-impartir,Passé composé,ai imparti,as imparti,a imparti,avons imparti,avez imparti,ont imparti
-impartir,Imparfait,,,,,,
-impartir,Futur simple,,,,,,
 inclure,Présent,inclus,inclus,inclut,incluons,incluez,incluent
 inclure,Passé composé,ai inclus,as inclus,a inclus,avons inclus,avez inclus,ont inclus
 inclure,Imparfait,incluais,incluais,incluait,incluions,incluiez,incluaient
@@ -748,10 +708,6 @@ ouvrir,Présent,ouvre,ouvres,ouvre,ouvrons,ouvrez,ouvrent
 ouvrir,Passé composé,ai ouvert,as ouvert,a ouvert,avons ouvert,avez ouvert,ont ouvert
 ouvrir,Imparfait,ouvrais,ouvrais,ouvrait,ouvrions,ouvriez,ouvraient
 ouvrir,Futur simple,ouvrirai,ouvriras,ouvrira,ouvrirons,ouvrirez,ouvriront
-paître,Présent,pais,pais,paît,paissons,paissez,paissent
-paître,Passé composé,,,,,,
-paître,Imparfait,paissais,paissais,paissait,paissions,paissiez,paissaient
-paître,Futur simple,paîtrai,paîtras,paîtra,paîtrons,paîtrez,paîtront
 paraître,Présent,parais,parais,paraît,paraissons,paraissez,paraissent
 paraître,Passé composé,ai paru,as paru,a paru,avons paru,avez paru,ont paru
 paraître,Imparfait,paraissais,paraissais,paraissait,paraissions,paraissiez,paraissaient
@@ -760,10 +716,6 @@ parcourir,Présent,parcours,parcours,parcourt,parcourons,parcourez,parcourent
 parcourir,Passé composé,ai parcouru,as parcouru,a parcouru,avons parcour,avez parcouru,ont parcouru
 parcourir,Imparfait,parcourais,parcourais,parcourait,parcourions,parcouriez,parcouraient
 parcourir,Futur simple,parcourrai,parcourras,parcourra,parcourrons,parcourrez,parcourront
-parfaire,Présent,,,,,,
-parfaire,Passé composé,ai parfait,as parfait,a parfait,avons parfait,avez parfait,ont parfait
-parfaire,Imparfait,,,,,,
-parfaire,Futur simple,,,,,,
 parfondre,Présent,parfonds,parfonds,parfond,parfondons,parfondez,parfondent
 parfondre,Passé composé,ai parfondu,as parfondu,a parfondu,avons parfondu,avez parfondu,ont parfondu
 parfondre,Imparfait,parfondais,parfondais,parfondait,parfondions,parfondiez,parfondaient
@@ -804,10 +756,6 @@ plaire,Présent,plais,plais,plaît,plaisons,plaisez,plaisent
 plaire,Passé composé,ai plu,as plu,a plu,avons plu,avez plu,ont plu
 plaire,Imparfait,plaisais,plaisais,plaisait,plaisions,plaisiez,plaisaient
 plaire,Futur simple,plairai,plairas,plaira,plairons,plairez,plairont
-pleuvoir,Présent,,,pleut,,,
-pleuvoir,Passé composé,,,a plu,,,
-pleuvoir,Imparfait,,,pleuvait,,,
-pleuvoir,Futur simple,,,pleuvra,,,
 pondre,Présent,ponds,ponds,pond,pondons,pondez,pondent
 pondre,Passé composé,ai pondu,as pondu,a pondu,avons pondu,avez pondu,ont pondu
 pondre,Imparfait,pondais,pondais,pondait,pondions,pondiez,pondaient
@@ -884,10 +832,6 @@ rabattre,Présent,rabats,rabats,rabat,rabattons,rabattez,rabattent
 rabattre,Passé composé,ai rabattu,as rabattu,a rabattu,avons rabattu,avez rabattu,ont rabattu
 rabattre,Imparfait,rabattais,rabattais,rabattait,rabattions,rabattiez,rabattaient
 rabattre,Futur simple,rabattrai,rabattras,rabattra,rabattrons,rabattrez,rabattront
-raire,Présent,,,rait,,,
-raire,Passé composé,,,,,,
-raire,Imparfait,,,,,,
-raire,Futur simple,,,raira,,,
 rapprendre,Présent,rapprends,rapprends,rapprend,rapprenons,rapprenez,rapprennent
 rapprendre,Passé composé,ai rappris,as rappris,a rappris,avons rappris,avez rappris,ont rappris
 rapprendre,Imparfait,rapprenais,rapprenais,rapprenait,rapprenions,rappreniez,rapprenaient
@@ -1056,10 +1000,6 @@ reperdre,Présent,reperds,reperds,reperd,reperdons,reperdez,reperdent
 reperdre,Passé composé,ai reperdu,as reperdu,a reperdu,avons reperdu,avez reperdu,ont reperdu
 reperdre,Imparfait,reperdais,reperdais,reperdait,reperdions,reperdiez,reperdaient
 reperdre,Futur simple,reperdrai,reperdras,reperdra,reperdrons,reperdrez,reperdront
-repleuvoir,Présent,,,repleut,,,
-repleuvoir,Passé composé,,,a replu,,,
-repleuvoir,Imparfait,,,repleuvait,,,
-repleuvoir,Futur simple,,,repleuvra,,,
 répondre,Présent,réponds,réponds,répond,répondons,répondez,répondent
 répondre,Passé composé,ai répondu,as répondu,a répondu,avons répondu,avez répondu,ont répondu
 répondre,Imparfait,répondais,répondais,répondait,répondions,répondiez,répondaient
@@ -1136,10 +1076,6 @@ retransmettre,Présent,retransmets,retransmets,retransmet,retransmettons,retrans
 retransmettre,Passé composé,ai retransmis,as retransmis,a retransmis,avons retransmis,avez retransmis,ont retransmis
 retransmettre,Imparfait,retransmettais,retransmettais,retransmettait,retransmettions,retransmettiez,retransmettaient
 retransmettre,Futur simple,retransmettrai,retransmettras,retransmettra,retransmettrons,retransmettrez,retransmettront
-revaloir,Présent,,,,,,
-revaloir,Passé composé,,,,,,
-revaloir,Imparfait,,,,,,
-revaloir,Futur simple,revaudrai,revaudras,revaudra,revaudrons,revaudrez,revaudront
 rire,Présent,ris,ris,rit,rions,riez,rient
 rire,Passé composé,ai ri,as ri,a ri,avons ri,avez ri,ont ri
 rire,Imparfait,riais,riais,riait,riions,riiez,riaient
@@ -1348,175 +1284,3 @@ vouloir,Présent,veux,veux,veut,voulons,voulez,veulent
 vouloir,Passé composé,ai voulu,as voulu,a voulu,avons voulu,avez voulu,ont voulu
 vouloir,Imparfait,voulais,voulais,voulait,voulions,vouliez,voulaient
 vouloir,Futur simple,voudrai,voudras,voudra,voudrons,voudrez,voudront
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,
-,Présent,,,,,,
-,Passé composé,,,,,,
-,Imparfait,,,,,,
-,Futur simple,,,,,,

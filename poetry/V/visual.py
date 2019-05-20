@@ -25,11 +25,14 @@ def startup():
             for i in readerDOM:
                 if re.search(i[0], cmd):
                     entree_correcte_DOM = i[0]
-            if entree_correcte_DOM == None:
+                elif re.search('', cmd):
+                    entree_correcte_DOM = ""
+            if not entree_correcte_DOM in readerDOM or not entree_correcte_DOM=='' :
                 print("Ce thème n'existe pas !")
 
+
         elif re.search('style',cmd) and re.search('=',cmd):
-            entree_correcte_style = ""
+            entree_correcte_style = None
             for i in ['', 'f','b','p','v','t','c','s','m','n']:
                 if re.search(i[0], cmd):
                     entree_correcte_style = i[0]

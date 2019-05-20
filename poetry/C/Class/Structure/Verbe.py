@@ -1,4 +1,5 @@
 from os import environ
+from C.Class.Parser.DEM_parser import *
 
 class Verbe:
 
@@ -88,7 +89,7 @@ class Verbe:
                 
                 #3p pluriel
                 elif pers == "3p" and nombre == "p":
-                    verbe_radical += "ont"
+                    verbe_radical += "ent"
             
 
             #Imparfait
@@ -288,31 +289,31 @@ class Verbe:
         if pronom:
             if pers == '1p':
                 if nombre == "s":
-                    if self.txt[0] is ["a","e","i","o","u","y"]:
+                    if Premiere_lettre_voyelle(verbe_radical):
                         pronom = "j'"
                     else:
-                        pronom = "je"
+                        pronom = "je "
                 elif nombre == "p":
                     pronom = "nous"
             elif pers == '2p':
                 if nombre == "s":
-                    pronom = 'tu'
+                        pronom = "tu "
                 elif nombre == "p":
-                    pronom = "vous"
+                    pronom = "vous "
             elif pers == "3p":
                 if nombre == "s":
                     if genre == "m":
-                        pronom = "il"
+                        pronom = "il "
                     elif genre == "f":
-                        pronom = "elle"
+                        pronom = "elle "
                     elif genre == "n":
-                        pronom = "on"
+                        pronom = "on "
                 elif nombre == "p":
                     if genre == "m" or genre == "n":
-                        pronom = "ils"
+                        pronom = "ils "
                     elif genre == "f":
-                        pronom = "elles"
+                        pronom = "elles "
 
-            verbe_radical = pronom + " " + verbe_radical
+            verbe_radical = [verbe_radical,pronom]
         
         return verbe_radical

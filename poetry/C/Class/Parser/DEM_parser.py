@@ -29,30 +29,6 @@ def close_DEM():
 
     DEM.close()
 
-def Trouve_ligne_mot(mot):
-    """ 
-    Fonction renvoyant le numéro d'indexation (ou de ligne) d'un mot dans le fichier DEM.csv.
-    """
-
-    init_DEM()
-    numero_line = 0
-    for ligne in reader:
-        if ligne[0] == mot:
-            close_DEM()
-            return numero_line
-        else:
-            numero_line += 1
-
-def Donne_ligne_numero(no):
-    """
-    Renvoie une ligne (sous forme de tableau) à partir d'un numéro d'indexation.
-    """
-
-    init_DEM()
-    for number, line in enumerate(DEM):
-        if number == no:
-            close_DEM()
-            return (line.replace("\n","")).split(sep)
 
 
 def Cellule_de_la_ligne(table, index=0):
@@ -390,3 +366,15 @@ def VERIF_MOT(LISTE):
                     LISTE_V2.append(mot)
     return LISTE_V2
          
+def Liste_DOM(dom):
+
+    if dom == '' :
+        init_DEM()
+        liste_dom = []
+        for i in reader :
+            liste_dom.append(i)
+        close_DEM()
+    else :
+
+        liste_dom = DOM(dom)
+    return liste_dom

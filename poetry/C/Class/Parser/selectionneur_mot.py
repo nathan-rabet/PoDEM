@@ -4,13 +4,13 @@ from random import randint
 import csv
 
 
-def NOM(dom,style) :
+def NOM(liste_dom,style) :
     
     """
-    Selectionne un nom selon le thème (dom) et le style de langue (style)
+    Selectionne un nom selon le thème (liste_dom) et le style de langue (style)
     """
 
-    NOM_DOM = DOM(dom)
+    NOM_DOM = liste_dom
     if not style == '' :
         NOM_DOM2 = style_langage(style,NOM_DOM)
         if NOM_DOM2 == []  :
@@ -37,12 +37,12 @@ def NOM(dom,style) :
 
 
 
-def ADJ(nom,dom,style):
+def ADJ(nom,liste_dom,style):
     
     """
-    Selectionne un adjectif selon le thème (dom), l'accord selon le nom (nom) et le style de langue (style)
+    Selectionne un adjectif selon le thème (liste_dom), l'accord selon le nom (nom) et le style de langue (style)
     """
-    ADJ_DOM = DOM(dom)
+    ADJ_DOM = liste_dom
     ADJ_CA = []
     Accords = ''
     Liste_CA = ['A-','K-','L-','A1','A2','A3','A4','A5','A6','A7','A8','A9']
@@ -200,24 +200,29 @@ def BRUIT() :
     BRUIT_V2 = Cellule_de_la_ligne(BRUIT_V1)
     return BRUIT_V2[randint(0,len(BRUIT_V2)-1)]
 
-def ADV(dom,style) :
+def ADV(liste_dom,style) :
 
     """
     Selectionne un adverbe selon le thème(dom) et le style de langue (style)
     """
+    ADV_V3 = 'à peine... que'
+    while ADV_V3 == 'à peine... que' :
 
-    ADV_DOM = DOM(dom)
-    ADV_V = CA('M-',ADV_DOM)
-    if ADV_V == []:
-        ADV_V = CA('M-')
-    if not style == '' :
-        ADV_V1 = style_langage(style,ADV_V)
-        if ADV_V1 == []  :
+        ADV_DOM = liste_dom
+        ADV_V = CA('M-',ADV_DOM)
+        if ADV_V == []:
+            ADV_V = CA('M-')
+        if not style == '' :
+            ADV_V1 = style_langage(style,ADV_V)
+            if ADV_V1 == []  :
+                ADV_V1 = ADV_V
+        else :
             ADV_V1 = ADV_V
-    else :
-        ADV_V1 = ADV_V
-    ADV_V2 = Cellule_de_la_ligne(ADV_V1)
-    return ADV_V2[randint(0,len(ADV_V2)-1)]
+        ADV_V2 = Cellule_de_la_ligne(ADV_V1)
+        ADV_V3 = ADV_V2[randint(0,len(ADV_V2)-1)]
+
+
+    return ADV_V3
 
 def ADV_MESURE():
 
@@ -246,7 +251,7 @@ def CONJ():
     return retour
 
 
-def VerbeM(type,nom,dom,style,tps="présent",op='',pers='3p',nbr='s',):
+def VerbeM(type,nom,liste_dom,style,tps="présent",op='',pronom=0,pers='3p',nbr='s'):
 
     """
     Selectionne un verbe selon le thème (dom), le type (type), l'opérateur (op) et le style de langue (style) et le conjuge selon le type (type), le temps (tps) et la personne (pers,nbr)
@@ -255,14 +260,15 @@ def VerbeM(type,nom,dom,style,tps="présent",op='',pers='3p',nbr='s',):
     a=1
     while a==1 :
         a = 0
-        VER_V1 = CA(type)
-        VER_DOM = DOM(dom,VER_V1)
+        pron = ''
+        VER_V1 = liste_dom
+        VER_DOM = CA(type,VER_V1)
         if VER_DOM == [] :
             VER_DOM = CA(type) 
         if op :
             VER_V2 = OP(op,VER_DOM)
             if VER_V2 == [] :
-                VER_V2 = OP(op,VER_V1)          
+                VER_V2 = VER_DOM        
         else :
             VER_V2 = VER_DOM
 
@@ -276,7 +282,6 @@ def VerbeM(type,nom,dom,style,tps="présent",op='',pers='3p',nbr='s',):
         VER_V5 = VERIF_MOT(VER_V4)
         VER = VER_V5[randint(0,len(VER_V5)-1)]
         CA_val = nom[1]
-        CA_val = CA_val[0]
         if CA_val == -1 or CA_val == -5 or CA_val == -8 :
             genre = 'm'
         elif CA_val == -2 or CA_val == -6 or CA_val == -9 :
@@ -286,9 +291,15 @@ def VerbeM(type,nom,dom,style,tps="présent",op='',pers='3p',nbr='s',):
         test = Verbe(VER)
         grp = test.groupe()
         if grp == 1 or grp == 2 :
-            VER_F = Verbe_1_ou_2(VER,genre,pers,nbr,tps)
+            VER_F = Verbe_1_ou_2(VER,genre,pers,nbr,tps,pronom)
+            if pronom :
+                pron = VER_F[1]
+                VER_F = VER_F[0]
         else :
-            VER_F = Verbe_3(VER,pers,nbr,tps)
+            VER_F = Verbe_3(VER,pers,nbr,tps,genre,pronom)
+            if pronom :
+                pron = VER_F[1]
+                VER_F = VER_F[0]
             if VER_F == '':
                 a=1
     if type == 'Vp' :
@@ -317,12 +328,14 @@ def VerbeM(type,nom,dom,style,tps="présent",op='',pers='3p',nbr='s',):
                 pro = "s'"  
             else :
                 pro = 'se '
-        return pro + VER_F
+        if pron == "j'" :
+            pron = 'je '
+        return pron+pro + VER_F
     else :
-        return VER_F
+        return pron+VER_F
  
 
-def Verbe_1_ou_2(mot,genre,pers,nbr,tps,pronom=0):
+def Verbe_1_ou_2(mot,genre,pers,nbr,tps,pronom):
 
     """
     Conjugue les verbes du 1er et 2ème goupe
@@ -334,7 +347,7 @@ def Verbe_1_ou_2(mot,genre,pers,nbr,tps,pronom=0):
     return VER_F 
 
 
-def Verbe_3(mot,pers,nbr,tps):
+def Verbe_3(mot,pers,nbr,tps,genre,pronom):
 
     """
     Conjugue les verbes du 3ème goupe
@@ -361,21 +374,50 @@ def Verbe_3(mot,pers,nbr,tps):
                 VERB_V1.append(ligne)
 
         if pers == "1p" and nbr == "s":
-            case = 2  
+            case = 2
+            if pronom :
+                if Premiere_lettre_voyelle(VERB_V1[0][0]):
+                    pron = "j'"
+                else :
+                    pron = 'je '
         elif pers == "2p" and nbr == "s":
             case = 3  
+            if pronom :
+                pron = 'tu '
         elif pers == "3p" and nbr == "s":
             case = 4  
+            if pronom :
+                if genre == 'm':
+                    pron = 'il '
+                elif genre =='f' :
+                    pro = 'elle '
+                else :
+                    pron = 'on '
         elif pers == "1p" and nbr == "p":
             case = 5  
+            if pronom :
+                pron = "nous "
+                
         elif pers == "2p" and nbr == "p":
-            case = 6  
+            case = 6 
+            if pronom :
+                pron = "vous "
+                 
         elif pers == "3p" and nbr == "p":
-            case = 7   
+            case = 7  
+            if pronom :
+                if genre == 'm' or genre == 'n':
+                    pron = "ils "
+                else :
+                    pron = 'elles ' 
     
         VERB_V2 = VERB_V1[0][case]
         VERBE_3g.close()
-        return VERB_V2
+        if not pronom :
+            return VERB_V2
+        else :
+            return [VERB_V2,pron]
+
     
 
 

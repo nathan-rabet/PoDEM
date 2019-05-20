@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <classes>
    <generique code="C" desc="Verbes de communication" nb="2039">
@@ -1100,3 +1101,1107 @@
       </semantico-syntaxique>
    </generique>
 </classes>
+=======
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classes>
+   <generique code="C" desc="Verbes de communication" nb="2039">
+      <semantico-syntaxique code="C1" desc="&quot;s'exprimer par un son, une parole&quot;" nb="1059">
+         <sous-classe-syntaxique code="C1a" desc="&quot;émettre un cri&quot;, humain ou animal" nb="232">
+            <sous-type code="C1a.1" desc="&quot;émettre le cri spécifique de l'espèce animale&quot;" exemples="Le chien aboie." nb="103"/>
+            <sous-type code="C1a.2" desc="&quot;émettre une des diverses formes de parler ou d'écrit spécifiques à l'humain&quot;" exemples="Paul crie à perdre haleine, Paul s'égosille." nb="36"/>
+            <sous-type code="C1a.3" desc="&quot;émettre un type de paroles ou de langue&quot;" exemples="Paul hurle une excuse." nb="75"/>
+            <sous-type code="C1a.4" desc="&quot;émettre des paroles d'une certaine manière&quot;" exemples="Paul vomit des injures." nb="16"/>
+            <sous-type code="C1a.5" desc="&quot;être émis dans une forme de langue&quot;" exemples="Cette tournure est du français parlé." nb="2"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C1b" desc="&quot;émettre un chant&quot;, humain" exemples="Le chanteur vocalise." nb="39"/>
+         <sous-classe-syntaxique code="C1c" desc="&quot;émettre son, bruit significatif&quot;, sujet humain" nb="49">
+            <sous-type code="C1c.1" desc="&quot;émettre un bruit à fonction d'appel&quot;, avec locatif" exemples="On frappe, sonne à la porte." nb="13"/>
+            <sous-type code="C1c.2" desc="&quot;émettre un bruit à fonction communicative&quot;, avec manière intégrée" exemples="On applaudit à l'issue du spectacle." nb="10"/>
+            <sous-type code="C1c.3" desc="&quot;émettre un bruit à fonction expressive et esthétique&quot;, avec instrumental intégré ou non à la forme du verbe" exemples="On pianote, on joue du piano." nb="26"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C1d" desc="&quot;parler, écrire à qn&quot;" nb="24">
+            <sous-type code="C1d.1" desc="&quot;parler à qn au moyen d'un appareil&quot;" exemples="Elle a téléphoné à sa mère." nb="7"/>
+            <sous-type code="C1d.2" desc="&quot;parler à qn directement&quot;" exemples="Elle a écrit à sa mère." nb="4"/>
+            <sous-type code="C1d.3" desc="&quot;parler à ou avec qn&quot;" exemples="On cause à/avec ses voisins." nb="4"/>
+            <sous-type code="C1d.4" desc="&quot;s'adresser à qn&quot;" exemples="On se confie à un ami." nb="6"/>
+            <sous-type code="C1d.5" desc="&quot;dire des paroles à qn&quot;" exemples="On condoléance la veuve." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C1e" desc="&quot;s'exprimer d'une certaine manière&quot;" nb="144">
+            <sous-type code="C1e.1" desc="&quot;s'exprimer en disant certaines choses&quot;" exemples="On blague(= dit des blagues)." nb="123"/>
+            <sous-type code="C1e.2" desc="&quot;s'exprimer d'une certaine manière&quot;" exemples="On pérore." nb="21"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C1f" desc="&quot;émettre un discours pour/contre/sur&quot;" nb="166">
+            <sous-type code="C1f.1" desc="&quot;parler contre qn, qc&quot;" exemples="Paul maugrée (contre le retard de Jean). On s'insurge contre ces privilèges." nb="66"/>
+            <sous-type code="C1f.2" desc="&quot;parler contre qn, qc, dire des paroles contre qn, qc&quot;" exemples="Paul fulmine (des menaces) contre Jean." nb="17"/>
+            <sous-type code="C1f.3" desc="&quot;parler contre ou pour qn, qc&quot;" exemples="L'avocat plaide pour/contre Jean." nb="25"/>
+            <sous-type code="C1f.4" desc="&quot;parler sur ou de qc&quot;" exemples="Le philosophe disserte sur le sort de l'humanité." nb="48"/>
+            <sous-type code="C1f.5" desc="&quot;parler sur qc&quot;, avec complément obligatoire" exemples="On glisse sur les erreurs commises. La conversation roule sur Jean." nb="10"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C1g" desc="&quot;dire oui ou non à qn, à qc&quot;" exemples="Les militaires ont obtempéré (aux ordres)." nb="35"/>
+         <sous-classe-syntaxique code="C1h" desc="&quot;parler à/avec qn de qc&quot;" nb="63">
+            <sous-type code="C1h.1" desc="&quot;parler à ou avec qn de qc&quot;" exemples="Paul bavarde avec Jean sur la situation. Ils bavardent entre eux sur la situation." nb="53"/>
+            <sous-type code="C1h.2" desc="&quot;discuter qc avec qn&quot;" exemples="Paul discute son projet avec Jean. La loi se discute à l'Assemblée." nb="10"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C1i" desc="&quot;interpeller qn vivement, en bien/mal&quot;" nb="246">
+            <sous-type code="C1i.1" desc="&quot;appeler vivement&quot;" exemples="On harangue la foule." nb="51"/>
+            <sous-type code="C1i.2" desc="&quot;se parler vivement&quot;" exemples="Paul se chamaille avec sa soeur." nb="14"/>
+            <sous-type code="C1i.3" desc="&quot;interpeller qn en le critiquant ou félicitant pour qc&quot;" exemples="La mère chapitre les enfants pour leur retard." nb="181"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C1j" desc="&quot;parler bien ou mal de qn, de qc&quot;" nb="61">
+            <sous-type code="C1j.1" desc="&quot;parler mal ou bien de qn, de qc&quot;" exemples="On médit, on se gausse de Paul." nb="37"/>
+            <sous-type code="C1j.2" desc="&quot;louer ou critiquer qn de qc, d'avoir fait qc&quot;" exemples="On félicite Paul d'avoir réussi, de son succès." nb="22"/>
+            <sous-type code="C1j.3" desc="&quot;se louer ou se critiquer de qc réciproquement&quot;" exemples="Les deux complices s'entraccusent du crime commis." nb="2"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="C2" desc="&quot;dire/demander qc&quot;" nb="688">
+         <sous-classe-syntaxique code="C2a" desc="&quot;dire que, dire qc à qn&quot;" nb="174">
+            <sous-type code="C2a.1" desc="&quot;dire qc, que + indicatif à qn&quot;" exemples="Jean crie à Paul qu'il est innocent, son innocence." nb="167"/>
+            <sous-type code="C2a.2" desc="&quot;se dire que + futur, de + infinitif présent&quot;" exemples="On se jure qu'on ne le reverra plus, de se venger." nb="3"/>
+            <sous-type code="C2a.3" desc="&quot;se dire que + indicatif, de + infinitif passé, de qc&quot;" exemples="On se persuade qu'on a bien fait, d'avoir bien fait, du bon vouloir de Paul." nb="4"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C2b" desc="&quot;dire que, donner un ordre à qn&quot;" nb="55">
+            <sous-type code="C2b.1" desc="&quot;donner oralement un ordre à qn&quot;, sans instrumental" exemples="On hurle à Paul qu'il se presse, (l'ordre) de se presser." nb="6"/>
+            <sous-type code="C2b.2" desc="&quot;proposer ou ordonner qc à qn&quot;, avec instrumental" exemples="Par une circulaire on interdit aux élèves qu'ils affichent, d'afficher leur journal." nb="49"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C2c" desc="&quot;décrire qc à qn au moyen de&quot;" exemples="On détaille toute l'affaire à Paul dans un document." nb="78"/>
+         <sous-classe-syntaxique code="C2d" desc="&quot;dire qc, que devant qn&quot;" nb="85">
+            <sous-type code="C2d.1" desc="&quot;dire qc, que + indicatif&quot;" exemples="On dément devant les assistants les propos tenus, qu'on ait tenu ces propos." nb="55"/>
+            <sous-type code="C2d.2" desc="&quot;dire que + indicatif&quot;" exemples="On parie (auprès des invités) que Jean sera en retard." nb="16"/>
+            <sous-type code="C2d.3" desc="&quot;s'exclamer que&quot;" exemples="On s'écrie devant tous que ceci est faux." nb="6"/>
+            <sous-type code="C2d.4" desc="&quot;dire en prétextant de qc, (de ce) que&quot;" exemples="L'accusé argue de son innocence devant le jury, argue qu'il est innocent." nb="8"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C2e" desc="&quot;dire qc devant/auprès de qn&quot;" nb="57">
+            <sous-type code="C2e.1" desc="&quot;dire qc auprès de qn&quot;" exemples="Tu redis toujours la même chose devant les étudiants. Ceci ne se redit pas." nb="51"/>
+            <sous-type code="C2e.2" desc="&quot;dire qc d'écrit par qn ou par soi&quot;" exemples="On cite le texte d'un auteur. On se cite soi-même. On s'autocite." nb="6"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C2f" desc="&quot;dire qc d'une certaine façon, une suite&quot;" nb="52">
+            <sous-type code="C2f.1" desc="&quot;dire qc d'une certaine manière&quot;" exemples="On griffonne quelques mots sur le papier." nb="20"/>
+            <sous-type code="C2f.2" desc="&quot;dire qc qp&quot;" exemples="Les journalistes colportent dans la presse la nouvelle de sa maladie." nb="5"/>
+            <sous-type code="C2f.3" desc="&quot;énumérer une suite&quot;" exemples="Le moniteur dénombre les enfants au retour de la promenade. L'huissier inventorie les meubles." nb="27"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C2g" desc="&quot;dire une décision sur&quot;" nb="33">
+            <sous-type code="C2g.1" desc="&quot;prononcer une décision&quot;" exemples="Le juge arrête qu'on devra payer." nb="12"/>
+            <sous-type code="C2g.2" desc="&quot;juger qc&quot;" exemples="On arbitre un match. Le tribunal juge un délit." nb="21"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C2h" desc="&quot;demander à qn de faire&quot;" nb="35">
+            <sous-type code="C2h.1" desc="&quot;engager à faire ou à ne pas faire&quot;" exemples="On exhorte Paul à agir. Sa lettre m'encourage à agir." nb="13"/>
+            <sous-type code="C2h.2" desc="&quot;prier de faire ou de ne pas faire&quot;" exemples="On adjure par lettre Paul de renoncer. Sa lettre m'adjure d'agir." nb="22"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C2i" desc="&quot;interroger qn sur&quot;" nb="24">
+            <sous-type code="C2i.1" desc="&quot;interroger qn sur qc&quot;" exemples="On consulte Paul sur la décision à prendre. On sonde le public sur ce projet." nb="19"/>
+            <sous-type code="C2i.2" desc="&quot;s'informer de qc auprès de qn&quot;" exemples="Jean s'enquiert du résultat auprès d'un ami." nb="5"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C2j" desc="&quot;informer qn de qc&quot;" nb="39">
+            <sous-type code="C2j.1" desc="&quot;informer qn de qc, que&quot;" exemples="J'ai avisé Paul que je partirai demain, de mon départ." nb="12"/>
+            <sous-type code="C2j.2" desc="&quot;informer qn sur&quot;" exemples="On alerte Paul sur les dangers d'un tel voyage." nb="27"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C2k" desc="&quot;demander qc à qn&quot;" nb="56">
+            <sous-type code="C2k.1" desc="&quot;demander qc à qn&quot;" exemples="On quémande une aumône à Paul." nb="5"/>
+            <sous-type code="C2k.2" desc="&quot;demander qc auprès de qn, d'une administration&quot;" exemples="On brigue un poste auprès du chef du personnel." nb="23"/>
+            <sous-type code="C2k.3" desc="&quot;être demandeur à qc&quot;" exemples="On candidate à un poste." nb="4"/>
+            <sous-type code="C2k.4" desc="&quot;demander qc/que de qn&quot;" exemples="Par cette lettre Paul implore de Georges un secours, qu'il l'aide." nb="24"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="C3" desc="&quot;montrer qc&quot;" nb="172">
+         <sous-classe-syntaxique code="C3a" desc="&quot;montrer qc/qn à qn par un signe&quot;" nb="35">
+            <sous-type code="C3a.1" desc="&quot;montrer qc à qn&quot;" exemples="On enseigne son chemin à un passant." nb="17"/>
+            <sous-type code="C3a.2" desc="&quot;montrer qc qp&quot;" exemples="Sans destinataire exprimé, les congressistes exhibent un badge au revers de leur veste, ma montre indique l'heure et les minutes." nb="18"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C3b" desc="&quot;montrer qc à qn ou qp&quot;" nb="19">
+            <sous-type code="C3b.1" desc="&quot;montrer qc par qc&quot;" exemples="L'assassin signe son crime avec cette arme." nb="15"/>
+            <sous-type code="C3b.2" desc="&quot;se montrer qp&quot;" exemples="La tour se réfléchit dans le lac. Le lac réfléchit la tour." nb="4"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C3c" desc="&quot;montrer le sens de qc&quot;" nb="19"/>
+         <sous-classe-syntaxique code="C3d" desc="&quot;publier un texte qp&quot;" nb="51">
+            <sous-type code="C3d.1" desc="&quot;publier un ouvrage qp&quot;" exemples="On publie mon livre dans cette maison d'édition. Cette maison publie mon livre." nb="40"/>
+            <sous-type code="C3d.2" desc="&quot;faire que qc ne soit pas diffusé qp&quot;" exemples="On censure le texte par un arrêté. L'arrêté censure le texte." nb="6"/>
+            <sous-type code="C3d.3" desc="&quot;être publié qp&quot;" exemples="Le livre sort chez cet éditeur." nb="5"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C3e" desc="&quot;montrer qc/qn par la parole ou le dessin&quot;" nb="37"/>
+         <sous-classe-syntaxique code="C3f" desc="&quot;montrer, représenter par soi-même&quot;" nb="11">
+            <sous-type code="C3f.1" desc="&quot;représenter qn, un groupe qp&quot;" exemples="Ce maire représente aussi le canton au conseil général." nb="4"/>
+            <sous-type code="C3f.2" desc="&quot;représenter un personnage, un symbole&quot;" exemples="On incarne l'avare au théâtre. Paul incarne l'avarice." nb="7"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="C4" desc="&quot;dire ou montrer qc&quot; * Figurés de C1 et C3" nb="120">
+         <sous-classe-syntaxique code="C4a" desc="&quot;dire, parler&quot; * Figurés de C1a et C1b sujet non-animé" nb="10"/>
+         <sous-classe-syntaxique code="C4b" desc="&quot;montrer qc&quot;, sujet nom de comportement" nb="35">
+            <sous-type code="C4b.1" desc="&quot;se manifester qp&quot;" exemples="Son angoisse se voit dans ses yeux." nb="10"/>
+            <sous-type code="C4b.2" desc="&quot;montrer un sentiment&quot;" exemples="Son visage reflète une grande inquiétude." nb="8"/>
+            <sous-type code="C4b.3" desc="&quot;montrer un sentiment, que&quot;" exemples="Cette lettre montre son hostilité à mon égard, qu'il m'est hostile." nb="13"/>
+            <sous-type code="C4b.4" desc="&quot;être la manifestation de comportement humain&quot;" exemples="Son expression témoigne (de) sa surprise." nb="1"/>
+            <sous-type code="C4b.5" desc="&quot;manifester ouvertement tel sentiment&quot;" exemples="Paul/son visage respire l'honnêteté." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C4c" desc="&quot;montrer qc à qn, exprimer qc&quot;" nb="27">
+            <sous-type code="C4c.1" desc="&quot;montrer qc à qn&quot;" exemples="On évoque l'avenir à Paul par cet entretien." nb="8"/>
+            <sous-type code="C4c.2" desc="&quot;exprimer qc&quot;" exemples="On exprime sa passion par la peinture. Sa passion s'exprime dans la peinture." nb="19"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="C4d" desc="&quot;montrer, indiquer un sentiment&quot;" nb="48">
+            <sous-type code="C4d.1" desc="&quot;montrer/ne pas montrer qc par son comportement&quot;, sujet humain" exemples="On refoule son agressivité en restant silencieux." nb="33"/>
+            <sous-type code="C4d.2" desc="&quot;montrer qc abstrait&quot;, sujet non-animé" exemples="L'entreprise affiche de très bons résultats." nb="3"/>
+            <sous-type code="C4d.3" desc="&quot;se montrer tel&quot;" exemples="On ne s'affiche pas ainsi devant le monde. On se présente comme honnête." nb="12"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="D" desc="Verbes de don ou de privation" nb="953">
+      <semantico-syntaxique code="D1" desc="&quot;donner qn à qn/qc&quot;, &quot;donner aide à qn/qc&quot;" nb="157">
+         <sous-classe-syntaxique code="D1a" desc="&quot;donner qn à qc, se donner à qc&quot;" nb="26">
+            <sous-type code="D1a.1" desc="&quot;donner qn à qc&quot;" exemples="La famille destine Paul à succéder à son père, Paul se destine à la recherche." nb="12"/>
+            <sous-type code="D1a.2" desc="&quot;se donner à qc&quot;" exemples="On s'adonne au plaisir." nb="14"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D1b" desc="&quot;donner qn à qn, se donner à qn&quot;" nb="58">
+            <sous-type code="D1b.1" desc="&quot;donner qn à qn, à collectif&quot;" exemples="Les voisins ont dénoncé Paul à la police, on se dénonce à la police." nb="35"/>
+            <sous-type code="D1b.2" desc="&quot;se donner à qn, se donner qn&quot;" exemples="On se donne à Paul, on s'adjoint un collaborateur." nb="23"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D1c" desc="&quot;aider qn, aider à qc&quot;" nb="40">
+            <sous-type code="D1c.1" desc="&quot;aider qn auprès de&quot;" exemples="On pistonne Paul auprès du directeur." nb="26"/>
+            <sous-type code="D1c.2" desc="&quot;aider à qc&quot;" exemples="Les organisations humanitaires subviennent aux besoins d'une population en proie à l'épidémie." nb="11"/>
+            <sous-type code="D1c.3" desc="&quot;aider à faire, à qc&quot;" exemples="On contribue à la réussite de ce projet, à rétablir la situation, à ce que le projet réussisse." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D1d" desc="&quot;gratifier qn de qc bien/mal&quot;" nb="33">
+            <sous-type code="D1d.1" desc="&quot;gratifier qn de qc (bien ou mal)&quot;" exemples="On honore son pays avec cette victoire au championnat d'Europe, on s'honorera en avouant l'erreur." nb="15"/>
+            <sous-type code="D1d.2" desc="&quot;gratifier qn de qc&quot;" exemples="Le prêtre bénit l'assistance." nb="18"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="D2" desc="&quot;donner qc à qn/qc&quot;, &quot;obtenir qc de qn/qc&quot;" nb="399">
+         <sous-classe-syntaxique code="D2a" desc="&quot;fournir qc à qn&quot;" nb="235"/>
+         <sous-classe-syntaxique code="D2b" desc="&quot;donner appui à qc avec qc&quot;" nb="22"/>
+         <sous-classe-syntaxique code="D2c" desc="&quot;prendre, supprimer qc à qn/qc&quot;" nb="91">
+            <sous-type code="D2c.1" desc="&quot;prendre qc à qn&quot;" exemples="On confisque un livre à un enfant." nb="83"/>
+            <sous-type code="D2c.2" desc="&quot;prendre une partie à ou dans un tout&quot;" exemples="On ôte quelques lignes dans un texte, à une scène." nb="6"/>
+            <sous-type code="D2c.3" desc="&quot;supprimer qc à qn&quot;" exemples="Les parents ont coupé les vivres à leur fils." nb="2"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D2d" desc="&quot;enlever qc de soi&quot;, &quot;enlever partie de qc à qn&quot;" nb="23">
+            <sous-type code="D2d.1" desc="&quot;ôter un vêtement ou qc d'analogue de sur soi&quot;" exemples="Jean ôte son manteau en rentrant à la maison." nb="8"/>
+            <sous-type code="D2d.2" desc="&quot;ôter qc de qc&quot;" exemples="Le chirurgien excise la tumeur de l'os." nb="8"/>
+            <sous-type code="D2d.3" desc="&quot;ôter partie du corps à qn, à animal&quot;" exemples="Le chirurgien lui ampute la jambe gauche." nb="7"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D2e" desc="&quot;obtenir, acquérir qc de qn&quot;" nb="28"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="D3" desc="&quot;donner qc à qn, à qc&quot; ; &quot;prendre qc à qn ou à qc&quot; * Figurés de D2" nb="397">
+         <sous-classe-syntaxique code="D3a" desc="&quot;donner qc à qn/qc&quot;, &quot;donner appui à qc&quot; * Figuré" nb="95">
+            <sous-type code="D3a.1" desc="&quot;donner qc à qn&quot;" exemples="Le juge inflige deux ans de prison à Paul." nb="84"/>
+            <sous-type code="D3a.2" desc="&quot;donner qc à qc&quot;" exemples="On communique l'énergie nécessaire par un ventilateur. Le ventilateur communique la force à la batterie. La force se communique par les aubes du moulin." nb="4"/>
+            <sous-type code="D3a.3" desc="&quot;donner appui à qc&quot;" exemples="On soutient la consommation avec des crédits, ces crédits soutiennent la consommation." nb="7"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D3b" desc="&quot;donner, attribuer qc abstrait à qn/qc&quot;" nb="121">
+            <sous-type code="D3b.1" desc="&quot;donner, attribuer qc à qn ou à qc &quot;" exemples="On a toujours accordé notre confiance à Paul, on accorde une importance excessive à cette affaire." nb="98"/>
+            <sous-type code="D3b.2" desc="&quot;donner qc auprès de qn, de tous&quot;" exemples="On administre la preuve d'un mensonge auprès du tribunal." nb="23"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D3c" desc="&quot;donner validité à qc ou valeur à qn&quot;" nb="75">
+            <sous-type code="D3c.1" desc="&quot;donner validité à qc&quot;" exemples="L'assemblée entérine le traité par un vote unanime. Un vote unanime entérine le traité." nb="65"/>
+            <sous-type code="D3c.2" desc="&quot;donner valeur à qn, à ses qualités&quot;" exemples="On jauge bien ou mal Paul, ses compétences." nb="10"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D3d" desc="&quot;donner/être un bien/un mal à qn&quot;, &quot;égaler qc&quot;" nb="35">
+            <sous-type code="D3d.1" desc="&quot;être un mal ou un bien à qn&quot;" exemples="Ceci a réussi à Jean, a nui à Paul." nb="29"/>
+            <sous-type code="D3d.2" desc="&quot;être égal à&quot;" exemples="Le total équivaut à la somme des deux factures, ces deux devis s'équivalent." nb="3"/>
+            <sous-type code="D3d.3" desc="&quot;donner un bien ou un mal à qn&quot;" exemples="Cette histoire a rapporté bien des ennuis à Paul." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D3e" desc="&quot;recevoir un bien/un mal de qn/qc&quot;" nb="37">
+            <sous-type code="D3e.1" desc="&quot;recevoir qc de qn ou qc&quot;" exemples="On encourt de Paul un reproche." nb="33"/>
+            <sous-type code="D3e.2" desc="&quot;obtenir, prendre pour soi&quot;" exemples="On acquiert des connaissances par le travail." nb="4"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="D3f" desc="&quot;enlever qc à qn/qc&quot;, &quot;obtenir qc pour soi&quot;" nb="34">
+            <sous-type code="D3f.1" desc="&quot;supprimer qc à qn&quot;" exemples="On coupe la voie du succès à Paul." nb="29"/>
+            <sous-type code="D3f.2" desc="&quot;supprimer la possibilité de&quot;" exemples="On empêche l'extension du conflit, que le conflit ne s'étende." nb="5"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="E" desc="Verbes de mouvements d'entrée/sortie" nb="2444">
+      <semantico-syntaxique code="E1" desc="&quot;sortir/venir de qp ; aller/entrer qp&quot;, sujet humain ; &quot;faire sortir, aller, entrer qn qp&quot;" nb="698">
+         <sous-classe-syntaxique code="E1a" desc="&quot;sortir de qp&quot;" nb="140">
+            <sous-type code="E1a.1" desc="&quot;sortir/venir d'un lieu&quot; intransitifs" exemples="On décampe de la villa." nb="63"/>
+            <sous-type code="E1a.2" desc="&quot;sortir/venir d'un lieu&quot; pronominaux" exemples="On s'évade de prison." nb="65"/>
+            <sous-type code="E1a.3" desc="&quot;sortir/venir d'un lieu&quot; avec emploi transitif à objet direct locatif" exemples="On dégringole du premier, on dégringole les escaliers." nb="12"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E1b" desc="&quot;faire sortir qn de qp&quot;" nb="117">
+            <sous-type code="E1b.1" desc="&quot;faire sortir qn, un animal de qp&quot;" exemples="On bannit par décret les dissidents de leur pays, le décret bannit les dissidents." nb="80"/>
+            <sous-type code="E1b.2" desc="&quot;faire en sorte que qn sorte de qp&quot;" exemples="On débarque les passagers du bateau (= fait que les passagers débarquent), les passagers débarquent du bateau." nb="37"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E1c" desc="&quot;faire sortir de soi excrément, liquide corporel, odeur, bruit&quot;" nb="119">
+            <sous-type code="E1c.1" desc="&quot;faire sortir de soi excrément/liquide corporel/odeur/bruit&quot; intransitifs avec transitif à objet interne" exemples="On crache par terre, on crache du sang." nb="117"/>
+            <sous-type code="E1c.2" desc="&quot;faire sortir de soi excrément/liquide corporel/odeur/bruit&quot; pronominaux avec transitif et factitif" exemples="On se mouche, on mouche son nez, on mouche un enfant." nb="2"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E1d" desc="&quot;aller qp, d'un lieu à un autre, dans ou vers un lieu&quot;" nb="173">
+            <sous-type code="E1d.1" desc="&quot;aller qp&quot;" exemples="Les voyageurs arriveront à Paris." nb="83"/>
+            <sous-type code="E1d.2" desc="&quot;aller d'un lieu à l'autre, ou par un lieu vers un autre&quot;" exemples="On est monté de Lyon à Paris, on transite par la Belgique vers la France." nb="35"/>
+            <sous-type code="E1d.3" desc="&quot;aller vers un lieu&quot;" exemples="On rampe, s'élance vers la sortie." nb="13"/>
+            <sous-type code="E1d.4" desc="&quot;aller dans un lieu&quot;" exemples="On pénètre, s'engouffre dans la salle." nb="42"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E1e" desc="&quot;faire aller qn qp, d'un lieu à l'autre, vers un lieu&quot;" nb="92">
+            <sous-type code="E1e.1" desc="&quot;faire aller/conduire qp&quot;" exemples="Jean conduit ses amis à la gare, expédie ses enfants chez sa mère." nb="54"/>
+            <sous-type code="E1e.2" desc="&quot;faire aller d'un lieu à un autre&quot;" exemples="On transfère les prisonniers du Palais de Justice à la Santé." nb="26"/>
+            <sous-type code="E1e.3" desc="&quot;faire aller vers un lieu&quot;" exemples="Les gardiens canalisent la foule vers la sortie." nb="12"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E1f" desc="&quot;faire venir qn près de soi, dans un lieu&quot;" nb="37">
+            <sous-type code="E1f.1" desc="&quot;faire venir qp autoritairement ou par politesse&quot;" exemples="On invite les amis au restaurant, on convoque un témoin au commissariat." nb="18"/>
+            <sous-type code="E1f.2" desc="&quot;faire venir auprès de soi&quot;" exemples="On attire le client dans le magasin." nb="16"/>
+            <sous-type code="E1f.3" desc="&quot;faire venir dans un lieu auprès du sujet&quot;" exemples="On accueille les réfugiés dans un camp." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E1g" desc="&quot;aller au-delà de/au-devant de/derrière/devant qn&quot;" nb="20">
+            <sous-type code="E1g.1" desc="&quot;aller au-delà/au-devant de, derrière/devant qn&quot; avec locatif" exemples="Le sprinteur coiffe son adversaire sur la ligne d'arrivée. On dépasse Paul sur la route." nb="15"/>
+            <sous-type code="E1g.2" desc="&quot;aller au-delà/au-devant de, derrière/devant qn&quot; avec quantitatif" exemples="Le fils dépasse son père de quelques centimètres." nb="5"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="E2" desc="&quot;sortir/venir de qp ; aller/entrer qp&quot;, sujet humain ; &quot;faire sortir, aller, entrer qn qp&quot; * Figurés de E1" nb="440">
+         <sous-classe-syntaxique code="E2a" desc="&quot;sortir de lieu abstrait&quot;" nb="55">
+            <sous-type code="E2a.1" desc="&quot;sortir de lieu abstrait&quot;" exemples="On déchoit de son rang." nb="35"/>
+            <sous-type code="E2a.2" desc="&quot;se sortir de lieu abstrait&quot;" exemples="On se retranche du monde. On s'évade d'un milieu oppressant." nb="20"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E2b" desc="&quot;faire sortir qn du groupe, de l'institution, du lieu de travail&quot;" nb="150"/>
+         <sous-classe-syntaxique code="E2c" desc="&quot;aller à/dans/vers/sur qc abstrait&quot;" nb="114">
+            <sous-type code="E2c.1" desc="&quot;aller à/dans/vers/sur qc abstrait&quot; avec complément en à" exemples="Paul a accédé aux plus hautes fonctions. L'auteur se réfère à une note antérieure." nb="36"/>
+            <sous-type code="E2c.2" desc="&quot;aller à/dans/vers/sur qc abstrait&quot; avec complément en dans" exemples="Le militaire rempile dans l'armée. Une taupe s'infiltre dans le parti." nb="43"/>
+            <sous-type code="E2c.3" desc="&quot;aller à/dans/vers/sur qc abstrait&quot; avec complément en de" exemples="Jeanne (s') approche de la cinquantaine, Jeanne approche la cinquantaine." nb="2"/>
+            <sous-type code="E2c.4" desc="&quot;aller à/dans/vers/sur qc abstrait&quot; avec complément en sur ou vers" exemples="Mon collègue empiète sur mon domaine. Cet étudiant penche vers la médecine." nb="33"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E2d" desc="&quot;faire aller qn près de/dans/vers/contre&quot;" nb="113">
+            <sous-type code="E2d.1" desc="&quot;faire aller, renvoyer à&quot;" exemples="On renvoie Paul à un autre service. On se propulse à un poste de cadre." nb="38"/>
+            <sous-type code="E2d.2" desc="&quot;faire aller près de&quot;" exemples="On rapproche Paul. On se rapproche de ses parents." nb="1"/>
+            <sous-type code="E2d.3" desc="&quot;faire aller dans&quot;" exemples="On embauche Paul dans un poker. On se fourre dans une sale histoire." nb="45"/>
+            <sous-type code="E2d.4" desc="&quot;faire aller, diriger vers&quot;" exemples="Le conseil de l'école a aiguillé Paul vers d'autres études. On s'oriente vers les maths." nb="23"/>
+            <sous-type code="E2d.5" desc="&quot;faire aller contre&quot;" exemples="Ses amis dressent Paul contre sa famille. Jean se dresse contre l'injustice." nb="6"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E2e" desc="&quot;aller au-delà de/derrière/devant, etc. qn&quot;" nb="8"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="E3" desc="&quot;(faire) sortir/venir de qp ;faire) aller/entrer qp&quot;, sujet non-animé" nb="984">
+         <sous-classe-syntaxique code="E3a" desc="&quot;sortir, venir de qc&quot;" nb="137">
+            <sous-type code="E3a.1" desc="&quot;venir de qc&quot;" exemples="Ce nom dérive d'un adjectif." nb="99"/>
+            <sous-type code="E3a.2" desc="&quot;perdre air, gaz&quot;, avec factitif &quot;faire sortir air de qc&quot;" exemples="Le ballon (se) dégonfle. Le choc/Paul a dégonflé le ballon." nb="8"/>
+            <sous-type code="E3a.3" desc="&quot;sortir d'un lieu&quot;" exemples="Le navire appareille de Marseille pour Alger." nb="30"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E3b" desc="&quot;faire sortir de soi liquide/odeur/bruit&quot;, sujet locatif d'origine du liquide, etc." nb="44"/>
+         <sous-classe-syntaxique code="E3c" desc="&quot;faire sortir qc de lieu&quot;" nb="283"/>
+         <sous-classe-syntaxique code="E3d" desc="&quot;aller qp/près d'/vers/dans un lieu&quot;" nb="117">
+            <sous-type code="E3d.1" desc="&quot;aller qp&quot;" exemples="L'avion amerrit sur le lac." nb="38"/>
+            <sous-type code="E3d.2" desc="&quot;aller près de lieu&quot;" exemples="La voiture (s') approche de Paris." nb="2"/>
+            <sous-type code="E3d.3" desc="&quot;aller vers un lieu&quot;" exemples="Le voilier cingle vers le large." nb="36"/>
+            <sous-type code="E3d.4" desc="&quot;aller dans un lieu&quot;" exemples="Le sous-marin plonge dans la mer." nb="41"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E3e" desc="&quot;aller dans/sur/à travers/autour d'/au-delà d'un lieu&quot;" nb="93"/>
+         <sous-classe-syntaxique code="E3f" desc="&quot;faire aller qc qp&quot;" nb="310">
+            <sous-type code="E3f.1" desc="&quot;faire aller qc qp&quot;" exemples="On hisse une valise au haut de l'armoire." nb="103"/>
+            <sous-type code="E3f.2" desc="&quot;faire aller près de&quot;" exemples="On rapproche la chaise de soi, le véhicule se rapproche de nous." nb="2"/>
+            <sous-type code="E3f.3" desc="&quot;faire aller qc vers/contre&quot;" exemples="On jette sa voiture sur un arbre, la voiture se jette contre un camion." nb="146"/>
+            <sous-type code="E3f.4" desc="&quot;faire aller dans&quot;" exemples="On enfonce un clou dans le mur, le clou s'enfonce dans le mur." nb="50"/>
+            <sous-type code="E3f.5" desc="&quot;envoyer qc à qn&quot;" exemples="Jean a expédié un paquet à Paul par la poste." nb="9"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="E4" desc="&quot;(faire) sortir/venir de qp ; (faire) aller/entrer qp&quot;, sujet non-animé * Figurés de E3" nb="322">
+         <sous-classe-syntaxique code="E4a" desc="&quot;sortir de qn, qc&quot;, sujet qc" nb="30"/>
+         <sous-classe-syntaxique code="E4b" desc="&quot;faire sortir qc de qc, d'un lieu&quot;" nb="80">
+            <sous-type code="E4b.1" desc="&quot;faire sortir qc de qc&quot;" exemples="On ôte cette idée de sa tête." nb="52"/>
+            <sous-type code="E4b.2" desc="&quot;déduire qc de qc, (de ce) que&quot;" exemples="On augure de ce résultat sa réussite, qu'il réussira." nb="28"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E4c" desc="&quot;venir à/sur/vers qc&quot;" nb="71">
+            <sous-type code="E4c.1" desc="&quot;venir à qn&quot;" exemples="L'héritage échoit à Paul. Cette idée se présente à mon esprit." nb="17"/>
+            <sous-type code="E4c.2" desc="&quot;venir près de qc&quot;" exemples="L'affaire (s') approche de son dénouement." nb="4"/>
+            <sous-type code="E4c.3" desc="&quot;venir sur qc&quot;" exemples="Les vacances mordent sur septembre." nb="7"/>
+            <sous-type code="E4c.4" desc="&quot;venir vers/sur qc&quot;" exemples="L'entretien bifurque sur Paul." nb="21"/>
+            <sous-type code="E4c.5" desc="&quot;venir dans qc&quot;" exemples="Son nom entre dans l'histoire." nb="14"/>
+            <sous-type code="E4c.6" desc="&quot;venir à tant&quot;" exemples="L'entreprise accède au plus haut niveau." nb="8"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E4d" desc="&quot;faire aller au-delà de tel temps, degré&quot;" nb="54">
+            <sous-type code="E4d.1" desc="&quot;faire aller qc au-delà/en deçà de temps ou de quantité&quot;" exemples="On retarde la séance de quelques minutes." nb="38"/>
+            <sous-type code="E4d.2" desc="&quot;faire aller, passer le temps&quot;" exemples="On coule des jours heureux." nb="16"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E4e" desc="&quot;faire aller qc qp&quot;" nb="56">
+            <sous-type code="E4e.1" desc="&quot;faire aller qp&quot;" exemples="On transporte cet événement dans une autre époque." nb="13"/>
+            <sous-type code="E4e.2" desc="&quot;faire aller près de&quot;" exemples="On rapproche son programme de l'objectif, l'objectif se rapproche." nb="1"/>
+            <sous-type code="E4e.3" desc="&quot;faire aller vers/sur&quot;" exemples="On oriente la conversation sur Paul, la conversation s'oriente vers Paul." nb="34"/>
+            <sous-type code="E4e.4" desc="&quot;faire aller dans&quot;" exemples="On lance le pays dans l'aventure, le pays se lance dans l'aventure." nb="8"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="E4f" desc="&quot;causer qc&quot;" nb="31"/>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="F" desc="Verbes de type &quot;frapper&quot; ou &quot;toucher&quot;" nb="1727">
+      <semantico-syntaxique code="F1" desc="&quot;frapper ou toucher qn&quot;" nb="716">
+         <sous-classe-syntaxique code="F1a" desc="&quot;frapper qn, un animal&quot;, &quot;se battre&quot;" nb="177">
+            <sous-type code="F1a.1" desc="&quot;frapper qn, un animal&quot;" exemples="On rosse Paul, on bat son chien." nb="35"/>
+            <sous-type code="F1a.2" desc="&quot;se battre avec qn&quot;" exemples="Jean se bat avec Paul." nb="142"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F1b" desc="&quot;frapper à mort, tuer&quot;, &quot;se tuer&quot;" nb="141">
+            <sous-type code="F1b.1" desc="&quot;frapper qn, un animal à mort&quot;" exemples="Le truand a assassiné la vieille dame à coups de couteau." nb="123"/>
+            <sous-type code="F1b.2" desc="&quot;se tuer mutuellement&quot;" exemples="Les gens s'entretuent à coups de machettes." nb="3"/>
+            <sous-type code="F1b.3" desc="&quot;se tuer&quot;" exemples="Il s'est suicidé au gaz." nb="15"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F1c" desc="&quot;attaquer qn&quot;" nb="90"/>
+         <sous-classe-syntaxique code="F1d" desc="&quot;blesser qn, son corps&quot;" nb="165">
+            <sous-type code="F1d.1" desc="&quot;frapper qn, partie du corps d'une blessure, d'une lésion&quot;" exemples="Jean m'a écrabouillé le pied." nb="158"/>
+            <sous-type code="F1d.2" desc="&quot;être atteint d'une blessure&quot;" exemples="Ses dents se carient, le sucre a carié les dents, ses dents sont cariées." nb="7"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F1e" desc="&quot;lutter, frapper, buter contre qn/qc&quot;" nb="66">
+            <sous-type code="F1e.1" desc="&quot;lutter contre, avec&quot;" exemples="Les chevaliers guerroient contre les musulmans." nb="21"/>
+            <sous-type code="F1e.2" desc="&quot;buter sur, contre qc&quot;" exemples="Il trébuche sur une marche." nb="37"/>
+            <sous-type code="F1e.3" desc="&quot;se frapper sur, contre&quot;" exemples="Il s'est acharné sur le blessé." nb="8"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F1f" desc="&quot;toucher qn, le corps de qn&quot;" nb="77">
+            <sous-type code="F1f.1" desc="&quot;toucher qn, son corps&quot;" exemples="Paul caresse la joue de Jeanne avec un brin de paille." nb="66"/>
+            <sous-type code="F1f.2" desc="&quot;se toucher soi-même dans un but sexuel&quot;" exemples="Le garçon se masturbe, il masturbe un de ses camarades." nb="11"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="F2" desc="&quot;frapper qn&quot; ; &quot;toucher qn&quot; * Figurés de F1" nb="311">
+         <sous-classe-syntaxique code="F2a" desc="&quot;frapper à mal, à mort, vaincre, ruiner&quot;" nb="99">
+            <sous-type code="F2a.1" desc="&quot;frapper qn à mal&quot;" exemples="On assassine la presse par la censure." nb="91"/>
+            <sous-type code="F2a.2" desc="&quot;se frapper à mort&quot;" exemples="L'entreprise s'est sabordée." nb="4"/>
+            <sous-type code="F2a.3" desc="&quot;venir à bout totalement de&quot;" exemples="On a triomphé de Paul, des obstacles." nb="4"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F2b" desc="&quot;attaquer ou toucher qn&quot;" nb="88">
+            <sous-type code="F2b.1" desc="&quot;attaquer qn&quot;" exemples="Jean asticote sa soeur." nb="80"/>
+            <sous-type code="F2b.2" desc="&quot;toucher qn&quot;" exemples="Ce conflit questionne le gouvernement." nb="8"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F2c" desc="&quot;frapper d'une peine&quot; ou &quot;accuser de qc&quot;" nb="39">
+            <sous-type code="F2c.1" desc="&quot;frapper qn pour qc&quot;" exemples="On condamne Paul pour ce crime." nb="13"/>
+            <sous-type code="F2c.2" desc="&quot;accuser qn de qc&quot;" exemples="On le soupçonne de malversations." nb="26"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F2d" desc="&quot;s'opposer à qn/qc, lutter contre&quot;" nb="73">
+            <sous-type code="F2d.1" desc="&quot;réagir en s'opposant, nuire à qc ou qn&quot;" exemples="On riposte à une attaque." nb="40"/>
+            <sous-type code="F2d.2" desc="&quot;lutter contre ou avec&quot;" exemples="Nous luttons contre les préjugés." nb="12"/>
+            <sous-type code="F2d.3" desc="&quot;mettre qn au défi&quot;" exemples="On défie Paul aux échecs." nb="21"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F2e" desc="&quot;buter contre, frapper sur&quot;" nb="12"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="F3" desc="&quot;frapper ou toucher qc&quot;" nb="483">
+         <sous-classe-syntaxique code="F3a" desc="&quot;frapper qc&quot;" nb="147">
+            <sous-type code="F3a.1" desc="&quot;frapper qc&quot;" exemples="On heurte le verre du coude." nb="128"/>
+            <sous-type code="F3a.2" desc="&quot;donner un coup à qn&quot;" exemples="On allonge une gifle à Paul." nb="19"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F3b" desc="&quot;abîmer qc&quot;" nb="144"/>
+         <sous-classe-syntaxique code="F3c" desc="&quot;détruire qc&quot; ou &quot;être détruit&quot;" nb="151">
+            <sous-type code="F3c.1" desc="&quot;détruire qc&quot;" exemples="On consume les papiers dans la cheminée, les papiers se consument dans la cheminée." nb="140"/>
+            <sous-type code="F3c.2" desc="&quot;se détruire&quot;" exemples="Les cellules s'autolysent à la mort." nb="5"/>
+            <sous-type code="F3c.3" desc="&quot;être détruit&quot;" exemples="Les papiers brûlent dans la cheminée." nb="6"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F3d" desc="&quot;toucher qc&quot; ou &quot;toucher à qc&quot;" nb="41">
+            <sous-type code="F3d.1" desc="&quot;toucher qc&quot;" exemples="On frotte la table avec un chiffon." nb="29"/>
+            <sous-type code="F3d.2" desc="&quot;toucher à qc&quot;" exemples="Sa propriété confine à mon parc." nb="12"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="F4" desc="&quot;attaquer, détruire&quot; ; &quot;toucher&quot; * Figurés de F3" nb="217">
+         <sous-classe-syntaxique code="F4a" desc="&quot;s'opposer ou s'attaquer à qn/qc&quot;" nb="19">
+            <sous-type code="F4a.1" desc="&quot;réagir à&quot;" exemples="Les cellules réagissent aux excitations." nb="4"/>
+            <sous-type code="F4a.2" desc="&quot;s'attaquer à&quot;" exemples="Cette maladie s'attaque aux adultes." nb="1"/>
+            <sous-type code="F4a.3" desc="&quot;défier qc en s'opposant&quot;" exemples="On brave les dangers." nb="8"/>
+            <sous-type code="F4a.4" desc="&quot;lancer qc contre&quot;" exemples="On brandit une menace contre Paul." nb="3"/>
+            <sous-type code="F4a.5" desc="&quot;se frapper contre&quot;" exemples="Les illusions se brisent sur la réalité." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F4b" desc="&quot;supprimer, détruire ou abîmer qc&quot;" nb="188">
+            <sous-type code="F4b.1" desc="&quot;détruire qc, qn&quot;" exemples="On abroge la loi par un décret." nb="159"/>
+            <sous-type code="F4b.2" desc="&quot;abîmer qc&quot;" exemples="On obère l'avenir avec cette démission." nb="29"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="F4c" desc="&quot;toucher à qc&quot; * Figurés de F3d" exemples="On colle à la réalité." nb="10"/>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="H" desc="Verbes d'état physique ou de comportement" nb="2079">
+      <semantico-syntaxique code="H1" desc="&quot;être/mettre dans tel état physique&quot;, sujet humain ; &quot;mettre au monde&quot;" nb="566">
+         <sous-classe-syntaxique code="H1a" desc="&quot;être dans tel état physique&quot;, sujet humain" nb="270">
+            <sous-type code="H1a.1" desc="&quot;être en vie, en sommeil ; ne plus être en vie, en sommeil&quot;" exemples="Paul meurt, est mort, s'endort, est endormi." nb="90"/>
+            <sous-type code="H1a.2" desc="&quot;avoir son corps dans tel état, avoir telle sensation&quot;" exemples="Paul bâille bruyamment, Jean réentend après son opération, Pierre est courbatu." nb="180"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H1b" desc="&quot;être dans tel état physique&quot;, sujet corps humain, &quot;mettre dans tel état physique&quot;" nb="197">
+            <sous-type code="H1b.1" desc="&quot;être dans tel état physiologique&quot;" exemples="Ses cheveux frisent, la jambe me fourmille." nb="175"/>
+            <sous-type code="H1b.2" desc="&quot;être tel physiologiquement&quot;" exemples="Sa voix est éraillée." nb="12"/>
+            <sous-type code="H1b.3" desc="&quot;mettre qn dans tel état physiologique&quot;" exemples="Tu éblouis Pierre avec ta lampe, les phares ont ébloui l'automobiliste." nb="10"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H1c" desc="&quot;mettre au monde un être vivant&quot;" nb="35">
+            <sous-type code="H1c.1" desc="&quot;mettre au monde un être vivant&quot;" exemples="On procrée un enfant, les êtres humains sont destinés à procréer." nb="33"/>
+            <sous-type code="H1c.2" desc="&quot;mettre au monde un enfant&quot;" exemples="Jeanne a accouché d'une fille, à la clinique, la sage-femme a accouché Jeanne." nb="2"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H1d" desc="&quot;avoir telle sensation (vue, ouïe odorat)&quot;" nb="64"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="H2" desc="&quot;avoir tel comportement, telle activité sociale&quot;, &quot;exercer son activité sur&quot;" nb="834">
+         <sous-classe-syntaxique code="H2a" desc="&quot;avoir tel comportement, telle attitude&quot;" nb="170">
+            <sous-type code="H2a.1" desc="&quot;avoir tel comportement&quot;" exemples="Paul cabotine, Paul se conduit mal." nb="139"/>
+            <sous-type code="H2a.2" desc="&quot;avoir telle attitude, telle qualité sociale&quot;, participe passé" exemples="Cet homme est maniéré." nb="31"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H2b" desc="&quot;avoir telle activité sociale&quot;" nb="235"/>
+         <sous-classe-syntaxique code="H2c" desc="&quot;avoir ou non telle activité de travail&quot;" nb="55"/>
+         <sous-classe-syntaxique code="H2d" desc="&quot;avoir un comportement calqué sur qn&quot;" nb="29">
+            <sous-type code="H2d.1" desc="&quot;prendre un comportement analogue à celui de qn d'autre&quot; avec modèle intégré au verbe" exemples="Elle bovaryse auprès de son mari (= fait comme Madame Bovary)." nb="17"/>
+            <sous-type code="H2d.2" desc="&quot;prendre qn comme modèle&quot;" exemples="L'élève singe son professeur, ses manies." nb="12"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H2e" desc="&quot;avoir tel succès ou échec social&quot;" nb="24">
+            <sous-type code="H2e.1" desc="&quot;avoir telle réussite ou tel échec&quot;" exemples="Paul a réussi en affaires." nb="16"/>
+            <sous-type code="H2e.2" desc="&quot;faire de qc un succès ou un échec&quot;" exemples="Paul a réussi son concours." nb="8"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H2f" desc="&quot;avoir telle activité visant à qc&quot;" nb="32">
+            <sous-type code="H2f.1" desc="&quot;avoir telle activité visant à réaliser qc&quot; intransitifs" exemples="Paul grimace devant le miroir." nb="15"/>
+            <sous-type code="H2f.2" desc="&quot;avoir telle activité visant à réaliser qc&quot; intransitifs et transitifs" exemples="Paul dessine, Paul dessine des nus." nb="17"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H2g" desc="&quot;avoir telle activité bruyante&quot;" nb="16"/>
+         <sous-classe-syntaxique code="H2h" desc="&quot;diriger qn dans tel but&quot;" nb="86">
+            <sous-type code="H2h.1" desc="&quot;avoir telle activité de direction&quot;" exemples="Le président préside aux destinées de la France." nb="13"/>
+            <sous-type code="H2h.2" desc="&quot;avoir telle activité de formation&quot;" exemples="Il entraîne des athlètes pour les Jeux." nb="73"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H2i" desc="&quot;former qn à qc&quot;" nb="82">
+            <sous-type code="H2i.1" desc="&quot;exercer une activité d'éducation&quot;" exemples="Jacqueline alphabétise les nouveaux immigrés." nb="38"/>
+            <sous-type code="H2i.2" desc="&quot;exercer un pouvoir sur qn, un comportement&quot;" exemples="On ne contrôle pas ses enfants, ses sentiments, on ne se contrôle plus." nb="44"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H2j" desc="&quot;inciter qn à&quot;" nb="97">
+            <sous-type code="H2j.1" desc="&quot;pousser qn à qc&quot;" exemples="On a acculé Paul à démissionner, à la démission." nb="94"/>
+            <sous-type code="H2j.2" desc="&quot;être contraint de&quot;" exemples="Paul est forcé de partir." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H2k" desc="&quot;avoir telle valeur par son activité&quot;" nb="8"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="H3" desc="&quot;être dans tel état&quot;, sujet qc ; &quot;mettre qc dans tel état&quot;" nb="509">
+         <sous-classe-syntaxique code="H3a" desc="&quot;avoir tel état, telle propriété&quot;" nb="150">
+            <sous-type code="H3a.1" desc="&quot;être en état bon ou mauvais&quot;" exemples="La montre fonctionne." nb="45"/>
+            <sous-type code="H3a.2" desc="&quot;avoir telle propriété physique&quot;" exemples="L'eau bout." nb="74"/>
+            <sous-type code="H3a.3" desc="&quot;être dans l'état d'explosion&quot;" exemples="La bombe éclate en mille fragments dans la foule." nb="31"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H3b" desc="&quot;faire tel temps météorologique&quot;" nb="56">
+            <sous-type code="H3b.1" desc="&quot;il fait tel temps qp&quot;" exemples="Il neige sur les sommets, il fait beau dans la région, il fait de la neige, il tombe une forte pluie." nb="52"/>
+            <sous-type code="H3b.2" desc="&quot;tel phénomène atmosphérique a lieu&quot;" exemples="Le temps fraîchit." nb="4"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H3c" desc="&quot;avoir tel éclat&quot;, &quot;rendre éclatant&quot;" nb="64">
+            <sous-type code="H3c.1" desc="&quot;être éclatant, briller&quot;" exemples="La vaisselle propre étincelle." nb="37"/>
+            <sous-type code="H3c.2" desc="&quot;rendre éclatant&quot;" exemples="Le metteur en scène a illuminé le château, le château s'illumine le soir." nb="18"/>
+            <sous-type code="H3c.3" desc="&quot;avoir telle saturation de couleur&quot;" exemples="Cette couleur est foncée, d'un bleu foncé." nb="9"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H3d" desc="&quot;produire un bruit, un son&quot;" nb="88"/>
+         <sous-classe-syntaxique code="H3e" desc="&quot;produire qc (matière, fruit, etc.)&quot;" nb="91"/>
+         <sous-classe-syntaxique code="H3f" desc="&quot;avoir ou prendre telle mesure&quot;" nb="52">
+            <sous-type code="H3f.1" desc="&quot;avoir telle mesure, tel prix&quot;" exemples="Les terres rendent peu cette année, la rivière débite mille mètres cubes à l'heure." nb="27"/>
+            <sous-type code="H3f.2" desc="&quot;donner telle mesure&quot;" exemples="On chiffre la dépense à trois millions." nb="25"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H3g" desc="&quot;avoir telle action sur qc&quot;" nb="8"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="H4" desc="&quot;être dans tel état&quot; ; &quot;mettre qc dans tel état &quot; * Figurés de H3" nb="170">
+         <sous-classe-syntaxique code="H4a" desc="&quot;être dans tel état bon ou mauvais, subit&quot;" nb="91">
+            <sous-type code="H4a.1" desc="&quot;échouer ou réussir&quot;" exemples="Ses espoirs ont avorté." nb="73"/>
+            <sous-type code="H4a.2" desc="&quot;être en tel état&quot;" exemples="L'entreprise agonise." nb="18"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H4b" desc="&quot;être ou rendre qc éclatant&quot;" nb="13">
+            <sous-type code="H4b.1" desc="&quot;être éclatant&quot;" exemples="L'espoir luit encore." nb="10"/>
+            <sous-type code="H4b.2" desc="&quot;rendre qc éclatant&quot;" exemples="L'ironie illumine son regard, sa figure s'illumine à cette nouvelle." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H4c" desc="&quot;avoir telle action, tel pouvoir sur&quot;" nb="57">
+            <sous-type code="H4c.1" desc="&quot;exercer un pouvoir sur qn, qc&quot;" exemples="Les astres président à sa destinée, la loi s'impose à tous." nb="18"/>
+            <sous-type code="H4c.2" desc="&quot;exercer une action sur qc&quot;" exemples="Ses parents ont formé le goût de Paul par des lectures, les épreuves ont formé Paul." nb="39"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="H4d" desc="&quot;mesurer, évaluer qc&quot;" nb="9"/>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="L" desc="Verbes locatifs" nb="1523">
+      <semantico-syntaxique code="L1" desc="&quot;être qp&quot;, sujet humain/animal. &quot;mettre qn/animal qp&quot;" nb="345">
+         <sous-classe-syntaxique code="L1a" desc="&quot;être qp, dans un lieu&quot;" nb="183">
+            <sous-type code="L1a.1" desc="&quot;être, se trouver qp&quot;" exemples="La troupe bivouaque dans le camp." nb="149"/>
+            <sous-type code="L1a.2" desc="&quot;être présent à un lieu&quot;" exemples="Paul assiste au concert samedi." nb="2"/>
+            <sous-type code="L1a.3" desc="&quot;être, se trouver dans un lieu&quot;" exemples="Paul se claquemure dans sa maison." nb="32"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="L1b" desc="&quot;mettre qn qp&quot;" nb="162">
+            <sous-type code="L1b.1" desc="&quot;mettre qn qp, chercher, trouver qn/qc qp&quot;" exemples="Le médecin a hospitalisé Paul à Cochin." nb="86"/>
+            <sous-type code="L1b.2" desc="&quot;mettre qn dans un lieu&quot;" exemples="La police a emprisonné Paul dans une cellule." nb="72"/>
+            <sous-type code="L1b.3" desc="&quot;mettre qn autour de qn" exemples="On entoure le ministre d'espions." nb="4"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="L2" desc="&quot;être dans telle situation&quot;, sujet humain ; &quot;mettre qn dans telle situation&quot;" nb="168">
+         <sous-classe-syntaxique code="L2a" desc="&quot;être dans telle situation, tel état d'esprit&quot; * Figurés de L1a" nb="51">
+            <sous-type code="L2a.1" desc="&quot;être dans telle situation&quot;" exemples="Cet étudiant se classe en tête de sa promotion." nb="8"/>
+            <sous-type code="L2a.2" desc="&quot;être dans tel état d'esprit&quot;" exemples="On croupit dans l'ignorance." nb="43"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="L2b" desc="&quot;mettre, placer qn dans telle situation, telle catégorie&quot; * Figurés de L1b" nb="117">
+            <sous-type code="L2b.1" desc="&quot;mettre qn qp&quot;" exemples="On relègue l'équipe en deuxième division." nb="15"/>
+            <sous-type code="L2b.2" desc="&quot;placer qn qp comme tel&quot;" exemples="On catalogue Paul comme réactionnaire." nb="33"/>
+            <sous-type code="L2b.3" desc="&quot;mettre qn dans&quot;" exemples="On a adopté la femme de Paul dans la famille." nb="69"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="L3" desc="&quot;être qp&quot;, sujet non-animé. &quot;mettre qc qp&quot;" nb="833">
+         <sous-classe-syntaxique code="L3a" desc="&quot;être qp, dans, vers un lieu&quot;, sujet qc" nb="97">
+            <sous-type code="L3a.1" desc="&quot;être, se trouver qp&quot;, &quot;être qp au point d'aboutissement ou au début&quot;" exemples="Le bouquet trône sur la table, le chemin accède à la ferme." nb="72"/>
+            <sous-type code="L3a.2" desc="&quot;être, se trouver dans un lieu&quot;" exemples="La vallée baigne dans la brume." nb="10"/>
+            <sous-type code="L3a.3" desc="&quot;se diriger à travers, vers un lieu&quot;" exemples="La route serpente à travers les collines, le chemin dévale vers le village." nb="15"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="L3b" desc="&quot;mettre qc qp, dans/ sur un lieu, autour de qc&quot; ou &quot;trouver, délimiter qc&quot;" nb="736">
+            <sous-type code="L3b.1" desc="&quot;mettre qc qp&quot;" exemples="On dépose une lettre à la poste centrale." nb="152"/>
+            <sous-type code="L3b.2" desc="&quot;mettre qc sur&quot;" exemples="On arbore un badge sur sa veste." nb="212"/>
+            <sous-type code="L3b.3" desc="&quot;mettre qc dans&quot;" exemples="On emmagasine les caisses dans l'entrepôt." nb="253"/>
+            <sous-type code="L3b.4" desc="&quot;trouver qc qp&quot;" exemples="On décèle du pétrole dans le sous-sol." nb="28"/>
+            <sous-type code="L3b.5" desc="&quot;être autour de/sur, etc.&quot;, sujet non-animé" exemples="Le château domine la plaine." nb="50"/>
+            <sous-type code="L3b.6" desc="&quot;être, se mettre autour de/sur, etc.&quot;, sujet humain" exemples="On boucle le quartier avec des forces de police." nb="41"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="L4" desc="&quot;être qp&quot; ; &quot;mettre qc qp&quot; * Figurés de L3" nb="177">
+         <sous-classe-syntaxique code="L4a" desc="&quot;être dans tel état, telle situation&quot; * Figurés de L3a" nb="60">
+            <sous-type code="L4a.1" desc="&quot;être qp, à un moment&quot;" exemples="L'humour apparaît nettement dans ce livre." nb="28"/>
+            <sous-type code="L4a.2" desc="&quot;être dans qc abstrait&quot;" exemples="Ceci entre dans vos attributions." nb="20"/>
+            <sous-type code="L4a.3" desc="&quot;être sur qc abstrait&quot;" exemples="L'accusation repose sur des preuves insuffisantes." nb="6"/>
+            <sous-type code="L4a.4" desc="&quot;être au début ou à la fin de qc&quot;" exemples="Cette rencontre prélude à une vraie négociation." nb="6"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="L4b" desc="&quot;mettre qc qp&quot; ou &quot;trouver qc qp&quot; * Figurés de L3b" nb="117">
+            <sous-type code="L4b.1" desc="&quot;mettre qc qp&quot;" exemples="On accumule de l'argent à la banque." nb="6"/>
+            <sous-type code="L4b.2" desc="&quot;mettre qc dans&quot;" exemples="On a niché cette idée dans sa tête." nb="28"/>
+            <sous-type code="L4b.3" desc="&quot;mettre qc sur&quot;" exemples="On aligne ses idées sur celle de Jean." nb="35"/>
+            <sous-type code="L4b.4" desc="&quot;mettre qc à, au risque de&quot;" exemples="On expose sa vie à de grands dangers." nb="11"/>
+            <sous-type code="L4b.5" desc="&quot;trouver qc qp&quot;" exemples="On trouve des obstacles sur son chemin." nb="3"/>
+            <sous-type code="L4b.6" desc="&quot;délimiter lieu abstrait&quot;" exemples="On circonscrit le problème en écartant les détails." nb="12"/>
+            <sous-type code="L4b.7" desc="&quot;mettre autour de&quot;" exemples="On entoure sa vie de mystère." nb="2"/>
+            <sous-type code="L4b.8" desc="&quot;mettre hors vue&quot;" exemples="On occulte la vérité en restant silencieux." nb="9"/>
+            <sous-type code="L4b.9" desc="&quot;être près de&quot;" exemples="On côtoie le ridicule." nb="11"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="M" desc="Verbes de mouvement" nb="1671">
+      <semantico-syntaxique code="M1" desc="&quot;faire un mouvement&quot;, sujet animé ; &quot;imprimer un mouvement à qn&quot;" nb="613">
+         <sous-classe-syntaxique code="M1a" desc="&quot;faire un ou des mouvements&quot;" nb="492">
+            <sous-type code="M1a.1" desc="&quot;faire un ou des mouvements&quot;" exemples="On bouge, on gesticule." nb="227"/>
+            <sous-type code="M1a.2" desc="&quot;avoir tel mouvement d'une partie du corps&quot;" exemples="Paul boite, boite de la jambe gauche." nb="28"/>
+            <sous-type code="M1a.3" desc="&quot;faire des mouvements qp, s'agiter&quot;" exemples="Les manifestants grouillent sur la place, la place grouille de manifestants." nb="9"/>
+            <sous-type code="M1a.4" desc="&quot;faire des mouvements du corps d'une certaine façon&quot;" exemples="On crawle dans la piscine." nb="149"/>
+            <sous-type code="M1a.5" desc="&quot;faire des mouvements au moyen de qc&quot;" exemples="On skie, on canote sur le lac." nb="30"/>
+            <sous-type code="M1a.6" desc="&quot;faire vite des mouvements, se presser&quot;" exemples="On bombe sur la route pour arriver à temps." nb="49"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="M1b" desc="&quot;faire mouvement qp, sur, contre&quot;" nb="75">
+            <sous-type code="M1b.1" desc="&quot;faire un mouvement de recherche dans un lieu" exemples="On furète dans le tiroir." nb="25"/>
+            <sous-type code="M1b.2" desc="&quot;faire un mouvement contre qn, qc&quot;" exemples="On fonce sur Paul, on se jette contre un arbre." nb="13"/>
+            <sous-type code="M1b.3" desc="&quot;faire un mouvement du corps sur tel lieu&quot;" exemples="On s'affale sur le trottoir." nb="37"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="M1c" desc="&quot;faire mouvement pour prendre ou éviter qn&quot; ou &quot;imprimer un mouvement à qn&quot;" nb="46">
+            <sous-type code="M1c.1" desc="&quot;faire mouvement pour prendre qn, un animal&quot;" exemples="On poursuit le voleur, on pourchasse le lièvre." nb="28"/>
+            <sous-type code="M1c.2" desc="&quot;faire mouvement pour éviter qn&quot;" exemples="L'avant-centre dribble un défenseur, on dribble pour aller au but." nb="5"/>
+            <sous-type code="M1c.3" desc="&quot;faire mouvement pour arrêter qn&quot;" exemples="On bloque Paul dans son bureau, la panne le bloque dans l'ascenseur." nb="7"/>
+            <sous-type code="M1c.4" desc="&quot;imprimer un mouvement à qn&quot;" exemples="On balance un enfant sur la balançoire, on se balance sur le fauteuil." nb="6"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="M2" desc="&quot;faire, imprimer, empêcher tel mouvement en pensée&quot; * Figurés de M1" nb="172">
+         <sous-classe-syntaxique code="M2a" desc="&quot;faire tel mouvement en pensée&quot; ou &quot;avoir atteint tel développement&quot;" nb="68">
+            <sous-type code="M2a.1" desc="&quot;faire tel mouvement abstrait&quot; intransitifs et pronominaux" exemples="Il ne cesse de tergiverser." nb="59"/>
+            <sous-type code="M2a.2" desc="&quot;avoir abouti ou non à tel état&quot; participes passés" exemples="Un hypocrite achevé." nb="9"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="M2b" desc="&quot;faire mouvement de céder, de s'abaisser, d'entrer dans tel état, de se révolter, de se hâter&quot;" nb="79">
+            <sous-type code="M2b.1" desc="&quot;céder devant, à qn/qc&quot;" exemples="Les parents capitulent devant les enfants, Paul s'incline devant la force." nb="27"/>
+            <sous-type code="M2b.2" desc="&quot;s'abaisser à faire, à être tel&quot;" exemples="On se ravale au rang de la bête, on s'abaisse à lui serrer la main." nb="7"/>
+            <sous-type code="M2b.3" desc="&quot;aller, tomber, entrer dans tel état abstrait&quot;" exemples="On retombe dans la délinquance." nb="14"/>
+            <sous-type code="M2b.4" desc="&quot;aller au-delà de, sur qn/qc&quot;" exemples="On enchérit sur Paul, sur les compliments qu'on fait de lui." nb="5"/>
+            <sous-type code="M2b.5" desc="&quot;faire mouvement contre qn, collectif&quot;" exemples="Le peuple s'est révolté contre le gouvernement." nb="12"/>
+            <sous-type code="M2b.6" desc="&quot;se donner du mouvement pour qc&quot; pronominaux correspondant à la classe M1a-6" exemples="On se démène pour réussir." nb="14"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="M2c" desc="&quot;imprimer un mouvement abstrait à qn&quot; ; &quot;empêcher le mouvement de qc/qn&quot;" nb="25">
+            <sous-type code="M2c.1" desc="&quot;imprimer un mouvement abstrait à qn&quot;" exemples="L'enseignant débute un élève en latin." nb="3"/>
+            <sous-type code="M2c.2" desc="&quot;empêcher le mouvement de qn&quot;" exemples="On retarde Paul par nos bavardages, nos bavardages retardent Paul." nb="6"/>
+            <sous-type code="M2c.3" desc="&quot;empêcher qn dans son action&quot;" exemples="On entrave Paul dans ses démarches." nb="16"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="M3" desc="&quot;faire tel mouvement&quot;, sujet non-animé ; &quot;imprimer tel mouvement à qc&quot;" nb="502">
+         <sous-classe-syntaxique code="M3a" desc="&quot;faire tel mouvement&quot;" nb="337">
+            <sous-type code="M3a.1" desc="&quot;faire tel mouvement&quot;" exemples="La voiture recule, les épis ondulent, les branches se courbent." nb="294"/>
+            <sous-type code="M3a.2" desc="&quot;faire tel mouvement vers, sur ou contre&quot;" exemples="La voiture fonce sur nous." nb="20"/>
+            <sous-type code="M3a.3" desc="&quot;augmenter ou diminuer de tant, faire mouvement vers le haut/bas&quot;" exemples="La température croît beaucoup, la voiture ralentit un peu." nb="23"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="M3b" desc="&quot;imprimer tel mouvement à qc&quot;" nb="104">
+            <sous-type code="M3b.1" desc="&quot;imprimer un mouvement à une partie du corps&quot;" exemples="On hoche la tête." nb="54"/>
+            <sous-type code="M3b.2" desc="&quot;imprimer un mouvement à un véhicule ou un objet&quot;" exemples="On manoeuvre un bateau à la voile." nb="50"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="M3c" desc="&quot;augmenter ou diminuer qc&quot;" exemples="On relève fortement les virages de la route." nb="61"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="M4" desc="&quot;faire tel mouvement&quot;, sujet non-animé ; &quot;imprimer tel mouvement à qc&quot; * Figurés de M3" nb="384">
+         <sous-classe-syntaxique code="M4a" desc="&quot;faire tel mouvement&quot;" nb="230">
+            <sous-type code="M4a.1" desc="&quot;faire mouvement vers le haut ou le bas, augmenter, baisser&quot;" exemples="Les prix bougent avec l'inflation, les cours du dollar s'effondrent." nb="53"/>
+            <sous-type code="M4a.2" desc="&quot;faire mouvement qp&quot;" exemples="Les souvenirs défilent dans son esprit." nb="20"/>
+            <sous-type code="M4a.3" desc="&quot;faire mouvement dans le temps, durer&quot;" exemples="La crise continue toujours, les jours s'écoulent lentement." nb="61"/>
+            <sous-type code="M4a.4" desc="&quot;augmenter ou diminuer de tant&quot;" exemples="L'angoisse croît un peu." nb="73"/>
+            <sous-type code="M4a.5" desc="&quot;aller bien, mal, fort&quot;" exemples="Ça boume, les affaires marchent mal." nb="23"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="M4b" desc="&quot;imprimer un mouvement d'augmentation, de diminution, un début ou une fin à qc&quot;" nb="154">
+            <sous-type code="M4b.1" desc="&quot;augmenter, diminuer le temps, la quantité, la valeur de qc abstrait&quot;" exemples="Les ministres ont hâté la fin des négociations." nb="100"/>
+            <sous-type code="M4b.2" desc="&quot;commencer ou finir qc abstrait&quot;" exemples="Paul entame la journée par le petit déjeuner." nb="54"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="N" desc="Verbes de type &quot;munir/démunir&quot;" nb="3175">
+      <semantico-syntaxique code="N1" desc="&quot;munir ou démunir qn de qc&quot;" nb="624">
+         <sous-classe-syntaxique code="N1a" desc="&quot;munir qn de qc&quot;, &quot;se munir de qc&quot;" nb="163">
+            <sous-type code="N1a.1" desc="&quot;se munir de qc&quot;" exemples="Jean se cravate tous les matins." nb="70"/>
+            <sous-type code="N1a.2" desc="&quot;munir qn de qc qp&quot;" exemples="Le commerçant gante Paul de gants de cuir souple." nb="93"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="N1b" desc="&quot;démunir, priver qn de qc&quot; * Inverses de N1a" nb="153">
+            <sous-type code="N1b.1" desc="&quot;se démunir de qc&quot;" exemples="Pierre se déshabille pour se coucher." nb="31"/>
+            <sous-type code="N1b.2" desc="&quot;démunir qn de qc&quot;" exemples="On débarrasse Paul de ses paquets." nb="122"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="N1c" desc="&quot;munir qn, son corps, de substance, mal&quot;" nb="208">
+            <sous-type code="N1c.1" desc="&quot;munir qn de qc, avec qc, à qc&quot;" exemples="La mère alimente l'enfant de lait pasteurisé." nb="54"/>
+            <sous-type code="N1c.2" desc="&quot;se munir de qc&quot; (aliment, boisson, drogue)&quot;" exemples="On se goinfre de chocolat, ses parents le goinfrent de pâtes." nb="36"/>
+            <sous-type code="N1c.3" desc="&quot;doter qn, son corps de qc&quot;" exemples="Le médecin a vacciné Jean (d'un vaccin) contre la grippe." nb="56"/>
+            <sous-type code="N1c.4" desc="&quot;se doter, être doté de bien ou mal, de quantité, de maladie&quot;" exemples="Pierre s'est étoffé avec ce régime, ce régime a étoffé ses hanches." nb="33"/>
+            <sous-type code="N1c.5" desc="&quot;doter qn de qc en bien ou en mal&quot;" exemples="Son père l'a gratifié d'une belle gifle." nb="29"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="N1d" desc="&quot;démunir, priver qn, animal de qc (partie du corps, mal)&quot; * Inverses de N1c" nb="100">
+            <sous-type code="N1d.1" desc="&quot;démunir, priver qn, animal de qc (partie du corps, mal)&quot; transitifs" exemples="Le chirurgien a amputé Paul de la jambe gauche, les barbares ont énasé les prisonniers." nb="92"/>
+            <sous-type code="N1d.2" desc="&quot;démunir, priver qn, animal de qc (partie du corps, mal)&quot; transitifs indirects ou pronominaux" exemples="Pierre a guéri, s'est guéri de son rhume, Pierre a/est guéri." nb="8"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="N2" desc="&quot;munir qn de qc&quot; * Figurés de N1" nb="324">
+         <sous-classe-syntaxique code="N2a" desc="&quot;munir, doter qn de qc&quot; * Figurés de N1a et N1c" nb="231">
+            <sous-type code="N2a.1" desc="&quot;doter qn de qc&quot;" exemples="On a gratifié le garçon d'un bon pourboire." nb="171"/>
+            <sous-type code="N2a.2" desc="&quot;munir qn contre qc&quot;" exemples="Ses parents ont prémuni Paul contre les accidents en souscrivant une assurance." nb="24"/>
+            <sous-type code="N2a.3" desc="&quot;se doter de qc tel&quot;" exemples="Paul s'est intitulé kinésithérapeute." nb="4"/>
+            <sous-type code="N2a.4" desc="&quot;se munir de qc&quot;" exemples="Paul s'aide d'un dictionnaire pour traduire." nb="12"/>
+            <sous-type code="N2a.5" desc="&quot;être doté de qc abstrait&quot;" exemples="Cet individu est taré." nb="20"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="N2b" desc="&quot;démunir, priver qn de qc, se défaire de&quot; * Figurés de N1b et N1d" nb="93">
+            <sous-type code="N2b.1" desc="&quot;priver qn de qc&quot;" exemples="Les parents déshéritent leur fille." nb="72"/>
+            <sous-type code="N2b.2" desc="&quot;se défaire, se passer de qc&quot;" exemples="Paul ne se départit pas de son calme malgré les critiques." nb="15"/>
+            <sous-type code="N2b.3" desc="&quot;être privé de qc&quot;" exemples="Paul est dépourvu de conscience." nb="6"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="N3" desc="&quot;munir ou démunir qc de qc&quot;" nb="1954">
+         <sous-classe-syntaxique code="N3a" desc="&quot;munir, décorer, imprégner qc de qc&quot;" nb="841">
+            <sous-type code="N3a.1" desc="&quot;munir, décorer, couvrir, imprégner qc de objet, substance, forme ou liquide&quot;" exemples="L'informaticien a formaté les disquettes." nb="818"/>
+            <sous-type code="N3a.2" desc="&quot;doter lieu, qn de qc&quot;" exemples="Le grossiste approvisionne les magasins, le commerçant en légumes frais, on s'approvisionne en tabac auprès du débitant." nb="23"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="N3b" desc="&quot;démunir qc de qc&quot; * Inverses de N3a" nb="532">
+            <sous-type code="N3b.1" desc="&quot;démunir qc (objet, partie de l'objet, substance, liquide) de qc&quot;" exemples="On déboise imprudemment la colline." nb="514"/>
+            <sous-type code="N3b.2" desc="&quot;se démunir de qc, perdre qc&quot;" exemples="Les finales des mots se sont désaccentuées." nb="18"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="N3c" desc="&quot;munir, remplir lieu de qc&quot;" exemples="On remplit le trou de terre, le trou se remplit d'eau, la terre remplit le trou" nb="487"/>
+         <sous-classe-syntaxique code="N3d" desc="&quot;démunir, vider qc (lieu, surface, contenant) de qc, de qn&quot; * Inverses de N3c" nb="94">
+            <sous-type code="N3d.1" desc="&quot;débarrasser un lieu de qc&quot;" exemples="On balaie la pièce de toute sa poussière." nb="54"/>
+            <sous-type code="N3d.2" desc="&quot;vider un lieu par vol&quot;" exemples="Les voleurs ont cambriolé la maison des parents." nb="11"/>
+            <sous-type code="N3d.3" desc="&quot;se vider de&quot;" exemples="Le ciel se dégage, le vent dégage le ciel de ses nuages d'orage." nb="8"/>
+            <sous-type code="N3d.4" desc="&quot;vider un lieu de qn pluriel&quot;" exemples="On purge l'assemblée de ses éléments douteux." nb="21"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="N4" desc="&quot;munir qc de qc&quot; * Figurés de N3" nb="273">
+         <sous-classe-syntaxique code="N4a" desc="&quot;munir qc de qc&quot; abstraits ou * Figurés de N3a et N3c" exemples="On annote le livre de remarques critiques." nb="203"/>
+         <sous-classe-syntaxique code="N4b" desc="&quot;démunir qc de qc&quot; * Figurés Inverses de N4a" nb="70">
+            <sous-type code="N4b.1" desc="&quot;démunir, priver qc de qc&quot;" exemples="L'auteur abrège le scénario d'une scène, cet article ne s'abrège pas facilement." nb="59"/>
+            <sous-type code="N4b.2" desc="&quot;priver qc de valeur&quot;" exemples="Le gouvernement a dévalué la monnaie en faisant flotter les cours, l'inflation a dévalué la lire." nb="11"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="P" desc="Verbes psychologiques" nb="2074">
+      <semantico-syntaxique code="P1" desc="&quot;avoir tel sentiment, telle activité consciente&quot;" nb="1159">
+         <sous-classe-syntaxique code="P1a" desc="&quot;être dans tel état psychologique&quot;, &quot;avoir tel sentiment&quot;" exemples="Jean s'éclate au concert, Jean se fane à la fin de la journée." nb="211"/>
+         <sous-classe-syntaxique code="P1b" desc="&quot;manifester physiquement sentiment de joie, de douleur&quot;" exemples="Paul rit, pleure, la mère est éplorée devant le cadavre de son fils, Jean se marre." nb="34"/>
+         <sous-classe-syntaxique code="P1c" desc="&quot;avoir telle manifestation physique due à tel sentiment&quot;, &quot;avoir tel sentiment pour/contre&quot;" nb="214">
+            <sous-type code="P1c.1" desc="&quot;manifester physiquement tel sentiment violent&quot;" exemples="Jean écume de rage, Paul se consume d'envie." nb="57"/>
+            <sous-type code="P1c.2" desc="&quot;manifester tel sentiment pour qn, qc&quot;" exemples="Paul s'amourache de cette fille, s'entiche de musique baroque." nb="140"/>
+            <sous-type code="P1c.3" desc="&quot;manifester tel sentiment contre qn, qc&quot;" exemples="Jean rage contre les importuns, contre les impôts." nb="17"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="P1d" desc="&quot;avoir tel sentiment portant sur qc ou poussant à qc&quot;" nb="70">
+            <sous-type code="P1d.1" desc="&quot;avoir tel sentiment sur qn, qc&quot;" exemples="On table sur des rentrées d'argent, sur Paul pour nous aider." nb="24"/>
+            <sous-type code="P1d.2" desc="&quot;avoir tel sentiment d'attente après qn, qc&quot;" exemples="On languit après Jean." nb="12"/>
+            <sous-type code="P1d.3" desc="&quot;avoir tel sentiment poussant à&quot;" exemples="Paul aspire à vous satisfaire." nb="34"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="P1e" desc="&quot;avoir telle activité mentale&quot;" nb="180">
+            <sous-type code="P1e.1" desc="&quot;avoir telle activité mentale&quot;" exemples="Jean réfléchit, pense, raisonne, oublie." nb="107"/>
+            <sous-type code="P1e.2" desc="&quot;avoir l'esprit bien ou mal&quot;" exemples="Cet enfant est éveillé, Jean est malavisé de t'écouter." nb="73"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="P1f" desc="&quot;avoir telle activité mentale dirigée sur tel objet&quot;" nb="71">
+            <sous-type code="P1f.1" desc="&quot;penser à&quot;" exemples="Paul réfléchit à divers projets." nb="25"/>
+            <sous-type code="P1f.2" desc="&quot;croire en/dans&quot;" exemples="Jean espère dans la réussite de son fils, il espère en toi." nb="7"/>
+            <sous-type code="P1f.3" desc="&quot;penser de&quot;" exemples="Jean doute de tout, même de lui-même." nb="13"/>
+            <sous-type code="P1f.4" desc="&quot;penser sur&quot;" exemples="Jean médite sur une vengeance possible." nb="26"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="P1g" desc="&quot;prendre qc comme objet d'activité mentale&quot;" nb="89">
+            <sous-type code="P1g.1" desc="&quot;avoir activité mentale portant sur tel objet&quot;" exemples="On contemple l'ampleur du désastre, combien le désastre est grand." nb="68"/>
+            <sous-type code="P1g.2" desc="&quot;se représenter qc en esprit&quot;" exemples="On s'imagine être directeur, que l'avenir est riant." nb="21"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="P1h" desc="&quot;avoir l'esprit tendu vers&quot;" nb="97">
+            <sous-type code="P1h.1" desc="&quot;avoir l'esprit tendu vers&quot; avec préposition à" exemples="Jean pense à reprendre ses études de médecine, apprend à travailler." nb="83"/>
+            <sous-type code="P1h.2" desc="&quot;avoir l'esprit tendu vers&quot; avec préposition de" exemples="Jean essaye de descendre le Verdon en canoë." nb="14"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="P1i" desc="&quot;avoir tel sentiment portant sur qc&quot;" nb="102">
+            <sous-type code="P1i.1" desc="&quot;avoir tel sentiment portant sur tel objet ou sur qn&quot;" exemples="On garde l'espoir de retrouver la santé." nb="22"/>
+            <sous-type code="P1i.2" desc="&quot;avoir tel sentiment à l'égard de qc&quot;" exemples="On aime la campagne, la chaleur." nb="78"/>
+            <sous-type code="P1i.3" desc="&quot;avoir tel sentiment d'attente à propos de qn&quot;" exemples="On escompte de Paul qu'il nous aide." nb="2"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="P1j" desc="&quot;avoir tel sentiment à l'égard de qn&quot;" exemples="Jean chouchoute son fils, vénère ses maîtres, adore sa femme." nb="91"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="P2" desc="&quot;faire avoir tel sentiment à qn, l'augmenter ou le diminuer&quot;" nb="536">
+         <sous-classe-syntaxique code="P2a" desc="&quot;induire tel sentiment chez qn&quot;" nb="438">
+            <sous-type code="P2a.1" desc="&quot;faire avoir à qn tel ou tel sentiment&quot;" exemples="Tu finis par le démotiver à force de reproches, il a fini par se démotiver." nb="367"/>
+            <sous-type code="P2a.2" desc="&quot;mettre dans l'erreur, tromper&quot;" exemples="Jean a enjôlé la vieille dame avec ses discours." nb="71"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="P2b" desc="&quot;donner tel sentiment à qn&quot;" exemples="Ce garçon plaît, déplaît fortement à Jacqueline, puisqu'ils se déplaisent, je ne vois pas pourquoi ils sont toujours ensemble." nb="18"/>
+         <sous-classe-syntaxique code="P2c" desc="&quot;augmenter, diminuer, remplir tel sentiment chez qn&quot;" nb="80">
+            <sous-type code="P2c.1" desc="&quot;augmenter ou diminuer tel sentiment chez qn&quot;" exemples="On attise la haine de Paul par notre arrogance." nb="8"/>
+            <sous-type code="P2c.2" desc="&quot;remplir sentiment&quot;" exemples="On a satisfait notre curiosité avec cette information, ce livre a satisfait notre curiosité." nb="70"/>
+            <sous-type code="P2c.3" desc="&quot;répondre ou ne pas répondre à qc&quot;" exemples="Le candidat satisfait aux conditions exigées." nb="2"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="P3" desc="&quot;manifester telle activité réflexive sur qn/qc&quot;" nb="379">
+         <sous-classe-syntaxique code="P3a" desc="&quot;diriger son esprit, son activité réflexive sur qn&quot;" exemples="Le psychanalyste analyse Paul toutes les semaines, on s'analyse avant de devenir psychanalyste." nb="71"/>
+         <sous-classe-syntaxique code="P3b" desc="&quot;diriger son esprit, son activité réflexive sur qc&quot;" nb="136">
+            <sous-type code="P3b.1" desc="&quot;examiner qc&quot;" exemples="On a analysé le texte soumis à notre critique, le texte s'analyse facilement." nb="113"/>
+            <sous-type code="P3b.2" desc="&quot;remarquer qc&quot;" exemples="On note le changement intervenu, qu'il y a eu un changement, un changement s'est noté." nb="23"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="P3c" desc="&quot;avoir ou ne pas avoir la connaissance de qc, de qn&quot;" nb="172">
+            <sous-type code="P3c.1" desc="&quot;connaître ou ignorer qc&quot;" exemples="Jean ignore tout du drame, comment l'accident a pu se produire." nb="168"/>
+            <sous-type code="P3c.2" desc="&quot;reconnaître qn, qc dans autre&quot; avec complément en dans et pronominal à sujet humain" exemples="On reconnaît dans le fils les qualités du père, je me reconnais bien dans mon fils." nb="4"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="R" desc="Verbes de type &quot;réaliser&quot;" nb="2289">
+      <semantico-syntaxique code="R1" desc="&quot;mettre en état le corps de qn&quot;" nb="75">
+         <sous-classe-syntaxique code="R1a" desc="&quot;mettre en état le corps de qn, d'un animal&quot;, &quot;faire ou défaire une opération sur le corps de qn&quot;" nb="75">
+            <sous-type code="R1a.1" desc="&quot;faire sa toilette&quot;" exemples="On se lave le soir, on se lave les mains avant le repas, on lave le malade grabataire." nb="26"/>
+            <sous-type code="R1a.2" desc="&quot;mettre en état qn ou partie de son corps&quot;" exemples="La maquilleuse grime le visage de Paul, on se grime devant le miroir." nb="3"/>
+            <sous-type code="R1a.3" desc="&quot;faire une opération sur qn, sur animal&quot;" exemples="Le médecin dialyse les patients qui souffrent d'urémie." nb="28"/>
+            <sous-type code="R1a.4" desc="&quot;défaire l'opération effectuée, l'état de qn&quot;" exemples="On démaquille ses yeux tous les soirs, on se démaquille le soir." nb="18"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="R2" desc="&quot;créer qn, un personnage&quot;" nb="38">
+         <sous-classe-syntaxique code="R2a" desc="&quot;créer qn ou le faire tel, autre&quot;" nb="38">
+            <sous-type code="R2a.1" desc="&quot;faire qn&quot;" exemples="On a fabriqué cette vedette à coups de publicité." nb="4"/>
+            <sous-type code="R2a.2" desc="&quot;faire tel&quot;" exemples="Jean a moulé son fils à son image, il s'est moulé sur le modèle d'Henri." nb="3"/>
+            <sous-type code="R2a.3" desc="&quot;faire tel, bien, mal, autre&quot;" exemples="Henri a suborné le témoin avec de l'argent, l'argent a suborné le témoin." nb="31"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="R3" desc="&quot;fabriquer qc&quot; ; &quot;mettre qc en un certain état&quot;" nb="1760">
+         <sous-classe-syntaxique code="R3a" desc="&quot;fabriquer, construire qc avec un appareil, un outil&quot;, &quot;prendre la forme de qc&quot;" nb="289">
+            <sous-type code="R3a.1" desc="&quot;faire qc, un objet&quot;" exemples="Le graveur a gravé les illustrations du livre." nb="220"/>
+            <sous-type code="R3a.2" desc="&quot;construire, fabriquer ou reproduire qc&quot;" exemples="Le maçon truelle un mur, on dessine des baigneurs." nb="56"/>
+            <sous-type code="R3a.3" desc="&quot;prendre la forme de&quot;" exemples="La robe épouse la taille de Jeanne." nb="12"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R3b" desc="&quot;faire une opération sur qc pour modifier, produire&quot; ou &quot;défaire une opération faite&quot;" nb="293">
+            <sous-type code="R3b.1" desc="&quot;faire l'opération pour modifier ou créer&quot;" exemples="Le viticulteur chaptalise le vin." nb="146"/>
+            <sous-type code="R3b.2" desc="&quot;défaire l'opération faite&quot;" exemples="Le viticulteur déchaptalise le vin." nb="147"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R3c" desc="&quot;préparer, arranger, traiter qc d'une certaine manière&quot;" nb="260">
+            <sous-type code="R3c.1" desc="&quot;mettre en état aliment&quot;" exemples="Le cuisinier accommode la salade avec des épices." nb="64"/>
+            <sous-type code="R3c.2" desc="&quot;mettre en état en modifiant&quot;" exemples="Les techniciens biotraitent les eaux usées." nb="30"/>
+            <sous-type code="R3c.3" desc="&quot;mettre en état conforme, arranger&quot;" exemples="On raccommode une veste déchirée." nb="53"/>
+            <sous-type code="R3c.4" desc="&quot;mettre en état à la façon de&quot;" exemples="Le métallurgiste damasse le fer." nb="36"/>
+            <sous-type code="R3c.5" desc="&quot;mettre qc en état varié&quot;" exemples="L'artiste module ses bleus." nb="13"/>
+            <sous-type code="R3c.6" desc="&quot;mettre en état avec appareil, donner une façon&quot;" exemples="Le cultivateur herse le champ." nb="64"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R3d" desc="&quot;mettre qc en marche, en mouvement&quot;" nb="39">
+            <sous-type code="R3d.1" desc="&quot;mettre qc en marche ou en action&quot;" exemples="On allume la télé le soir, la télé ne s'allume plus." nb="29"/>
+            <sous-type code="R3d.2" desc="&quot;mettre qc en mouvement&quot;" exemples="On manipule le volant avec brutalité, cet appareil doit se manipuler avec prudence." nb="10"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R3e" desc="&quot;modifier pour mettre en état, en ordre ou en désordre&quot;" nb="111">
+            <sous-type code="R3e.1" desc="&quot;modifier qc pour mettre en état conforme&quot;" exemples="On accorde un piano désaccordé, on règle la minuterie." nb="13"/>
+            <sous-type code="R3e.2" desc="&quot;modifier qc pour mettre en ordre, mettre en une structure donnée, mettre en un état nouveau&quot;" exemples="On bricole une installation pour l'adapter." nb="27"/>
+            <sous-type code="R3e.3" desc="&quot;modifier un lieu en le mettant en un nouvel état&quot;" exemples="Les autorités ont aménagé le territoire pour répartir les activités industrielles." nb="9"/>
+            <sous-type code="R3e.4" desc="&quot;modifier qc, un lieu en mettant en désordre ou en état mauvais&quot;" exemples="On a chamboulé le bureau, les dossiers." nb="62"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R3f" desc="&quot;faire une opération en modifiant, creusant, coupant, polissant, trouant qc&quot;" nb="417">
+            <sous-type code="R3f.1" desc="&quot;couper, écraser, tailler, creuser ou polir qc&quot; avec instrumental intégré" exemples="Le cultivateur a fauché le blé en août." nb="104"/>
+            <sous-type code="R3f.2" desc="&quot;couper qc en donnant une forme&quot;" exemples="Le miroitier biseaute le miroir." nb="43"/>
+            <sous-type code="R3f.3" desc="&quot;donner une forme lisse, finie dans un dessein précis&quot;" exemples="On décape les planches pour les peindre." nb="76"/>
+            <sous-type code="R3f.4" desc="&quot;faire un trou dans qc&quot;" exemples="On troue le mur avec une perceuse, la perceuse électrique troue rapidement le plafond." nb="105"/>
+            <sous-type code="R3f.5" desc="&quot;creuser le sol pour cultiver&quot;" exemples="Le cultivateur laboure le champ en automne, ces terres se labourent" nb="89"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R3g" desc="&quot;nettoyer, éponger en ôtant qc, un liquide&quot;" exemples="On savonne les carreaux de la salle (= nettoie avec du savon)." nb="50"/>
+         <sous-classe-syntaxique code="R3h" desc="&quot;broyer, triturer avec les dents&quot;" exemples="Pierre mordille son crayon." nb="20"/>
+         <sous-classe-syntaxique code="R3i" desc="&quot;mettre en morceaux, diviser&quot; ; &quot;être mis en morceaux, se diviser&quot;" nb="210">
+            <sous-type code="R3i.1" desc="&quot;mettre en morceaux, diviser en parties&quot;" exemples="On fracasse la noix sur la planche, le bateau se fracasse sur les rochers." nb="186"/>
+            <sous-type code="R3i.2" desc="&quot;être mis en morceaux&quot;" exemples="Le verre casse en petits morceaux, le vase se casse en deux, le choc a cassé le vase en deux." nb="21"/>
+            <sous-type code="R3i.3" desc="&quot;se diviser&quot;" exemples="La route fourche." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R3j" desc="&quot;prendre la mesure de qc selon étalon&quot;" exemples="On pèse les pommes de terre avec une balance, on évalue la durée à dix secondes." nb="71"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="R4" desc="&quot;fabriquer qc&quot; * Figurés de R3" nb="417">
+         <sous-classe-syntaxique code="R4a" desc="&quot;réaliser une oeuvre d'esprit&quot;" nb="82">
+            <sous-type code="R4a.1" desc="&quot;réaliser une oeuvre d'esprit&quot;, sujet humain" exemples="Le musicien a écrit une sonate, l'orateur improvise un discours." nb="77"/>
+            <sous-type code="R4a.2" desc="&quot;réaliser une oeuvre d'esprit&quot;, sujet non-animé" exemples="Cet ouvrage réalise le vrai type de roman." nb="5"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R4b" desc="&quot;réaliser une action, une forme&quot; &quot;réaliser une action, une forme&quot; * Figurés de R3a" nb="111">
+            <sous-type code="R4b.1" desc="&quot;réaliser une action&quot;" exemples="Les meneurs fomentent une révolte." nb="103"/>
+            <sous-type code="R4b.2" desc="&quot;réaliser la forme de&quot;" exemples="Cet homme personnifie la bêtise." nb="8"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R4c" desc="&quot;mettre qc en état meilleur, mauvais, nouveau, hors du connu, lui donner une certaine structure&quot; * Figurés de R3c et R3e" nb="126">
+            <sous-type code="R4c.1" desc="&quot;mettre en un état nouveau, meilleur, complexe, faux&quot;" exemples="On complique inutilement la situation, la situation se complique." nb="82"/>
+            <sous-type code="R4c.2" desc="&quot;organiser selon une certaine structure, agencer&quot;" exemples="On organise le service selon ses directives." nb="17"/>
+            <sous-type code="R4c.3" desc="&quot;mettre qc dans un état mauvais, pire, souiller&quot;" exemples="On corrompt le goût de ses enfants par cette cuisine, son goût se corrompt au contact de Paul." nb="19"/>
+            <sous-type code="R4c.4" desc="&quot;mettre qc hors de la vue, hors du connu, masquer&quot;" exemples="On déguise sa voix, son écriture." nb="8"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R4d" desc="&quot;organiser, disposer qc d'une certaine manière, bonne ou mauvaise&quot;" nb="57">
+            <sous-type code="R4d.1" desc="&quot;mettre en ordre, organiser bien ou mal&quot;" exemples="On ordonne bien ses idées avant d'agir." nb="22"/>
+            <sous-type code="R4d.2" desc="&quot;créer en organisant&quot;" exemples="On trafique quelque chose de louche, je me demande ce qui se trafique." nb="35"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="R4e" desc="&quot;mettre en morceaux, en pièces&quot; * Figurés de R3j" nb="41">
+            <sous-type code="R4e.1" desc="&quot;diviser en parties&quot;" exemples="On décompose la brasse en plusieurs mouvements, ce texte se décompose en plusieurs parties." nb="22"/>
+            <sous-type code="R4e.2" desc="&quot;mettre en morceaux&quot;" exemples="On émiette les responsabilités à tous niveaux, les efforts s'émiettent et sont vains." nb="12"/>
+            <sous-type code="R4e.3" desc="&quot;mettre en pièces, briser, couper qc&quot;" exemples="On démembre un réseau." nb="7"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="S" desc="Verbes de saisie ou de possession" nb="1671">
+      <semantico-syntaxique code="S1" desc="&quot;saisir, arrêter, serrer qn&quot;" nb="247">
+         <sous-classe-syntaxique code="S1a" desc="&quot;prendre qn, un animal&quot;" nb="165">
+            <sous-type code="S1a.1" desc="&quot;prendre qn&quot;" exemples="La police a appréhendé plusieurs individus dans la rue." nb="95"/>
+            <sous-type code="S1a.2" desc="&quot;prendre un animal&quot;" exemples="Les marins chalutent le thon au large des côtes, on chalute au large de l'Espagne." nb="55"/>
+            <sous-type code="S1a.3" desc="&quot;prendre qn à qn&quot;" exemples="Le tribunal a enlevé sa fille à la mère." nb="15"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S1b" desc="&quot;saisir qn pour prendre contact&quot;" nb="48">
+            <sous-type code="S1b.1" desc="&quot;saisir pour contacter, accueillir qn&quot;" exemples="On a harponné Paul dans la rue pour lui parler." nb="46"/>
+            <sous-type code="S1b.2" desc="&quot;tomber sur qn&quot;" exemples="On saute sur Paul dès la première heure, de peur de le manquer." nb="2"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S1c" desc="&quot;saisir qn en serrant, en pressant sur son corps, serrer qn&quot;" nb="34">
+            <sous-type code="S1c.1" desc="&quot;saisir en mettant sur/contre&quot;" exemples="Jean la presse sur son coeur, elle se presse contre sa poitrine." nb="14"/>
+            <sous-type code="S1c.2" desc="&quot;saisir en serrant&quot;" exemples="Paul pince le bras de son voisin, pince son voisin." nb="14"/>
+            <sous-type code="S1c.3" desc="&quot;serrer étroitement&quot;" exemples="Cette veste le bride, il est étriqué dans sa veste." nb="6"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="S2" desc="&quot;prendre, choisir qn&quot; ; &quot;abandonner qn, une action&quot;" nb="171">
+         <sous-classe-syntaxique code="S2a" desc="&quot;se saisir de qc, se tenir à qc&quot; * Figurés de S1b" nb="22">
+            <sous-type code="S2a.1" desc="&quot;se saisir de qc&quot;" exemples="On s'empare d'un prétexte pour partir." nb="5"/>
+            <sous-type code="S2a.2" desc="&quot;se tenir à qc&quot;" exemples="Paul se cramponne à ce petit espoir." nb="7"/>
+            <sous-type code="S2a.3" desc="&quot;saisir qc en retenant&quot;" exemples="Paul a mordu aux maths." nb="10"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S2b" desc="&quot;prendre qn pour soi ou enlever qn à&quot; * Figurés de S1a" nb="31">
+            <sous-type code="S2b.1" desc="&quot;prendre qn durablement pour soi&quot;" exemples="On a monopolisé Paul pour la journée." nb="26"/>
+            <sous-type code="S2b.2" desc="&quot;prendre qn à qc, qn&quot;" exemples="On arrache Paul à ses études." nb="5"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S2c" desc="&quot;employer qn, se servir de lui&quot;" exemples="On profite de Paul en lui demandant sans cesse des services." nb="9"/>
+         <sous-classe-syntaxique code="S2d" desc="&quot;abandonner ou manquer qn&quot;" nb="58">
+            <sous-type code="S2d.1" desc="&quot;abandonner qn&quot;" exemples="Jean a lâché ses amis." nb="46"/>
+            <sous-type code="S2d.2" desc="&quot;se séparer de qn&quot;" exemples="Jeanne s'est séparée de Paul." nb="5"/>
+            <sous-type code="S2d.3" desc="&quot;manquer qn&quot;" exemples="On a raté Paul de quelques minutes." nb="7"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S2e" desc="&quot;abandonner ou empêcher une action&quot; * Figurés" nb="24">
+            <sous-type code="S2e.1" desc="&quot;lâcher qc&quot;" exemples="On a abandonné la lutte par découragement, le boxeur abandonne au troisième round." nb="8"/>
+            <sous-type code="S2e.2" desc="&quot;empêcher qn de qc&quot;" exemples="On l'a dispensé de faire cette corvée, on se dispense de cette corvée." nb="16"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S2f" desc="&quot;prendre qn chez soi&quot; ou &quot;prendre qn tel, choisir&quot;" nb="27">
+            <sous-type code="S2f.1" desc="&quot;prendre qn dans un lieu où on est&quot;" exemples="La maîtresse de maison accueille ses invités dans son nouvel appartement." nb="6"/>
+            <sous-type code="S2f.2" desc="&quot;prendre qn tel&quot;" exemples="Les électeurs l'ont élu député." nb="21"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="S3" desc="&quot;saisir, garder qc&quot; ; &quot;tirer, tordre qc&quot; leurs inverses" nb="773">
+         <sous-classe-syntaxique code="S3a" desc="&quot;prendre qc avec partie du corps ou instrument&quot;" nb="116">
+            <sous-type code="S3a.1" desc="&quot;prendre qc avec qc&quot;" exemples="Le joueur a attrapé la balle avec la main." nb="92"/>
+            <sous-type code="S3a.2" desc="&quot;prendre qc par vol&quot;" exemples="On pille des marchandises dans le hangar." nb="24"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S3b" desc="&quot;ne pas prendre, laisser, manquer qc&quot; * Inverses de S3a" nb="33">
+            <sous-type code="S3b.1" desc="&quot;ne pas prendre, abandonner, jeter, perdre qc&quot;" exemples="On a bazardé tous les vieux meubles avant de déménager." nb="29"/>
+            <sous-type code="S3b.2" desc="&quot;manquer un moyen de transport&quot;" exemples="On rate l'avion pour quelques minutes." nb="4"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S3c" desc="&quot;prendre qc de mauvais de qn&quot; ; &quot;éviter de prendre qc de mauvais&quot;" nb="18">
+            <sous-type code="S3c.1" desc="&quot;prendre un coup, qc de mauvais&quot;" exemples="Le boxeur encaisse un direct de son adversaire." nb="15"/>
+            <sous-type code="S3c.2" desc="&quot;éviter un coup&quot;" exemples="Paul a paré le coup qui venait de très haut." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S3d" desc="&quot;prendre en tirant, levant ; &quot;presser en poussant, serrant&quot;" nb="176">
+            <sous-type code="S3d.1" desc="&quot;tirer, lever dans une direction donnée&quot;" exemples="On soulève une pierre avec un treuil." nb="132"/>
+            <sous-type code="S3d.2" desc="&quot;presser, serrer qc&quot;" exemples="On dame la neige avant que les skieurs ne descendent." nb="44"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S3e" desc="&quot;défaire ce qui est serré, tendu&quot; * Inverses de S3d" exemples="On détend un ressort, le ressort se détend." nb="19"/>
+         <sous-classe-syntaxique code="S3f" desc="&quot;tordre en étirant, pressant&quot;" nb="20">
+            <sous-type code="S3f.1" desc="&quot;tordre en donnant une forme&quot; transitif" exemples="Le menuisier cambre une pièce de bois." nb="19"/>
+            <sous-type code="S3f.2" desc="&quot;tordre, être tordu&quot; transitif et intransitif" exemples="On gauchit la clé en forçant, l'humidité gauchit la porte, la porte gauchit, se gauchit sous l'effet de l'humidité." nb="1"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S3g" desc="&quot;prendre, occuper un lieu&quot;" nb="57">
+            <sous-type code="S3g.1" desc="&quot;occuper un lieu&quot;" exemples="Un fantôme hante le château." nb="42"/>
+            <sous-type code="S3g.2" desc="&quot;prendre un lieu par force&quot;" exemples="L'ennemi a conquis la région avec des chars." nb="9"/>
+            <sous-type code="S3g.3" desc="&quot;aborder un lieu&quot;" exemples="On aborde le rivage après trois jours de mer, on aborde au Havre." nb="6"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S3h" desc="&quot;abandonner un lieu&quot; * Inverses de S3g" exemples="Les Parisiens délaissent la ville par grandes chaleurs, on abandonne le village devenu désert." nb="15"/>
+         <sous-classe-syntaxique code="S3i" desc="&quot;prendre en arrêtant, en bloquant&quot;" exemples="On paralyse l'usine par la grève, la grève paralyse l'usine." nb="41"/>
+         <sous-classe-syntaxique code="S3j" desc="&quot;ingérer qc, prendre un repas&quot;" nb="207">
+            <sous-type code="S3j.1" desc="&quot;manger ou boire qc&quot;" exemples="Paul mange un sandwich à midi, mange d'un sandwich à midi, ne mange pas à midi." nb="165"/>
+            <sous-type code="S3j.2" desc="&quot;prendre trop une boisson ou une drogue, se soûler&quot;" exemples="Jean s'est rétamé avec quelques verres de vin." nb="24"/>
+            <sous-type code="S3j.3" desc="&quot;ingérer qc&quot;" exemples="Paul fume un paquet de tabac par jour." nb="18"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S3k" desc="&quot;avoir, garder après avoir pris ou reçu&quot;" nb="71">
+            <sous-type code="S3k.1" desc="&quot;avoir ou garder qc&quot;" exemples="On détient des documents compromettants sur Paul." nb="41"/>
+            <sous-type code="S3k.2" desc="&quot;prendre dans un tout ou sur qc&quot;" exemples="On a choisi deux cravates dans la collection." nb="8"/>
+            <sous-type code="S3k.3" desc="&quot;retenir/ne pas retenir qc sur qc&quot;" exemples="On économise de l'argent sur la nourriture." nb="22"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="S4" desc="&quot;saisir, garder qc&quot; ; &quot;tirer, tordre qc&quot; leurs inverses * Figurés de S3" nb="480">
+         <sous-classe-syntaxique code="S4a" desc="&quot;prendre qc (à qn), recevoir qc de qn&quot; * Figurés de S3a et S3c" nb="130">
+            <sous-type code="S4a.1" desc="&quot;prendre qc à qn&quot;" exemples="On emprunte cette idée à Paul." nb="121"/>
+            <sous-type code="S4a.2" desc="&quot;prendre, recevoir qc de qn&quot;" exemples="On encaisse son salaire de l'employeur." nb="9"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S4b" desc="&quot;ne pas prendre, garder&quot; ; &quot;éviter&quot; * Figurés de S3b" nb="97">
+            <sous-type code="S4b.1" desc="&quot;ne pas prendre qc abstrait, ne pas garder pour soi&quot;" exemples="On abandonne tout esprit de revanche." nb="85"/>
+            <sous-type code="S4b.2" desc="&quot;éviter qc&quot;" exemples="On élude la réponse par des faux-fuyants." nb="12"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S4c" desc="&quot;serrer qc&quot; * Figurés de S3d" exemples="On resserre la discipline avec ces nouveaux règlements, la discipline se resserre." nb="8"/>
+         <sous-classe-syntaxique code="S4d" desc="&quot;desserrer qc&quot; * Figurés de S3e" exemples="On débloque la situation par une nouvelle proposition, la proposition débloque la situation, la situation se débloque." nb="14"/>
+         <sous-classe-syntaxique code="S4e" desc="&quot;atteindre qc&quot; ou &quot;occuper l'esprit de qn&quot; * Figurés de S3g" nb="26">
+            <sous-type code="S4e.1" desc="&quot;atteindre qc abstrait&quot;" exemples="On aborde le problème avec des moyens dérisoires." nb="10"/>
+            <sous-type code="S4e.2" desc="&quot;occuper qn, son esprit&quot;" exemples="Des idées folles envahissent Paul, son esprit." nb="16"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S4f" desc="&quot;fixer qc en l'état, bloquer&quot; * Figurés de S3i" nb="31">
+            <sous-type code="S4f.1" desc="&quot;fixer qc en l'état ou pour l'avenir&quot;" exemples="On perpétue le souvenir de Paul." nb="16"/>
+            <sous-type code="S4f.2" desc="&quot;fixer qc en arrêtant, bloquer&quot;" exemples="On entrave les pourparlers par mauvaise volonté." nb="15"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S4g" desc="&quot;absorber&quot; * Figurés de S3j" exemples="Le candidat ingurgite des listes de mots." nb="35"/>
+         <sous-classe-syntaxique code="S4h" desc="&quot;avoir, garder, utiliser qc après avoir pris ou reçu&quot; ; &quot;chercher à &quot;prendre qc&quot; * Figurés de S3k" nb="130">
+            <sous-type code="S4h.1" desc="&quot;avoir, posséder, garder ou chercher à avoir qc&quot;" exemples="le gouvernement détient la majorité, on poursuit la même idée." nb="47"/>
+            <sous-type code="S4h.2" desc="&quot;disposer de qc, de qn, obtenir qc de qn&quot;" exemples="on bénéficie d'un beau temps, Paul a hérité une ferme de ses parents." nb="54"/>
+            <sous-type code="S4h.3" desc="&quot;utiliser qc&quot;" exemples="On emploie cet adjectif comme nom, cet adjectif s'emploie comme nom." nb="29"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="S4i" desc="&quot;ne pas prendre qc sur soi&quot;" exemples="On désavoue sa signature." nb="9"/>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="T" desc="Verbes de transformation, de mutation, de substitution" nb="2345">
+      <semantico-syntaxique code="T1" desc="&quot;se transformer, devenir tel&quot;, sujet humain ; &quot;transformer qn en qn d'autre&quot;" nb="149">
+         <sous-classe-syntaxique code="T1a" desc="&quot;se transformer, transformer qn physiquement, changer qn en qn d'autre socialement&quot;" nb="60">
+            <sous-type code="T1a.1" desc="&quot;se transformer physiquement&quot;" exemples="Cet adolescent mue." nb="2"/>
+            <sous-type code="T1a.2" desc="&quot;transformer qn en qn d'autre physiquement ou socialement&quot;" exemples="Le roi a anobli ce bourgeois, Zeus a métamorphosé Argus en paon." nb="51"/>
+            <sous-type code="T1a.3" desc="&quot;se transformer en autre&quot;" exemples="Son corps s'est momifié, la sécheresse a momifié le corps." nb="7"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="T1b" desc="&quot;devenir, rendre tel (adjectif) physiquement&quot;" exemples="Paul/son visage pâlit (= devient pâle)." nb="65"/>
+         <sous-classe-syntaxique code="T1c" desc="&quot;transformer qn en qn d'autre (nom), faire devenir qn/son corps tel (adjectif) physiquement&quot;" exemples="Le tireur a aveuglé Paul d'une balle dans la tête (= a rendu aveugle), la balle a aveuglé Paul." nb="24"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="T2" desc="&quot;transformer ou inverse&quot; * Figurés de T1" nb="443">
+         <sous-classe-syntaxique code="T2a" desc="&quot;se transformer en qn d'autre&quot; * Figurés de T1a" nb="18">
+            <sous-type code="T2a.1" desc="&quot;changer&quot;" exemples="On varie beaucoup d'opinions au cours de sa vie." nb="7"/>
+            <sous-type code="T2a.2" desc="&quot;se changer en qc &quot;" exemples="L'enfant s'est métamorphosé pendant les vacances, les vacances ont métamorphosé Paul." nb="11"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="T2b" desc="&quot;devenir tel (adjectif)&quot; * Figurés de T1b" exemples="Pierre vieillit intellectuellement (= devient vieux)." nb="54"/>
+         <sous-classe-syntaxique code="T2c" desc="&quot;rendre/devenir tel (adjectif ou nom)&quot; * Figurés de T1c" exemples="L'orateur a fanatisé les assistants (= rendu fanatiques)." nb="243"/>
+         <sous-classe-syntaxique code="T2d" desc="&quot;cesser ou faire cesser qn d'être tel&quot; * Inverses de T2b et T2c" exemples="On déresponsabilise Paul avec ce poste, il se déresponsabilise." nb="103"/>
+         <sous-classe-syntaxique code="T2e" desc="&quot;changer (de place) avec qn&quot;, &quot;changer de qn&quot;, &quot;échanger qn avec qn&quot; * Figurés de T3f" nb="25">
+            <sous-type code="T2e.1" desc="&quot;changer avec qn&quot;" exemples="On alterne avec Paul à la permanence, tous deux alternent au bureau." nb="3"/>
+            <sous-type code="T2e.2" desc="&quot;changer qn avec qn&quot;" exemples="Le directeur sportif relaie un équipier avec un autre, les équipiers se relaient." nb="12"/>
+            <sous-type code="T2e.3" desc="&quot;changer de qn, de qc&quot;" exemples="On change de directeur." nb="6"/>
+            <sous-type code="T2e.4" desc="&quot;continuer après qn, un état&quot;" exemples="On succède à son père dans les affaires." nb="4"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="T3" desc="&quot;devenir tel&quot;, sujet non-animé ; &quot;faire devenir qc tel&quot;" nb="1255">
+         <sous-classe-syntaxique code="T3a" desc="&quot;devenir tel ou faire devenir tel (adjectif)&quot;" exemples="Le ciel blanchit (= devient blanc)." nb="159"/>
+         <sous-classe-syntaxique code="T3b" desc="&quot;se changer en qc, prendre telle forme, tel caractère&quot;" exemples="Le pantalon tirebouchonne." nb="267"/>
+         <sous-classe-syntaxique code="T3c" desc="&quot;rendre qc tel (adjectif)" exemples="On purifie l'eau en la filtrant (= rend pur), l'eau se purifie en bouillant (= est rendue pure)." nb="286"/>
+         <sous-classe-syntaxique code="T3d" desc="&quot;changer qc en qc, lui faire prendre telle forme, tel caractère&quot;" exemples="On convertit les francs en marks, les francs peuvent se convertir en marks." nb="410"/>
+         <sous-classe-syntaxique code="T3e" desc="&quot;perdre ou ôter à qc tel caractère&quot; ; &quot;perdre le caractère donné&quot;" exemples="On se débronze au retour des vacances, l'air de la ville a débronzé Paul." nb="109">
+            <sous-type code="T3e.1" desc="&quot;perdre le caractère donné&quot;" exemples="On (se) débronze au retour des vacances, l'air de la ville a débronzé Paul." nb="33"/>
+            <sous-type code="T3e.2" desc="&quot;faire perdre le caractère donné&quot;" exemples="On déjaunit le tissu par un produit, le coton peut se déjaunir." nb="76"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="T3f" desc="&quot;changer avec qc, de qc&quot; ; &quot;changer qc pour&quot;" nb="24">
+            <sous-type code="T3f.1" desc="&quot;échanger qc avec ou et qc&quot;" exemples="On intervertit un mot avec un autre dans la phrase, ces mots peuvent s'intervertir." nb="5"/>
+            <sous-type code="T3f.2" desc="&quot;substituer qc à qc&quot;" exemples="On substitue de faux billets à ceux que la banque a donnés." nb="9"/>
+            <sous-type code="T3f.3" desc="&quot;changer de qc&quot;" exemples="Paul a changé de costume, de voiture." nb="4"/>
+            <sous-type code="T3f.4" desc="&quot;changer qc par qc&quot;" exemples="On supplée un manque de trésorerie par un emprunt." nb="5"/>
+            <sous-type code="T3f.5" desc="&quot;transformer qc&quot;" exemples="On fait d'un grand living deux chambres." nb="1"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="T4" desc="&quot;(faire) devenir ou cesser d'être tel&quot; * Figurés de T3" nb="498">
+         <sous-classe-syntaxique code="T4a" desc="&quot;devenir tel (adjectif)&quot; * Figurés de T3a" exemples="L'inquiétude grandit (= devient plus grande)." nb="49"/>
+         <sous-classe-syntaxique code="T4b" desc="&quot;rendre qc tel &quot; * Figurés de T3c et T3d" exemples="On libéralise le régime par de nouvelles lois (= rend plus libéral), le régime se libéralise avec ces nouvelles lois (= devient plus libéral)." nb="352"/>
+         <sous-classe-syntaxique code="T4c" desc="&quot;perdre, faire perdre tel caractère&quot; * Figurés de T3e" exemples="Le syndicat (se) dégauchise avec leur départ (= perd le caractère gauche), on dégauchise le syndicat." nb="59"/>
+         <sous-classe-syntaxique code="T4d" desc="&quot;se transformer, devenir autre&quot; * Figurés de T3f" nb="15">
+            <sous-type code="T4d.1" desc="&quot;se transformer, devenir autre&quot;" exemples="Les idées évoluent." nb="12"/>
+            <sous-type code="T4d.2" desc="&quot;changer en qc&quot;" exemples="La querelle dégénère en un conflit ouvert." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="T4e" desc="&quot;remplacer qc, venir après&quot; * Figurés de T3f" nb="23">
+            <sous-type code="T4e.1" desc="&quot;venir à la place de qc&quot;" exemples="La quantité ne supplée pas à la qualité." nb="4"/>
+            <sous-type code="T4e.2" desc="&quot;venir après qc&quot;" exemples="La maladie suit une intoxication, les faits se suivent sans cohérence." nb="3"/>
+            <sous-type code="T4e.3" desc="&quot;changer qc avec qc&quot;" exemples="On inverse le rôle du père avec (et) celui de l'oncle, les rôles s'inversent." nb="9"/>
+            <sous-type code="T4e.4" desc="&quot;changer avec qc&quot;" exemples="Les hauts alternent avec les bas, les hauts et les bas alternent." nb="4"/>
+            <sous-type code="T4e.5" desc="&quot;changer qc pour qc&quot;" exemples="Jean change son métier pour un autre plus rentable." nb="3"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="U" desc="Verbes d'union, de réunion, de mise en relation " nb="1407">
+      <semantico-syntaxique code="U1" desc="&quot;lier, unir qn à qn/qc&quot; ou &quot;détacher qn de qn/qc&quot;" nb="125">
+         <sous-classe-syntaxique code="U1a" desc="&quot;lier qn/animal à qn/qc&quot;" nb="59">
+            <sous-type code="U1a.1" desc="&quot;attacher qn à qc&quot;" exemples="Les voleurs ont ligoté leur victime au dos d'une chaise." nb="15"/>
+            <sous-type code="U1a.2" desc="&quot;réunir des gens ensemble qp&quot;" exemples="On groupe les étudiants dans un amphi." nb="35"/>
+            <sous-type code="U1a.3" desc="&quot;unir des gens dans une organisation&quot;" exemples="On a regroupé les mécontents dans un parti." nb="9"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U1b" desc="&quot;lier sexe avec&quot;, &quot;mêler des espèces&quot;" nb="34">
+            <sous-type code="U1b.1" desc="&quot;se lier sexuellement avec qn&quot;" exemples="Paul couche avec Jeanne, Paul et Jeanne couchent ensemble." nb="15"/>
+            <sous-type code="U1b.2" desc="&quot;monter une femelle&quot;" exemples="L'étalon a sailli la jument." nb="15"/>
+            <sous-type code="U1b.3" desc="&quot;mêler deux espèces&quot;" exemples="On a métissé l'âne et le cheval." nb="1"/>
+            <sous-type code="U1b.4" desc="&quot;être le produit de deux origines ethniques distinctes&quot;" exemples="C'est un Français mâtiné d'Italien." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U1c" desc="&quot;détacher qn/animal de qc/qn&quot;" exemples="On délie la victime de ses liens, on se délie de ses liens." nb="32"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="U2" desc="&quot;lier, unir qn à qn/qc&quot; ou &quot;détacher qn de qn/qc&quot; * Figurés de U1" nb="379">
+         <sous-classe-syntaxique code="U2a" desc="&quot;établir ou avoir un certain rapport avec&quot;" nb="121">
+            <sous-type code="U2a.1" desc="&quot;se lier avec qn&quot; ou &quot;établir un certain rapport avec qc&quot;" exemples="On copine avec Paul, on pactise avec la corruption." nb="99"/>
+            <sous-type code="U2a.2" desc="&quot;joindre qn, un groupe&quot;" exemples="Jean épouse Marie, Jean rallie ce parti." nb="9"/>
+            <sous-type code="U2a.3" desc="&quot;lier qn avec qn&quot;" exemples="On associe Paul avec un ami dans cette affaire, ils s'associent dans cette affaire." nb="9"/>
+            <sous-type code="U2a.4" desc="&quot;mêler des gens différents&quot;" exemples="Ces mouvements de population ont brassé les ethnies." nb="4"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U2b" desc="&quot;lier ou se lier à qn, qc&quot;" nb="85">
+            <sous-type code="U2b.1" desc="&quot;être lié à qn, qc&quot;" exemples="L'enfant colle à sa mère, l'esclave appartient au maître." nb="18"/>
+            <sous-type code="U2b.2" desc="&quot;lier qn à qn, à qc&quot;" exemples="On a gagné Paul à nos idées." nb="61"/>
+            <sous-type code="U2b.3" desc="&quot;être au service de&quot;" exemples="Paul sert son parti, ses amis." nb="2"/>
+            <sous-type code="U2b.4" desc="&quot;être dépendant de&quot;" exemples="Le chef de cabinet relève du ministre." nb="4"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U2c" desc="&quot;détacher ou se détacher&quot; ; &quot;échapper à&quot; * Inverses de N2a et N2b" nb="173">
+            <sous-type code="U2c.1" desc="&quot;se détacher de qc, de qn&quot;" exemples="Jean décolle de la réalité." nb="55"/>
+            <sous-type code="U2c.2" desc="&quot;détacher, défaire qn de qc&quot;" exemples="Le juge a disculpé Paul de l'accusation, Paul s'est disculpé." nb="69"/>
+            <sous-type code="U2c.3" desc="&quot;départager les gens, les diviser&quot;" exemples="Le président a départagé le conseil avec sa voix." nb="9"/>
+            <sous-type code="U2c.4" desc="&quot;échapper à qc&quot;" exemples="On a coupé à la corvée." nb="9"/>
+            <sous-type code="U2c.5" desc="&quot;ne plus être lié, rompre avec qc, qn&quot;" exemples="Jean brise avec son passé, rompt avec Paul." nb="31"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="U3" desc="&quot;lier qc à qc&quot;, &quot;détacher qc de qc&quot; ; &quot;lier en fermant&quot;, &quot;défaire ce qui ferme&quot;" nb="610">
+         <sous-classe-syntaxique code="U3a" desc="&quot;lier, attacher qc à qc&quot; ; &quot;être lié à/avec qc&quot;" nb="162">
+            <sous-type code="U3a.1" desc="&quot;lier, attacher qc à qc&quot;" exemples="On amarre le bateau au quai, le bateau s'amarre au quai." nb="159"/>
+            <sous-type code="U3a.2" desc="&quot;être lié à qc&quot;" exemples="Le muscle répond à l'excitation." nb="3"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U3b" desc="&quot;réunir, mêler des choses en un tout&quot;" nb="140">
+            <sous-type code="U3b.1" desc="&quot;réunir qc avec qc, réunir des choses&quot;" exemples="On accolade le prix de revient au prix de vente, on accolade les formules." nb="87"/>
+            <sous-type code="U3b.2" desc="&quot;lier qc pluriel en un tout&quot;" exemples="On englobe des poèmes dans un recueil posthume." nb="18"/>
+            <sous-type code="U3b.3" desc="&quot;mêler qc avec qc&quot;" exemples="On confond les couleurs, le rouge et le bleu." nb="35"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U3c" desc="&quot;lier qc à qc en croisant ou se lier à/avec qc&quot;" nb="25">
+            <sous-type code="U3c.1" desc="&quot;lier qc à qc en croisant&quot;" exemples="On entrecroise une ligne avec une autre, les deux routes s'entrecroisent." nb="19"/>
+            <sous-type code="U3c.2" desc="&quot;établir un lien avec qc&quot;" exemples="On communique avec la ferme par ce chemin." nb="2"/>
+            <sous-type code="U3c.3" desc="&quot;se réunir avec qc&quot;" exemples="La rivière conflue avec le fleuve à Lyon." nb="4"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U3d" desc="&quot;détacher qc de qc, défaire des choses réunies&quot; * Inverses de U3a et U3b" nb="132">
+            <sous-type code="U3d.1" desc="&quot;détacher qc de ce qui l'attache&quot;" exemples="On dégrafe la robe, la robe se dégrafe facilement." nb="76"/>
+            <sous-type code="U3d.2" desc="&quot;séparer qc de qc&quot;" exemples="On écarte l'armoire du mur de quelques centimètres, l'armoire s'écarte trop du mur." nb="23"/>
+            <sous-type code="U3d.3" desc="&quot;défaire ce qui est réuni, mêlé&quot;" exemples="On débrouille les fils emmêlés de la pelote de laine, la réparation de la machine a débrouillé les fils de tissage." nb="33"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U3e" desc="&quot;clore qc, être clos&quot;" nb="108">
+            <sous-type code="U3e.1" desc="&quot;être clos, se clore&quot;" exemples="La robe ferme, se ferme par derrière." nb="3"/>
+            <sous-type code="U3e.2" desc="&quot;clore qc&quot;" exemples="Jean a claqué la porte, le courant d'air a claqué la porte." nb="105"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U3f" desc="&quot;défaire ce qui clôt&quot;, &quot;être ouvert&quot; * Inverses de U3e" nb="43">
+            <sous-type code="U3f.1" desc="&quot;être ouvert&quot;" exemples="La porte bâille." nb="8"/>
+            <sous-type code="U3f.2" desc="&quot;ouvrir en défaisant ou en ôtant ce qui ferme, obstrue&quot;" exemples="On force le tiroir avec un couteau." nb="35"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="U4" desc="&quot;être lié à qn, qc, en être dépendant&quot; * Figurés de U3" nb="293">
+         <sous-classe-syntaxique code="U4a" desc="&quot;être lié à qn/qc, être dépendant de&quot; * Figurés de U3b" nb="32">
+            <sous-type code="U4a.1" desc="&quot;être lié à qc&quot;" exemples="Ce tableau revient au musée." nb="12"/>
+            <sous-type code="U4a.2" desc="&quot;être dépendant de&quot;" exemples="Son attitude dépend des circonstances." nb="20"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U4b" desc="&quot;lier ou être lié à/avec qc&quot;, &quot;lier ensemble en un tout&quot;" nb="150">
+            <sous-type code="U4b.1" desc="&quot;être lié avec qc&quot;" exemples="Cet événement coïncide avec la mort de Paul, ces deux événements coïncident." nb="24"/>
+            <sous-type code="U4b.2" desc="&quot;lier qc avec/à (et) qc&quot;" exemples="On recadre le plan avec les circonstances." nb="80"/>
+            <sous-type code="U4b.3" desc="&quot;lier qc à qc&quot;" exemples="On adapte un roman à l'écran, ce roman s'adapte mal à l'écran." nb="46"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U4c" desc="&quot;détacher qc de qc&quot;, &quot;rejeter qc&quot;, &quot;défaire ce qui est mêlé&quot; ; &quot;manquer à&quot; * Inverses de U4a et U4b" nb="85">
+            <sous-type code="U4c.1" desc="&quot;délier ou détacher qc de qc&quot;" exemples="On décroche le franc du mark, le franc se décroche du mark." nb="31"/>
+            <sous-type code="U4c.2" desc="&quot;faire disparaître qc&quot;" exemples="On amnistie par décret les condamnations de moins de trois mois." nb="18"/>
+            <sous-type code="U4c.3" desc="&quot;ne pas être en harmonie avec qc&quot;" exemples="Ce rideau détonne avec la moquette." nb="15"/>
+            <sous-type code="U4c.4" desc="&quot;manquer à qc&quot;" exemples="L'héritage échappe à Paul." nb="5"/>
+            <sous-type code="U4c.5" desc="&quot;délier ce qui est mêlé&quot;" exemples="On débrouille le mystère grâce à ces indices." nb="16"/>
+         </sous-classe-syntaxique>
+         <sous-classe-syntaxique code="U4d" desc="&quot;fermer ou ouvrir qc&quot; * Figurés de U3e" nb="26">
+            <sous-type code="U4d.1" desc="&quot;fermer qc, être fermé&quot;" exemples="On bouche cette carrière médicale par des quota." nb="19"/>
+            <sous-type code="U4d.2" desc="&quot;ouvrir qc&quot;" exemples="On ouvre un compte en banque." nb="7"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+   <generique code="X" desc="Verbes auxiliaires et semi-auxiliaires, impersonnels, &quot;exister&quot;, inchoatifs ou résultatifs" nb="212">
+      <semantico-syntaxique code="X1" desc="Verbes auxiliaires, semi-auxiliaires, modaux" nb="114">
+         <sous-classe-syntaxique code="X1a" desc="&quot;avoir, être, faire, devenir, rester, sembler, rendre, aller, pouvoir, devoir, venir de, échouer à, se mettre à,...&quot;" nb="114">
+            <sous-type code="X1a.1" desc="&quot;avoir, être, faire&quot;" exemples="On a bien dormi, la pièce est nettoyée, il plaisante comme il (le) fait toujours." nb="3"/>
+            <sous-type code="X1a.2" desc="&quot;être, devenir, rester, sembler, etc.&quot;" exemples="Le ciel est/reste/devient nuageux, on semble être de marbre." nb="15"/>
+            <sous-type code="X1a.3" desc="&quot;rendre&quot;" exemples="Tu le rends nerveux avec tes questions, la montée abrupte rend la marche difficile." nb="1"/>
+            <sous-type code="X1a.4" desc="&quot;aller, pouvoir, devoir, venir de, etc.&quot;" exemples="On va partir ce soir, on peut le joindre dans la journée." nb="67"/>
+            <sous-type code="X1a.5" desc="&quot;réussir à, échouer à, commencer à, se mettre à, etc.&quot;" exemples="On est parvenu à le lire, la pluie commence à tomber." nb="28"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="X2" desc="Verbes impersonnels" nb="43">
+         <sous-classe-syntaxique code="X2a" desc="&quot;il faut, il advient, il se peut&quot; avec complétive sujet" exemples="Il reste que le conflit n'est toujours pas réglé." nb="43"/>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="X3" desc="Verbes d'existence" nb="13">
+         <sous-classe-syntaxique code="X3a" desc="&quot;être réel, exister qp, avoir valeur pour qn&quot;" nb="13">
+            <sous-type code="X3a.1" desc="&quot;être réel&quot;" exemples="Le bonheur n'existe pas." nb="6"/>
+            <sous-type code="X3a.2" desc="&quot;être présent qp&quot;" exemples="Il y a des champignons dans les bois, il y a quelqu'un sur le chemin." nb="3"/>
+            <sous-type code="X3a.3" desc="&quot;avoir telle valeur pour&quot;" exemples="Cette remarque vaut pour Jean." nb="4"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+      <semantico-syntaxique code="X4" desc="Verbes inchoatifs et résultatifs" nb="42">
+         <sous-classe-syntaxique code="X4a" desc="&quot;commencer ou finir&quot;" nb="42">
+            <sous-type code="X4a.1" desc="&quot;avoir un début ou une fin&quot;" exemples="La pluie cesse, le concert débute à vingt heures." nb="18"/>
+            <sous-type code="X4a.2" desc="&quot;avoir un début ou une fin par qc&quot;" exemples="La séance ouvre par une question de procédure, sur un discours du président." nb="20"/>
+            <sous-type code="X4a.3" desc="&quot;commencer ou finir qc&quot;" exemples="On instaure un nouvel ordre mondial." nb="4"/>
+         </sous-classe-syntaxique>
+      </semantico-syntaxique>
+   </generique>
+</classes>
+>>>>>>> master

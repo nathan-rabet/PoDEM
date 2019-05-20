@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml-model href="categories.rnc" type="application/relax-ng-compact-syntax"?>
 <categories>
     <categorie no="-1">nom non-animé masculin</categorie>
@@ -27,4 +28,35 @@
     <categorie no="Vt">verbe transitif</categorie>
     <categorie no="Vi">verbe intransitif</categorie>
     <categorie no="Vp">verbe pronominal</categorie>
+=======
+<?xml-model href="categories.rnc" type="application/relax-ng-compact-syntax"?>
+<categories>
+    <categorie no="-1">nom non-animé masculin</categorie>
+    <categorie no="-2">nom non-animé féminin</categorie>
+    <categorie no="-3">nom non-animé des deux genres</categorie>
+    <categorie no="-4">nom humain des deux genres</categorie>
+    <categorie no="-5">nom humain masculin</categorie>
+    <categorie no="-6">nom humain féminin</categorie>
+    <categorie no="-7">nom animal des deux genres</categorie>
+    <categorie no="-8">nom animal masculin</categorie>
+    <categorie no="-9">nom animal féminin</categorie>
+    <categorie no="A-">adjectif</categorie>
+    <categorie no="K-">adjectif masculin</categorie>
+    <categorie no="L-">adjectif féminin</categorie>
+    <categorie no="A1">adjectif et nom non-animé masculin</categorie>
+    <categorie no="A2">adjectif et nom non-animé féminin</categorie>
+    <categorie no="A3">adjectif et nom non-animé des deux genres</categorie>
+    <categorie no="A4">adjectif et nom humain des deux genres</categorie>
+    <categorie no="A5">adjectif et nom humain masculin</categorie>
+    <categorie no="A6">adjectif et nom humain féminin</categorie>
+    <categorie no="A7">adjectif et nom animal des deux genres</categorie>
+    <categorie no="A8">adjectif et  nom animal masculin</categorie>
+    <categorie no="A9">adjectif et nom animal féminin</categorie>
+    <categorie no="M-">adverbe</categorie>
+    <categorie no="Q-">conjonction</categorie>
+    <categorie no="R-">interjection</categorie>
+    <categorie no="Vt">verbe transitif</categorie>
+    <categorie no="Vi">verbe intransitif</categorie>
+    <categorie no="Vp">verbe pronominal</categorie>
+>>>>>>> master
 </categories>

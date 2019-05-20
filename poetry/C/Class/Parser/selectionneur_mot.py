@@ -297,7 +297,7 @@ def VerbeM(type,nom,liste_dom,style,tps="présent",op='',pronom=0,pers='3p',nbr=
                 VER_F = VER_F[0]
         else :
             VER_F = Verbe_3(VER,pers,nbr,tps,genre,pronom)
-            if pronom :
+            if pronom and not VER_F == '':
                 pron = VER_F[1]
                 VER_F = VER_F[0]
             if VER_F == '':

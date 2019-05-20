@@ -32,7 +32,7 @@ def article_def(nom):
     
     CA = nom[1]
 
-    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8" or CA == "-4":
+    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "-8" or CA == "-4":
         if Premiere_lettre_voyelle(nom[0]):
             return "l'"
         else:
@@ -50,7 +50,7 @@ def demonstratif(nom):
     
     CA = nom[1]
 
-    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8" or CA == "-4":
+    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "-8" or CA == "-4":
         if Premiere_lettre_voyelle(nom[0]) or nom[0][0] == "h":
             return "cet "
         else:
@@ -68,7 +68,7 @@ def possessif(nom):
 
     rand = randint(0,5)
 
-    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8" or CA == "-4" or Premiere_lettre_voyelle(nom[0]):
+    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "-8" or CA == "-4" or Premiere_lettre_voyelle(nom[0]):
         if rand == 0:
             return "mon "
         elif rand == 1:
@@ -105,7 +105,7 @@ def cardinal(nom) :
 
     CA = nom[1]
 
-    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "8" or CA == "-4":
+    if CA == "-1" or CA == "-3" or CA == "-5" or CA == "-7" or CA == "-8" or CA == "-4":
         return "un "
     
     elif CA == "-2" or CA == "-6" or CA == "-9":

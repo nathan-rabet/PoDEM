@@ -205,21 +205,19 @@ def ADV(liste_dom,style) :
     """
     Selectionne un adverbe selon le thème(dom) et le style de langue (style)
     """
-    ADV_V3 = 'à peine... que'
-    while ADV_V3 == 'à peine... que' :
 
-        ADV_DOM = liste_dom
-        ADV_V = CA('M-',ADV_DOM)
-        if ADV_V == []:
-            ADV_V = CA('M-')
-        if not style == '' :
-            ADV_V1 = style_langage(style,ADV_V)
-            if ADV_V1 == []  :
-                ADV_V1 = ADV_V
-        else :
+    ADV_DOM = liste_dom
+    ADV_V = CA('M-',ADV_DOM)
+    if ADV_V == []:
+        ADV_V = CA('M-')
+    if not style == '' :
+        ADV_V1 = style_langage(style,ADV_V)
+        if ADV_V1 == []  :
             ADV_V1 = ADV_V
-        ADV_V2 = Cellule_de_la_ligne(ADV_V1)
-        ADV_V3 = ADV_V2[randint(0,len(ADV_V2)-1)]
+    else :
+        ADV_V1 = ADV_V
+    ADV_V2 = Cellule_de_la_ligne(ADV_V1)
+    ADV_V3 = ADV_V2[randint(0,len(ADV_V2)-1)]
 
 
     return ADV_V3
@@ -240,14 +238,12 @@ def CONJ():
     """
     Selectionne une conjonction(ex:Car)
     """
-    retour = "tout... que"
-    while retour == "tout... que":
-        CONJ_V1 = CA('Q-')
-        CONJ_V2 = Cellule_de_la_ligne(CONJ_V1)
-        retour = CONJ_V2[randint(0,len(CONJ_V2)-1)]
+    
+    CONJ_V1 = CA('Q-')
+    CONJ_V2 = Cellule_de_la_ligne(CONJ_V1)
+    retour = CONJ_V2[randint(0,len(CONJ_V2)-1)]
     if retour == "puisque P":
         retour = "puisque"
-
     return retour
 
 

@@ -16,8 +16,9 @@ def start(nb_lignes,DOM_input,style,DOM_valeur,style_valeur):
     print(banner())
     options(DOM_input,DOM_valeur,style,style_valeur,nb_lignes)
     print()
-    tps_gen(nb_lignes)
-    Afficher_phrase(nb_lignes,DOM_input,style)
+    type_phrase = Nombre_phrase(nb_lignes)
+    tps_gen(type_phrase)
+    Afficher_phrase(type_phrase,DOM_input,style)
 
 
 def help():

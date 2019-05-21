@@ -30,19 +30,19 @@ def NOM(liste_dom,style) :
     NOM_V1 = NOM_CA[randint(0,len(NOM_CA)-1)]
     CA_NOM = NOM_V1[-1]
     NOM = Cellule_de_la_ligne([NOM_V1])
-    NOM_CA = [NOM[0],CA_NOM]
+    NOM_CA = NOM[0]
     
     Deter = ["l'","le ","la ","un ","une ","cette ","ce ","cet ","mon ","ton ","son ","notre ","votre ","leur ","ma ","ta ","sa "]
 
-    if NOM_CA[0][0] == ' ' :
-        NOM_CA[0] = NOM_CA[0][1:]
+    if NOM_CA[0] == ' ' :
+        NOM_CA = NOM_CA[1:]
 
     for i in Deter :
-        if re.match(i,NOM_CA[0]):
-            NOM_CA[0] = NOM_CA[0][len(Deter[i])-1:]
+        if re.match(i,NOM_CA):
+            NOM_CA = NOM_CA[len(Deter[i])-1:]
 
 
-    return NOM_CA
+    return [NOM_CA,CA_NOM]
 
 def ADJ(nom,liste_dom,style):
     

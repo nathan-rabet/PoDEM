@@ -33,7 +33,6 @@ def startup():
         if detec('start',cmd_no_space):
 
             clear_console()
-            tps_gen(nb_lignes)
             start(nb_lignes,DOM_input,style,DOM_valeur,style_valeur)
             print("\n")
 

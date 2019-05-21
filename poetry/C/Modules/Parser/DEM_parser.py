@@ -11,9 +11,11 @@ def init_DEM():
     Doit être utilisée en complément avec close_DEM() !!!!!
     """
 
+    # Définition du chemin vers le DEM
     global DEM_PATH
     DEM_PATH = Path(environ["POETRY_PATH"] + "/M/DEM.csv")
 
+    # Ouverture du fichier CSV du DEM
     global DEM
     DEM = open(DEM_PATH, "r",encoding='utf-8')
     global reader
@@ -62,9 +64,9 @@ def Premiere_lettre_voyelle(mot):
 def VERIF_MOT(LISTE):
 
     """
-    Pour éviter toute incohérence, certaine expressions (comme les verbes) ne peuvent être composé que d'un seul mot
+    Pour éviter toute incohérence, certaine expressions (comme les verbes) ne peuvent être composé que d'un seul mot.
 
-    Cette fonction supprime toute les expressions qui possède plusieurs mots
+    Cette fonction supprime toutes les expressions qui possèdent plusieurs mots.
     """
 
     LISTE_V2 = []
@@ -271,7 +273,7 @@ def DOM(DOM, table=None):
 def Liste_DOM(dom):
 
     """
-    Grace à cette fonction, si l'utilisateur rentre une liste vide pour la fonction DOM,la fonction prend et renvoie tout le DEM.
+    Grâce à cette fonction, si l'utilisateur rentre une liste vide pour la fonction DOM, la fonction prend et renvoie tout le DEM.
 
     Sinon se comporte comme la fonction DOM.
     """

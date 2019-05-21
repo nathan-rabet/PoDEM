@@ -74,6 +74,8 @@ def ADJ(nom,liste_dom,style):
     ADJ_V1 = Cellule_de_la_ligne(ADJ_CA2)
     MOT = ADJ_V1[randint(0,len(ADJ_V1)-1)]
     CA_val = nom[1]
+    
+    # Gestion des accords de l'adjectif
     if  not (CA_val == '-1' or CA_val == '-3'or CA_val == '-4' or CA_val == '-5' or CA_val == '-7' or CA_val == '-8') :
         if (MOT[-1] == 'l' and MOT[-2] == 'u') or (MOT[-1] == 'l' and MOT[-2] == 'e') or (MOT[-1] == 'l' and MOT[-2] == 'e' and MOT[-3] == 'i') or (MOT[-1] == 'l' and MOT[-2] == 'i' and MOT[-3] == 'e'):
             Accords = 'le'
@@ -260,12 +262,14 @@ def CONJ():
 def VerbeM(type,nom,liste_dom,style,tps="présent",op='',pronom=0,pers='3p',nbr='s'):
 
     """
-    Selectionne un verbe selon le thème (dom), le type (type), l'opérateur (op) et le style de langue (style) et le conjuge selon le type (type), le temps (tps) et la personne (pers,nbr)
+    Selectionne un verbe selon le thème (liste_dom), le type (type), l'opérateur (op) et le style de langue (style) et le conjugue selon le type (type), le temps (tps) et la personne (pers,nbr)
     De plus l'argument pronom permet d'ajouter le pronom au verbe (je,tu,il,...)
     """
 
     a=1
 
+    # Tant que le verbe du 3ème groupe prélevé 
+    # dans le DEM n'est pas défini dans la liste 'Verbe_3g.csv'
     while a==1 :
 
 
@@ -274,7 +278,7 @@ def VerbeM(type,nom,liste_dom,style,tps="présent",op='',pronom=0,pers='3p',nbr=
         VER_V1 = liste_dom
         VER_DOM = CA(type,VER_V1)
 
-
+        
         if VER_DOM == [] :
             VER_DOM = CA(type)
 

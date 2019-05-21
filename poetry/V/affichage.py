@@ -35,71 +35,13 @@ def warning_message(txt):
     return "\033[93m{}\033[00m".format(txt)
 
 
-def tps_gen(type_phrase) :
+def tps_gen(nb_lignes) :
 
     """
     Donne une aproximation du temps de géneration du poème
     """
-    tps = 0
 
-    for i in type_phrase :
-        
-
-        if int(i) == 0 :
-            tps += 0,1839#Phrase_intj
-
-        elif int(i) == 1 :
-    
-            tps += 0.1868#Phrase_prono
-
-        elif int(i) == 2 :
-
-            tps += 0.1794#Phrase_bruit
-
-        elif int(i) == 3 :
-
-            tps += 0.1832#Phrase_bruit2
-
-        elif int(i) == 4 :
-
-            tps += 0.0087#Phrase_normal
-
-        elif int(i) == 5 :
-
-            tps += 0.1921#Phrase_question
-
-        elif int(i) == 6 :
-
-            tps += 0.0087#Phrase_normal_futur (- tps)
-
-        elif int(i) == 7 :
-
-            tps += 0.0088#Phrase_normal_passe (- tps)
-
-        elif int(i) == 8 :
-
-            tps += 0.1829#Phrase_excla1
-
-        elif int(i) == 9 :
-
-            tps += 0.1827#Phrase_excla2
-
-        elif int(i) == 10 :
-
-            tps += 0.0047#Phrase_Vpro1
-
-        elif int(i) == 11 :
-
-            tps += 0.1867#Phrase_question2
-  
-        elif int(i) == 12 :
-
-            tps += 0.0087#Phrase_question3
-
-        elif int(i) == 13 :
-
-            tps += 0.0050#Phrase_Vpro2
-
+    tps = float(nb_lignes)*0.50568
     print("Temps de génération estimé : " + str(time_long(tps)) + " s\n")
 
 
@@ -170,5 +112,3 @@ Pour sortir du programme, tapez : 'exit'
 
 
     return t
-
-

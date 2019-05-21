@@ -68,11 +68,3 @@ def startup():
         elif detec('exit',cmd_no_space):
             on = exit()
             sup_cache()
-        
-        
-
-
-
-
-
-

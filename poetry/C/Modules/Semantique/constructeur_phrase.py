@@ -18,7 +18,7 @@ MOT_FUTUR = ['Demain','Après demain','Quelques années plus tard','Quelques jou
 QUESTION = ['Pourquoi','Comment','Dans quelle mesure','En quoi','Depuis quand','Depuis combien de temps']
 
 
-def Afficher_phrase(type_phrase,nbr_ligne,dom,style=''):
+def Afficher_phrase(nb_lignes,dom,style=''):
         
     """
     Affiche les phrases genéré par notre programme.
@@ -26,7 +26,7 @@ def Afficher_phrase(type_phrase,nbr_ligne,dom,style=''):
     
     liste_dom = Liste_DOM(dom)
 
-    LISTE = Constructeur_phrase(type_phrase,liste_dom,style)
+    LISTE = Nombre_phrase(nb_lignes,liste_dom,style)
 
     for i in LISTE :
         phrase = i.capitalize()
@@ -34,7 +34,7 @@ def Afficher_phrase(type_phrase,nbr_ligne,dom,style=''):
     
 
 
-def Nombre_phrase(nbr_ligne) :
+def Nombre_phrase(nbr_ligne,liste_dom,style) :
         
     """
     Génere le nombre de phrase voulue et les retourne sous forme de tableau.
@@ -45,83 +45,78 @@ def Nombre_phrase(nbr_ligne) :
     
     while a<nbr_ligne :
 
-        Txt.append(randint(0,13))
+        Txt.append(Constructeur_phrase(liste_dom,style))
         a=a+1
-
 
     return Txt
 
 
 
-def Constructeur_phrase(type_phrase,liste_dom,style) :
+def Constructeur_phrase(liste_dom,style) :
     
     """
     Selectionne un temps aléatoire et un type de phrase aléatoire.
     """
 
     temps = ['présent', 'imparfait', 'passé simple', 'futur simple']
-    phrase = []
-    
+    tps = temps[randint(0,3)]
+    alea = randint(0,13)
 
-    for i in type_phrase:
+    if alea == 0 :
 
-        tps = temps[randint(0,3)]
+        phrase=Phrase_intj(liste_dom,style,tps)
 
-        if int(i) == 0 :
+    elif alea == 1 :
 
-            phrase.append(Phrase_intj(liste_dom,style,tps))
+        phrase=Phrase_prono(liste_dom,style,tps)
 
-        elif int(i) == 1 :
+    elif alea == 2 :
 
-            phrase.append(Phrase_prono(liste_dom,style,tps))
+        phrase=Phrase_bruit1(liste_dom,style,tps)
 
-        elif int(i) == 2 :
+    elif alea == 3 :
 
-            phrase.append(Phrase_bruit1(liste_dom,style,tps))
+        phrase=Phrase_bruit2(liste_dom,style,tps)
 
-        elif int(i) == 3 :
+    elif alea == 4 :
 
-            phrase.append(Phrase_bruit2(liste_dom,style,tps))
+        phrase=Phrase_normal(liste_dom,style,tps)
 
-        elif int(i) == 4 :
+    elif alea == 5 :
 
-            phrase.append(Phrase_normal(liste_dom,style,tps))
+        phrase=Phrase_question(liste_dom,style,tps)
 
-        elif int(i) == 5 :
+    elif alea == 6 :
 
-            phrase.append(Phrase_question(liste_dom,style,tps))
+        phrase=Phrase_normal_futur(liste_dom,style)
 
-        elif int(i) == 6 :
+    elif alea == 7 :
 
-            phrase.append(Phrase_normal_futur(liste_dom,style))
+        phrase=Phrase_normal_passe(liste_dom,style)
 
-        elif int(i) == 7 :
+    elif alea == 8 :
 
-            phrase.append(Phrase_normal_passe(liste_dom,style))
+        phrase=Phrase_excla1(liste_dom,style,tps)
 
-        elif int(i) == 8 :
+    elif alea== 9 :
 
-            phrase.append(Phrase_excla1(liste_dom,style,tps))
+        phrase=Phrase_excla2(liste_dom,style,tps)
 
-        elif int(i) == 9 :
+    elif alea == 10 :
 
-            phrase.append(Phrase_excla2(liste_dom,style,tps))
+        phrase=Phrase_Vpro1(liste_dom,style,tps)
 
-        elif int(i) == 10 :
+    elif alea == 11 :
 
-            phrase.append(Phrase_Vpro1(liste_dom,style,tps))
+        phrase=Phrase_question2(liste_dom,style,tps)
 
-        elif int(i) == 11 :
+    elif alea == 12 :
 
-            phrase.append(Phrase_question2(liste_dom,style,tps))
+        phrase=Phrase_question3(liste_dom,style,tps)
 
-        elif int(i) == 12 :
+    elif alea == 13 :
 
-            phrase.append(Phrase_question3(liste_dom,style,tps))
-
-        elif int(i) == 13 :
-
-            phrase.append(Phrase_Vpro2(liste_dom,style,tps))
+        phrase=Phrase_Vpro2(liste_dom,style,tps)
 
     return phrase
 

@@ -32,6 +32,8 @@ def NOM(liste_dom,style) :
     NOM = Cellule_de_la_ligne([NOM_V1])
     NOM_CA = NOM[0]
     
+    #Certain nom possède de base un adjectif dans le DEM, si c'est le cas, le supprime
+
     Deter = ["l'","le ","la ","un ","une ","cette ","ce ","cet ","mon ","ton ","son ","notre ","votre ","leur ","ma ","ta ","sa "]
 
     if NOM_CA[0] == ' ' :
@@ -268,8 +270,8 @@ def VerbeM(type,nom,liste_dom,style,tps="présent",op='',pronom=0,pers='3p',nbr=
 
     a=1
 
-    # Tant que le verbe du 3ème groupe prélevé 
-    # dans le DEM n'est pas défini dans la liste 'Verbe_3g.csv'
+    # Si le verbe du 3ème groupe prélevé dans le DEM
+    # n'est pas défini dans la liste 'Verbe_3g.csv', le programme recommence 
     while a==1 :
 
 
@@ -304,6 +306,8 @@ def VerbeM(type,nom,liste_dom,style,tps="présent",op='',pronom=0,pers='3p',nbr=
         VER = VER_V5[randint(0,len(VER_V5)-1)]
         CA_val = nom[1]
 
+
+
         if CA_val == -1 or CA_val == -5 or CA_val == -8 :
             genre = 'm'
         elif CA_val == -2 or CA_val == -6 or CA_val == -9 :
@@ -311,6 +315,7 @@ def VerbeM(type,nom,liste_dom,style,tps="présent",op='',pronom=0,pers='3p',nbr=
         else :
             genre = 'n'
 
+        # Trouve le groupe du verbe
 
         test = Verbe(VER)
         grp = test.groupe()
@@ -328,32 +333,32 @@ def VerbeM(type,nom,liste_dom,style,tps="présent",op='',pronom=0,pers='3p',nbr=
             if VER_F == '':
                 a=1
 
-
+    # Gestion du pronom des verbes pronominaux
     if type == 'Vp' :
         PLV = Premiere_lettre_voyelle(VER) 
 
-        if pers == "1p" and nbr == "s":
+        if pers == "1p" and nbr == "s": # 1er personne du singulier
             if PLV :
                 pro = "m'"  
             else :
                 pro = 'me '
-        elif pers == "2p" and nbr == "s":
+        elif pers == "2p" and nbr == "s": # 2eme personne du singulier 
             if PLV :
-                pro = "t'"  
+                pro = "t'"   
             else :
                 pro = 'te '   
-        elif pers == "3p" and nbr == "s":
+        elif pers == "3p" and nbr == "s": # 3eme personne du singulier
             if PLV :
-                pro = "s'"  
+                pro = "s'"    
             else :
                 pro = 'se '  
-        elif pers == "1p" and nbr == "p":
-            pro = "nous "  
-        elif pers == "2p" and nbr == "p":
-            pro = "vous "  
-        elif pers == "3p" and nbr == "p":
+        elif pers == "1p" and nbr == "p": # 1er personne du pluriel
+            pro = "nous "     
+        elif pers == "2p" and nbr == "p": # 2eme personne du pluriel
+            pro = "vous "
+        elif pers == "3p" and nbr == "p": # 3eme personne du pluriel
             if PLV :
-                pro = "s'"  
+                pro = "s'"
             else :
                 pro = 'se '
         if pron == "j'" :
@@ -407,44 +412,44 @@ def Verbe_3(mot,pers,nbr,tps,genre,pronom):
         for ligne in VERB:
             if ligne[1].lower() == tps.lower() :
                 VERB_V1.append(ligne)
+        # Gestion des pronoms des verbes (je,tu,il,...) et de la conjugaison des verbes
 
-
-        if pers == "1p" and nbr == "s":
+        if pers == "1p" and nbr == "s": # 1er personne du singulier
             case = 2
             if pronom :
-                if Premiere_lettre_voyelle(VERB_V1[0][0]):
+                if Premiere_lettre_voyelle(VERB_V1[0][0]): 
                     pron = "j'"
                 else :
                     pron = 'je '
-        elif pers == "2p" and nbr == "s":
+        elif pers == "2p" and nbr == "s": # 2eme personne du singulier
             case = 3  
-            if pronom :
+            if pronom : 
                 pron = 'tu '
-        elif pers == "3p" and nbr == "s":
+        elif pers == "3p" and nbr == "s": # 3eme personne du singulier
             case = 4  
             if pronom :
-                if genre == 'm':
+                if genre == 'm': # Pronom masculin
                     pron = 'il '
-                elif genre =='f' :
+                elif genre =='f' : # Pronom feminin
                     pro = 'elle '
-                else :
+                else : # Pronom neutre
                     pron = 'on '
-        elif pers == "1p" and nbr == "p":
+        elif pers == "1p" and nbr == "p": # 1er personne du pluriel
             case = 5  
             if pronom :
                 pron = "nous "
                 
-        elif pers == "2p" and nbr == "p":
+        elif pers == "2p" and nbr == "p": # 2eme personne du pluriel
             case = 6 
             if pronom :
                 pron = "vous "
                  
-        elif pers == "3p" and nbr == "p":
+        elif pers == "3p" and nbr == "p": # 3eme personne du pluriel
             case = 7  
             if pronom :
-                if genre == 'm' or genre == 'n':
+                if genre == 'm' or genre == 'n': # Pronom masculin et neutre
                     pron = "ils "
-                else :
+                else : # Pronom feminin
                     pron = 'elles ' 
 
 

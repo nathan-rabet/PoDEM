@@ -41,7 +41,9 @@ def tps_gen(nb_lignes) :
     Donne une aproximation du temps de géneration du poème
     """
 
-    tps = float(nb_lignes)*0.50568
+    tps = float(nb_lignes)*0.51568 # 0.50568 = Temps moyen pour afficher une phrase, Calculer sur 10 000 phrase via le calcul suivant :
+                                   # Temps mis pour afficher 10 000 phrases divisé 10 000 (le nombre de phrase)
+    
     print("Temps de génération estimé : " + str(time_long(tps)) + " s\n")
 
 

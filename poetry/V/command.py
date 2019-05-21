@@ -141,6 +141,7 @@ def options(DOM_input,DOM_valeur,style,style_valeur,nb_lignes):
     print("DOM\t" + DOM_input + " (" + DOM_valeur + ")" )
     print("style\t" + style + " (" + style_valeur + ")" )
     print("nb_lignes\t" + str(nb_lignes))
+    print()
 
 
 def sup_cache():

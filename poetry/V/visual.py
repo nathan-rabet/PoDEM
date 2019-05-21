@@ -5,10 +5,16 @@ from V.input_user import *
 
 def startup():
 
+    """
+    Démarrage du programme
+    """
+
     on = True
     init_DOM()
     clear_console()
     print(banner())
+
+    # Définitons des valeurs par défaut
 
     global nb_lignes
     global DOM_input

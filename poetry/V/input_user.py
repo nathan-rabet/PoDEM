@@ -28,7 +28,7 @@ def init_DOM():
 def detec(chercher,cmd_no_space):
 
     """
-    Detecte ce que à ecrit l'utilisateur
+    Detecte ce qu'a écrit l'utilisateur
     """
 
     if chercher == 'start':
@@ -66,6 +66,7 @@ def saisie_nb_lignes(cmd_no_space) :
     """
     Permet de choisir le nombre de ligne du poème
     """
+
     clear_console()
     print(banner())
 
@@ -84,10 +85,15 @@ def saisie_nb_lignes(cmd_no_space) :
 
 def saisie_DOM(cmd_no_space):
 
+    """
+    Permet de choisir le thème (DOM) du poème
+    """
+
     clear_console()
     print(banner())
 
     DOM_input = None
+    DOM_IN = []
     if len(cmd_no_space) == 4 :
         DOM_input = ""
         DOM_valeur = ""
@@ -117,6 +123,10 @@ def saisie_DOM(cmd_no_space):
 
 
 def saisie_style(cmd_no_space):
+
+    """
+    Permet de choisir le style de langue (style) du poème
+    """
 
     clear_console()
     print(banner())

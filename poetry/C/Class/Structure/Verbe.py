@@ -1,5 +1,5 @@
 from os import environ
-from C.Class.Parser.DEM_parser import *
+from C.Modules.Parser.DEM_parser import *
 
 class Verbe:
 

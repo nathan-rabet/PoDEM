@@ -1,18 +1,26 @@
-# Générateur de poèmes en ACROSTICHES
+# PoDEM
+## Générateur de poèmes
 
-Créateur de poèmes acrostiches personnalisés selon les caractéristiques de l'utilisateur.
-Il y aura pour cela différents thèmes de génération : **amour, amitié, conflit, …**
-ainsi que différentes sous catégories possibles.
-Pour générer un texte, le programme se basera sur des *bases de données* de poèmes et de mots en rapport avec le sujet sélectionné.
+Créateur de poèmes personnalisés selon des caractéristiques définies par l'utilisateur.
+Il y aura pour cela différents thèmes de génération : **physique, mythologie, psychologie, …**
+ainsi que différents styles de langages : **populaire, littéraire, famillier, …**.
+Pour générer un poème, le programme se basera sur la *base de données DEM (Dictionnaire Électronique des Mots)*.
 
-## Langages utilisés
-* **Analyses et traitements des données**
-  * <code>Python</code>
-* **Transferts des données**
-  * <code>SQL</code>
-* **Communication des résultats et affichage**
-  * <code>HTML</code>
-  * <code>CSS</code>
+## Technologies utilisées
+* Langage de programmation : <code>Python</code>.
+ * Type de programmation : **Modulaire et orientée objet**.
+ * Organisation du programme : **Structuration MVC (Model-View-Controller)**.
+* Stockage des données : <code>CSV (Comma-Separated Values)</code>.
   
-## Version opérationnelle
-Afin de tester les fonctionnalités de ce programme sans soucis d'installation, ce dernier sera installé et configuré sur un serveur <code>Ubuntu</code>, hébergé sur des serveurs Cloud chez **Google**.
+## Utilisation
+Afin d'utiliser le programme, veuillez éxecuter le fichier <code>start.py</code> situé dans le dossier <code>poetry/</code> : 
+
+### Comment procéder ?
+* Télécharger et extraire le fichier [**PoDEM-master.zip**](https://github.com/nathan-rabet/PoDEM/archive/master.zip).
+* Télécherger une version de [<code>Python</code>](https://www.python.org/) (si cela n'est pas déjà fait).
+* Ouvrir un terminal.
+* Se déplacer dans le répertoire 'poetry' du dossier que vous avez extrait en tapant dans votre terminal : 
+  * <code>cd /le_chemin/vers/le/dossier/PoDEM-master/poetry</code>
+* Exécuter le programme [**start.py**](poetry/start.py) en tapant dans votre terminal :
+  * <code>python start.py</code>
+* Suivre les instrucutions de la console.

@@ -62,42 +62,43 @@ def tps_gen(type_phrase) :
 
         elif int(i) == 4 :
 
-            tps += 1#Phrase_normal
+            tps += 0.0087#Phrase_normal
 
         elif int(i) == 5 :
 
-            tps += 1#Phrase_question
+            tps += 0.1921#Phrase_question
 
         elif int(i) == 6 :
 
-            tps += 1#Phrase_normal_futur (- tps)
+            tps += 0.0087#Phrase_normal_futur (- tps)
 
         elif int(i) == 7 :
 
-            tps += 1#Phrase_normal_passe (- tps)
+            tps += 0.0088#Phrase_normal_passe (- tps)
 
         elif int(i) == 8 :
 
-            tps += 1#Phrase_excla1
+            tps += 0.1829#Phrase_excla1
+
         elif int(i) == 9 :
 
-            tps += 1#Phrase_excla2
+            tps += 0.1827#Phrase_excla2
 
         elif int(i) == 10 :
 
-            tps += 1#Phrase_Vpro1
+            tps += 0.0047#Phrase_Vpro1
 
         elif int(i) == 11 :
 
-            tps += 1#Phrase_question2
+            tps += 0.1867#Phrase_question2
   
         elif int(i) == 12 :
 
-            tps += 1#Phrase_question3
+            tps += 0.0087#Phrase_question3
 
         elif int(i) == 13 :
 
-            tps += 1#Phrase_Vpro2
+            tps += 0.0050#Phrase_Vpro2
 
     print("Temps de génération estimé : " + str(time_long(tps)) + " s\n")
 

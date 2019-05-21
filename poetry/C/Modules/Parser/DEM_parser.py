@@ -372,13 +372,13 @@ def CA(CA, table=None):
     filtered = []
     if table == None:
         for ligne in reader:
-            if ligne[11] == CA:
+            if ligne[-1] == CA:
                 filtered.append(ligne)
         close_DEM()
         return filtered
     else:
         for ligne in table:
-            if ligne[11] == CA:
+            if ligne[-1] == CA:
                 filtered.append(ligne)
         close_DEM()
         return filtered

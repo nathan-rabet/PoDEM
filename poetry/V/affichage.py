@@ -46,19 +46,19 @@ def tps_gen(type_phrase) :
         
 
         if int(i) == 0 :
-            tps += 1#Phrase_intj
+            tps += 0,1839#Phrase_intj
 
         elif int(i) == 1 :
     
-            tps += 1#Phrase_prono
+            tps += 0.1868#Phrase_prono
 
         elif int(i) == 2 :
 
-            tps += 1#Phrase_bruit
+            tps += 0.1794#Phrase_bruit
 
         elif int(i) == 3 :
 
-            tps += 1#Phrase_bruit2
+            tps += 0.1832#Phrase_bruit2
 
         elif int(i) == 4 :
 
@@ -70,11 +70,11 @@ def tps_gen(type_phrase) :
 
         elif int(i) == 6 :
 
-            tps += 1#Phrase_normal_futur
+            tps += 1#Phrase_normal_futur (- tps)
 
         elif int(i) == 7 :
 
-            tps += 1#Phrase_normal_passe
+            tps += 1#Phrase_normal_passe (- tps)
 
         elif int(i) == 8 :
 

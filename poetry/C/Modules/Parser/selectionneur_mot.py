@@ -37,9 +37,12 @@ def NOM(liste_dom,style) :
     if NOM_CA[0] == ' ' :
         NOM_CA = NOM_CA[1:]
 
+    nbr_d = 0
     for i in Deter :
         if re.match(i,NOM_CA):
-            NOM_CA = NOM_CA[len(Deter[i])-1:]
+            q = int(len(Deter[nbr_d]))
+            NOM_CA = NOM_CA[(q - 1):]
+        nbr_d += 1
 
 
     return [NOM_CA,CA_NOM]

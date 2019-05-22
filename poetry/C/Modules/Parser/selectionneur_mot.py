@@ -39,7 +39,6 @@ def NOM(liste_dom,style) :
 
     NOM_V3 = NOM_V2p[randint(0,len(NOM_V2p)-1)]
     pd = randint(0,len(NOM_V3))
-    p = 0
     NOM_V4 = NOM_V3[pd-1] 
     CA_NOM = NOM_V4[-1]
     NOM1 = Cellule_de_la_ligne([NOM_V4])

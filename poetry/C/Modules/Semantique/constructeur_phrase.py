@@ -137,7 +137,7 @@ def Phrase_intj(liste_dom,style,tps):
     ADJm = ADJ(M,liste_dom,style)
     I = INTER(style)
     V = VerbeM('Vt',N,liste_dom,style,tps)
-    p=0
+    
     Phrase = I+vir+e+Dn+N[0]+e+ADJn+e+V+e+Dm+M[0]+e+ADJm+pts
     return Phrase
 
@@ -154,7 +154,7 @@ def Phrase_bruit1(liste_dom,style,tps):
     ADJn = ADJ(N,liste_dom,style)
     B = BRUIT()
     V = VerbeM('Vi',N,liste_dom,style,tps)
-    p=0
+    
     Phrase = et+e+B+vir+e+Dn+N[0]+e+ADJn+e+V+pts
     return Phrase
 
@@ -174,7 +174,7 @@ def Phrase_bruit2(liste_dom,style,tps):
     ADJm = ADJ(M,liste_dom,style)
     B = BRUIT()
     V = VerbeM('Vt',N,liste_dom,style,tps)
-    p=0
+    
     Phrase = et+e+B+vir+e+Dn+N[0]+e+ADJn+e+V+e+Dm+M[0]+e+ADJm+pts
     return Phrase
 
@@ -193,7 +193,7 @@ def Phrase_normal(liste_dom,style,tps):
     ADJn = ADJ(N,liste_dom,style)
     ADJm = ADJ(M,liste_dom,style)
     V = VerbeM('Vt',N,liste_dom,style,tps)
-    p=0
+    
     Phrase = Dn+N[0]+e+ADJn+e+V+e+Dm+M[0]+e+ADJm+pts
     return Phrase
 
@@ -213,7 +213,7 @@ def Phrase_question(liste_dom,style,tps):
     ADJm = ADJ(M,liste_dom,style)
     ADV_M = ADV_MESURE()
     V = VerbeM('Vt',N,liste_dom,style,tps,'sent')
-    p=0
+    
     Phrase = QUESTION[randint(0,5)]+e+Dn+N[0]+e+ADJn+e+V+e+ADV_M+e+Dm+M[0]+e+ADJm+e+pi
     return Phrase
 
@@ -228,7 +228,7 @@ def Phrase_question2(liste_dom,style,tps):
     ADJn = ADJ(N,liste_dom,style)
     ADV_M = ADV_MESURE()
     V = VerbeM('Vt',N,liste_dom,style,tps,'sent')
-    p=0
+    
     Phrase = qui+e+V+e+ADV_M+e+Dn+N[0]+e+ADJn+e+pi
     return Phrase
 
@@ -248,7 +248,7 @@ def Phrase_normal_futur(liste_dom,style):
     ADJm = ADJ(M,liste_dom,style)
     V = VerbeM('Vt',N,liste_dom,style,'futur simple')
     MOT_F = MOT_FUTUR[randint(0,len(MOT_FUTUR)-1)]
-    p=0
+    
     Phrase = MOT_F+vir+e+Dn+N[0]+e+ADJn+e+V+e+Dm+M[0]+e+ADJm+pts
     return Phrase
 
@@ -269,7 +269,7 @@ def Phrase_normal_passe(liste_dom,style):
     tps = ['imparfait','passé simple']
     V = VerbeM('Vt',N,liste_dom,style,tps[randint(0,1)])
     MOT_P = MOT_PASSE[randint(0,len(MOT_PASSE)-1)]
-    p=0
+    
     Phrase = MOT_P+vir+e+Dn+N[0]+e+ADJn+e+V+e+Dm+M[0]+e+ADJm+pts
     return Phrase
 
@@ -289,7 +289,7 @@ def Phrase_excla1(liste_dom,style,tps):
     ADJm = ADJ(M,liste_dom,style)    
     C = CONJ()
     V = VerbeM('Vt',N,liste_dom,style,tps)
-    p=0
+    
     Phrase = C+e+Dn+N[0]+e+ADJn+e+V+e+Dm+M[0]+e+ADJm+e+pe
     return Phrase
 
@@ -306,7 +306,7 @@ def Phrase_excla2(liste_dom,style,tps):
     ADJn = ADJ(N,liste_dom,style)
     C = CONJ()
     V = VerbeM('Vi',N,liste_dom,style,tps)   
-    p=0 
+     
     Phrase =  C+e+Dn+N[0]+e+ADJn+e+V+e+pe
     return Phrase
 
@@ -324,7 +324,7 @@ def Phrase_prono(liste_dom,style,tps):
     ADV_M = ADV_MESURE()
     ADV1 = ADV(liste_dom,style)
     V = VerbeM('Vp',N,liste_dom,style,tps)
-    p=0
+    
     Phrase = Dn+N[0]+e+ADJn+e+V+e+ADV_M+e+ADV1+e+pe
     return Phrase
 
@@ -344,7 +344,7 @@ def Phrase_Vpro1(liste_dom,style,tps):
     nbr = nbr[randint(0,len(nbr)-1)]
     pers = pers[randint(0,len(pers)-1)]
     V = VerbeM('Vt',N,liste_dom,style,tps,'',1,pers,nbr)
-    p=0
+    
     Phrase = V+e+Dn+N[0]+e+ADJn+pts
     return Phrase
 
@@ -361,7 +361,7 @@ def Phrase_question3(liste_dom,style,tps):
     ADJn = ADJ(N,liste_dom,style)
     ADJm = ADJ(M,liste_dom,style)
     V = VerbeM('Vt',N,liste_dom,style,tps,'')
-    p=0
+    
     Phrase = QUESTION[randint(0,5)]+e+Dn+N[0]+e+ADJn+e+V+e+Dm+M[0]+e+ADJm+e+pi
     return Phrase
 
@@ -381,7 +381,7 @@ def Phrase_Vpro2(liste_dom,style,tps):
     nbr = nbr[randint(0,len(nbr)-1)]
     pers = pers[randint(0,len(pers)-1)]
     V = VerbeM('Vt',N,liste_dom,style,tps,'sent',1,pers,nbr)
-    p=0
+    
     Phrase = V+e+ADV1+e+Dn+N[0]+e+ADJn+pts
 
     return Phrase

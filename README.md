@@ -35,3 +35,4 @@ Afin d'utiliser le programme, veuillez éxecuter le fichier <code>start.py</code
 * NE PAS TOUCHER AU CONTENU À L'INTÉRIEUR DU DOSSIER <code>poetry</code>.
 * Se déplacer dans le répertoire 'poetry' du dossier que vous avez extrait à l'aide de l'explorateur de fichier.
 * Cliquer sur le fichier <code>start.py</code>.
+* Suivre les instructions de la console.

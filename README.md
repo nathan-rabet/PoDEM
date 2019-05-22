@@ -1,4 +1,4 @@
-![alt-text](https://image.noelshack.com/fichiers/2019/21/3/1558549180-podem-logo-left.png)
+![alt-text](https://image.noelshack.com/fichiers/2019/21/3/1558549285-podem-logo-left-1.png)
 ## Générateur de poèmes
 
 Créateur de poèmes personnalisés selon des caractéristiques définies par l'utilisateur.

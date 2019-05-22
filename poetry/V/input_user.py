@@ -67,18 +67,16 @@ def saisie_nb_lignes(cmd_no_space) :
     Permet de choisir le nombre de ligne du poème
     """
 
-    clear_console()
-    print(banner())
-
     if len(cmd_no_space) == 10:
         print(error_message("Vous n'avez entré aucun nombre !"))
         print("Pour savoir comment utiliser cette fonctionnalité, tapez : 'help'\n")
+        return None
     elif not cmd_no_space[10:].isdigit():
         print(error_message("La donnée que vous venez de rentrer n'est pas un nombre entier !"))
         print("Pour savoir comment utiliser cette fonctionnalité, tapez : 'help'\n")
+        return None
     else:
         nbr_l = int(cmd_no_space[10:])
-        print(correct_message("Le poème sera composé de " + str(nbr_l) + " lignes.\n"))
         return nbr_l
 
 
@@ -88,9 +86,6 @@ def saisie_DOM(cmd_no_space):
     """
     Permet de choisir le thème (DOM) du poème
     """
-
-    clear_console()
-    print(banner())
 
     DOM_input = None
     DOM_IN = []
@@ -106,7 +101,10 @@ def saisie_DOM(cmd_no_space):
             if re.search(i[0], cmd_no_space):
                 DOM_input = i[0]
                 DOM_valeur = i[1]
+                i = ['ADM',administration] 
                 break
+                
+            
         if DOM_input == None:
             print(error_message("Le thème que vous avez saisi n'existe pas dans notre base de donnée !"))
             print("Aucun thème n'est donc appliqué.")
@@ -127,9 +125,6 @@ def saisie_style(cmd_no_space):
     """
     Permet de choisir le style de langue (style) du poème
     """
-
-    clear_console()
-    print(banner())
 
     style = None
     if len(cmd_no_space) == 6 :

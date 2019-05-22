@@ -13,7 +13,6 @@ def start(nb_lignes,DOM_input,style,DOM_valeur,style_valeur):
     Commande start : lance la génération du poème
     """
     clear_console()
-    print(banner())
     options(DOM_input,DOM_valeur,style,style_valeur,nb_lignes)
     print()
     tps_gen(nb_lignes)
@@ -26,7 +25,6 @@ def help():
     Commande help : permet d'obtenir des indications sur comment utilisé le programme
     """
     clear_console()
-    print(banner())
 
     print("""
      ___      _        _           
@@ -67,7 +65,6 @@ def show_DOM():
     Commande show_DOM : permet d'obtenir la liste des thèmes disponibles
     """
     clear_console()
-    print(banner())
     readerDOM = init_DOM()
     print("""
     ,--,--'.                     
@@ -78,6 +75,7 @@ def show_DOM():
     for dom in readerDOM:
         print(dom[0] + "\t" + dom[1])
     print("\nSi vous ne souhaitez pas définir de thème, entrez 'DOM='.\nLe poème se fera alors sans contrainte de thème.")
+    
 
 
 def show_style():
@@ -86,7 +84,6 @@ def show_style():
     Commande show_style : permet d'obtenir la liste des styles disponibles
     """
     clear_console()
-    print(banner())
     print(""" 
     
         |\ |.   _  _       _| _   | _  _  _  _  _  _ 
@@ -137,7 +134,6 @@ def options(DOM_input,DOM_valeur,style,style_valeur,nb_lignes):
     """
 
     clear_console()
-    print(banner())
     print("DOM\t" + DOM_input + " (" + DOM_valeur + ")" )
     print("style\t" + style + " (" + style_valeur + ")" )
     print("nb_lignes\t" + str(nb_lignes))

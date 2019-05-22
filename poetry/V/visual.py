@@ -52,7 +52,10 @@ def startup():
             options(DOM_input,DOM_valeur,style,style_valeur,nb_lignes)
         
         elif detec('nb_lignes',cmd_no_space):
-            nb_lignes = saisie_nb_lignes(cmd_no_space)
+            if not saisie_nb_lignes(cmd_no_space) == None : 
+                nb_lignes = saisie_nb_lignes(cmd_no_space)
+                print(correct_message("Le poème sera composé de " + str(nb_lignes) + " lignes.\n"))
+            
 
         elif detec('DOM',cmd_no_space) and not (detec('start',cmd_no_space) or detec('style',cmd_no_space)) :
             DOM_IN = saisie_DOM(cmd_no_space)

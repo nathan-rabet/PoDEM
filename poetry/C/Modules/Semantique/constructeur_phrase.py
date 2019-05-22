@@ -34,7 +34,7 @@ def Afficher_phrase(nb_lignes,dom,style=''):
     
 
 
-def Nombre_phrase(nbr_ligne,liste_dom,style) :
+def Nombre_phrase(nb_lignes,liste_dom,style) :
         
     """
     Génere le nombre de phrase voulue et les retourne sous forme de tableau.
@@ -43,7 +43,7 @@ def Nombre_phrase(nbr_ligne,liste_dom,style) :
     a = 0
     Txt = []
     
-    while a<nbr_ligne :
+    while a<nb_lignes :
 
         Txt.append(Constructeur_phrase(liste_dom,style))
         a=a+1

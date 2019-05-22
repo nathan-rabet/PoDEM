@@ -6,6 +6,9 @@ Il y aura pour cela différents thèmes de génération : **physique, mythologie
 ainsi que différents styles de langages : **populaire, littéraire, famillier, …**.
 Pour générer un poème, le programme se basera sur la *base de données DEM (Dictionnaire Électronique des Mots)*.
 
+## Compatibilité système
+Le programme est compatible avec toutes les versions de **Windows**, **Linux** et **MacOS**.
+
 ## Technologies utilisées
 * Langage de programmation : <code>Python</code>.
  * Type de programmation : **modulaire et orientée objet**.

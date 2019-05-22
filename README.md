@@ -1,16 +1,16 @@
-# PoDEM
+![alt-text](https://image.noelshack.com/fichiers/2019/21/3/1558548878-podem-logo.png)
 ## Générateur de poèmes
 
 Créateur de poèmes personnalisés selon des caractéristiques définies par l'utilisateur.
 Il y aura pour cela différents thèmes de génération : **physique, mythologie, psychologie, …**
 ainsi que différents styles de langages : **populaire, littéraire, famillier, …**.
-Pour générer un poème, le programme se basera sur la *base de données DEM (Dictionnaire Électronique des Mots)*.
+Pour générer un poème, le programme se basera sur la base de données __*DEM (Dictionnaire Électronique des Mots)*__.
 
 ## Compatibilité système
 Le programme est compatible avec toutes les versions de **Windows**, **Linux** et **MacOS**.
 
 ## Technologies utilisées
-* Langage de programmation : <code>Python</code>.
+* Langage de programmation : <code>python</code>.
  * Type de programmation : **modulaire et orientée objet**.
  * Organisation du programme : **structuration MVC (Model-View-Controller)**.
 * Stockage des données : <code>CSV (Comma-Separated Values)</code>.

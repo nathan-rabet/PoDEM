@@ -294,9 +294,9 @@ def Liste_DOM(dom):
 def OP(OP, table=None):
 
     """
-    Si 1 argument : renvoie les lignes comportant un DOM précis à partir du DEM.
+    Si 1 argument : renvoie les lignes comportant un OP précis à partir du DEM.
     
-    Si 2 arguments : renvoie les lignes comportant un DOM précis à partir de la table donnée.
+    Si 2 arguments : renvoie les lignes comportant un OP précis à partir de la table donnée.
     """
 
     init_DEM()

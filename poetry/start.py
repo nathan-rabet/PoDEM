@@ -1,4 +1,3 @@
-﻿from os import getcwd
 import os
 
 # Définition du chemin absolu du dossier 'poetry/'

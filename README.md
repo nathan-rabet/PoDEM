@@ -8,8 +8,8 @@ Pour générer un poème, le programme se basera sur la *base de données DEM (D
 
 ## Technologies utilisées
 * Langage de programmation : <code>Python</code>.
- * Type de programmation : **Modulaire et orientée objet**.
- * Organisation du programme : **Structuration MVC (Model-View-Controller)**.
+ * Type de programmation : **modulaire et orientée objet**.
+ * Organisation du programme : **structuration MVC (Model-View-Controller)**.
 * Stockage des données : <code>CSV (Comma-Separated Values)</code>.
   
 ## Utilisation

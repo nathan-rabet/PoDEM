@@ -57,59 +57,8 @@ def NOM(liste_dom,style) :
         nbr_d += 1
 
     return [NOM,CA_NOM]
-"""
-def NOM(liste_dom,style) :
-    
-    
-    Selectionne un nom selon le thème (liste_dom) et le style de langue (style)
-    
-
-    NOM_DOM = liste_dom 
-    if not style == '' :
-        NOM_DOM2 = style_langage(style,NOM_DOM)
-        if NOM_DOM2 == []  :
-            NOM_DOM2 = NOM_DOM 
-    else :
-        NOM_DOM2 = NOM_DOM        
-    Liste_CA = ['-1','-2','-3','-4','-5','-6','-7','-8','-9']
-    NOM_CA = []
-    a = 0
-    for i in Liste_CA :
-        NOM_CA.append(CA(Liste_CA[a],NOM_DOM2))
-        a += 1
-    verif = 0
-    for k in NOM_CA :
-        if not k == []:
-            verif = 1 
-    if not verif :
-        c = 0
-        for i in Liste_CA :
-            NOM_CA = []
-            NOM_CA.append(CA(Liste_CA[c]))
-            c += 1
-
-    NOM_V1 = NOM_CA[randint(0,len(NOM_CA)-1)]
-    CA_NOM = NOM_V1[-1]
-    NOM = Cellule_de_la_ligne([NOM_V1])
-    NOM_CA = NOM[0]
-    
-    #Certain nom possède de base un adjectif dans le DEM, si c'est le cas, le supprime
-
-    Deter = ["l'","le ","la ","un ","une ","cette ","ce ","cet ","mon ","ton ","son ","notre ","votre ","leur ","ma ","ta ","sa "]
-
-    if NOM_CA[0] == ' ' :
-        NOM_CA = NOM_CA[1:]
-
-    nbr_d = 0
-    for f in Deter :
-        if re.match(f,NOM_CA):
-            q = int(len(Deter[nbr_d]))
-            NOM_CA = NOM_CA[(q - 1):]
-        nbr_d += 1
 
 
-    return [NOM_CA,CA_NOM]
-"""
 def ADJ(nom,liste_dom,style):
     
     """

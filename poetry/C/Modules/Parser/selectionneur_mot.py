@@ -2,8 +2,6 @@ from C.Modules.Parser.DEM_parser import *
 from C.Class.Structure.Verbe import *
 from random import randint
 import csv
-
-
 def NOM(liste_dom,style) :
     
     """
@@ -11,6 +9,62 @@ def NOM(liste_dom,style) :
     """
 
     NOM_DOM = liste_dom
+    NOM_V1 = []
+    if style == '':
+        NOM_V1 = NOM_DOM
+    else :
+        NOM_V1 = style_langage(style,NOM_DOM)
+    verif = 0
+    for i in NOM_V1 :
+        if i != []:
+            verif = 1
+    if not verif :
+        NOM_V1 = NOM_DOM
+    NOM_V2 = []
+    Liste_CA = ['-1','-2','-3','-4','-5','-6','-7','-8','-9']
+    for i in Liste_CA :
+        NOM_V2.append(CA(i,NOM_V1))
+
+    verif1 = 0
+    NOM_V2p = []
+    for i in NOM_V2 :
+        if i != []:
+            verif1 = 1
+            NOM_V2p.append(i)
+    if not verif1 :
+        NOM_V2 = []
+        for i in Liste_CA :
+            NOM_V2.append(CA(i))
+        NOM_V2p = NOM_V2
+
+    NOM_V3 = NOM_V2p[randint(0,len(NOM_V2p)-1)]
+    pd = randint(0,len(NOM_V3))
+    p = 0
+    NOM_V4 = NOM_V3[pd-1] 
+    CA_NOM = NOM_V4[-1]
+    NOM1 = Cellule_de_la_ligne([NOM_V4])
+    NOM = NOM1[0]
+    Deter = ["l'","le ","la ","un ","une ","cette ","ce ","cet ","mon ","ton ","son ","notre ","votre ","leur ","ma ","ta ","sa "]
+
+    if NOM[0] == ' ' :
+        NOM = NOM[1:]
+
+    nbr_d = 0
+    for i in Deter :
+        if re.match(i,str(NOM)):
+            q = int(len(Deter[nbr_d]))
+            NOM = NOM[(q - 1):]
+        nbr_d += 1
+
+    return [NOM,CA_NOM]
+"""
+def NOM(liste_dom,style) :
+    
+    
+    Selectionne un nom selon le thème (liste_dom) et le style de langue (style)
+    
+
+    NOM_DOM = liste_dom 
     if not style == '' :
         NOM_DOM2 = style_langage(style,NOM_DOM)
         if NOM_DOM2 == []  :
@@ -20,13 +74,20 @@ def NOM(liste_dom,style) :
     Liste_CA = ['-1','-2','-3','-4','-5','-6','-7','-8','-9']
     NOM_CA = []
     a = 0
-    while (a<len(Liste_CA)):
-        
-        CA_def = CA(Liste_CA[a],NOM_DOM2)
-        if not CA_def == []:
-            for i in CA_def:
-                NOM_CA.append(i) 
-        a = a+1
+    for i in Liste_CA :
+        NOM_CA.append(CA(Liste_CA[a],NOM_DOM2))
+        a += 1
+    verif = 0
+    for k in NOM_CA :
+        if not k == []:
+            verif = 1 
+    if not verif :
+        c = 0
+        for i in Liste_CA :
+            NOM_CA = []
+            NOM_CA.append(CA(Liste_CA[c]))
+            c += 1
+
     NOM_V1 = NOM_CA[randint(0,len(NOM_CA)-1)]
     CA_NOM = NOM_V1[-1]
     NOM = Cellule_de_la_ligne([NOM_V1])
@@ -40,15 +101,15 @@ def NOM(liste_dom,style) :
         NOM_CA = NOM_CA[1:]
 
     nbr_d = 0
-    for i in Deter :
-        if re.match(i,NOM_CA):
+    for f in Deter :
+        if re.match(f,NOM_CA):
             q = int(len(Deter[nbr_d]))
             NOM_CA = NOM_CA[(q - 1):]
         nbr_d += 1
 
 
     return [NOM_CA,CA_NOM]
-
+"""
 def ADJ(nom,liste_dom,style):
     
     """

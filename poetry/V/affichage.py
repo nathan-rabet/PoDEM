@@ -1,6 +1,7 @@
-from sys import platform
+from sys import platform as _platform
+import platform
 from os import system
-
+import os
 
 def clear_console():
 
@@ -8,10 +9,10 @@ def clear_console():
     Nettoie la console(cmd)
     """
 
-    if platform == "linux" or platform == "linux2" or platform == "darwin":
+    if _platform == "linux" or _platform == "linux2" or _platform == "darwin":
         # Linux et MacOS
         system('clear')
-    elif platform == "win32":
+    elif _platform == "win32" :
         # Windows
         system('cls')
 
@@ -22,18 +23,47 @@ Couleur des textes
 
 """
 
-def error_message(txt): 
-    #rouge
-    return "\033[91m{}\033[00m".format(txt)
+        
+def error_message(txt):
+    #rouge   
+    if _platform == "linux" or _platform == "linux2" or _platform == "darwin"  :
+        return "\033[91m{}\033[00m".format(txt)
+    elif _platform == "win32" or _platform == "win64" :
+        ver = platform.version()
+        if ver[:2] == '10':
+            return "\033[91m{}\033[00m".format(txt)
+        else :
+            return txt        
+    else :
+        return txt
 
 def correct_message(txt):
     #vert
-    return "\033[92m{}\033[00m".format(txt)
+    if _platform == "linux" or _platform == "linux2" or _platform == "darwin" :
+        return "\033[92m{}\033[00m".format(txt)
+    elif _platform == "win32" :
+        ver = platform.version()
+        if ver[:2] == '10':
+            return "\033[92m{}\033[00m".format(txt)
+        else :
+            return txt 
+
+    else :  
+        return txt
 
 def warning_message(txt):
     #jaune
-    return "\033[93m{}\033[00m".format(txt)
+    if _platform == "linux" or _platform == "linux2" or _platform == "darwin" :
+        return "\033[93m{}\033[00m".format(txt)
+    elif _platform == "win32" :
+        ver = platform.version()
+        if ver[:2] == '10':
+            return "\033[93m{}\033[00m".format(txt)
+        else :
+            return txt 
 
+    else :
+        return txt
 
 def tps_gen(nb_lignes) :
 

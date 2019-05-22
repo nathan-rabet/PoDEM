@@ -17,7 +17,7 @@ Afin d'utiliser le programme, veuillez éxecuter le fichier <code>start.py</code
 
 ### Comment procéder ?
 * Télécharger et extraire le fichier [**PoDEM-master.zip**](https://github.com/nathan-rabet/PoDEM/archive/master.zip).
-* Télécherger une version de [<code>Python</code>](https://www.python.org/) (si cela n'est pas déjà fait).
+* Télécharger une version de [<code>python</code>](https://www.python.org/) (si cela n'est pas déjà fait).
 * Ouvrir un terminal.
 * Se déplacer dans le répertoire 'poetry' du dossier que vous avez extrait en tapant dans votre terminal : 
   * <code>cd /le_chemin/vers/le/dossier/PoDEM-master/poetry</code>

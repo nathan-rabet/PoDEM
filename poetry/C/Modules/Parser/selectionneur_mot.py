@@ -312,6 +312,9 @@ def VerbeM(type,nom,liste_dom,style,tps="présent",op='',pronom=0,pers='3p',nbr=
 
         VER_V4 = Cellule_de_la_ligne(VER_V3)
         VER_V5 = VERIF_MOT(VER_V4)
+        if VER_V5 == []:
+            VER_Vp=Cellule_de_la_ligne(VER_V2)
+            VER_V5 = VERIF_MOT(VER_Vp)
         VER = VER_V5[randint(0,len(VER_V5)-1)]
         CA_val = nom[1]
 

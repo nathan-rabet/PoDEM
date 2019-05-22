@@ -26,4 +26,4 @@ Afin d'utiliser le programme, veuillez éxecuter le fichier <code>start.py</code
   * <code>cd /le_chemin/vers/le/dossier/PoDEM-master/poetry</code>
 * Exécuter le programme [**start.py**](poetry/start.py) en tapant dans votre terminal :
   * <code>python start.py</code>
-* Suivre les instrucutions de la console.
+* Suivre les instructions de la console.

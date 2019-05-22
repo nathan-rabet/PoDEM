@@ -5,6 +5,12 @@ from os import environ
 from pathlib import Path
 import csv
 
+def transform_DOM():
+    init_DOM()
+    readerDOM_table = []
+    for i in readerDOM:
+        readerDOM_table.append(i)
+    return readerDOM_table
 
 def init_DOM():
 
@@ -97,12 +103,14 @@ def saisie_DOM(cmd_no_space):
         DOM_IN = [DOM_input,DOM_valeur] 
         return DOM_IN
     else:
-        for i in readerDOM:
-            if re.search(i[0], cmd_no_space):
-                DOM_input = i[0]
-                DOM_valeur = i[1]
-                i = ['ADM',administration] 
+        r = transform_DOM()
+        k = 0
+        while k < (len(r)):
+            if re.search(r[k][0], cmd_no_space):
+                DOM_input = r[k][0]
+                DOM_valeur = r[k][1]
                 break
+            k += 1
                 
             
         if DOM_input == None:
@@ -137,7 +145,7 @@ def saisie_style(cmd_no_space):
     else:
         styles_langage = [['f','b','p','v','t','c','s','m','n','d'],['familier','belge','populaire','vieux','littéraire','canadien, québécois', 'suisse','maj/min selon la catégorie (Français, le français)','maj/min selon le sens (administration, l’Administration)', 'nom déposé (Altuglass)']]
         for i in range(0,len(styles_langage[0])):
-            if re.search(styles_langage[0][i], cmd_no_space[5:]):
+            if re.search(styles_langage[0][i], cmd_no_space[5:]) and len(cmd_no_space) == 7:
                 style = styles_langage[0][i]
                 style_valeur = styles_langage[1][i]
                 break

@@ -36,3 +36,7 @@ Afin d'utiliser le programme, veuillez éxecuter le fichier <code>start.py</code
 * Se déplacer dans le répertoire 'poetry' du dossier que vous avez extrait à l'aide de l'explorateur de fichier.
 * Cliquer sur le fichier <code>start.py</code>.
 * Suivre les instructions de la console.
+
+## Tester le programme
+Si vous voulez utiliser tout le potentiel de ce programme sans le télécharger, vous pouvez le [tester en ligne](
+https://colab.research.google.com/drive/1ds7XO6rVS0F8Uluf3pR8S0ibax1v6oXE).

@@ -1,4 +1,4 @@
-![alt-text](https://image.noelshack.com/fichiers/2019/21/3/1558549285-podem-logo-left-1.png)
+![PoDEM Logo](https://camo.githubusercontent.com/4741ab4b7e0e8a35918b05fd6e76b8355a9a4fe6/68747470733a2f2f7a7570696d616765732e6e65742f75702f31392f34382f7374386b2e706e67)
 ## Générateur de poèmes
 
 Créateur de poèmes personnalisés selon des caractéristiques définies par l'utilisateur.

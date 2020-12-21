@@ -12,7 +12,7 @@ Le programme est compatible avec toutes les versions de **Windows**, **Linux** e
 ## Technologies utilisées
 * Langage de programmation : <code>python</code>.
  * Type de programmation : **modulaire et orientée objet**.
- * Organisation du programme : **structuration MVC (Model-View-Controller)**.
+ * Organisation du programme : **design pattern MVC (Model-View-Controller)**.
 * Stockage des données : <code>CSV (Comma-Separated Values)</code>.
   
 ## Utilisation
@@ -25,14 +25,12 @@ Afin d'utiliser le programme, veuillez éxecuter le fichier <code>start.py</code
 ### Comment lancer le programme ?
 #### Avec un terminal
 * Ouvrir un terminal.
-* NE PAS TOUCHER AU CONTENU À L'INTÉRIEUR DU DOSSIER <code>poetry</code>.
 * Se déplacer dans le répertoire 'poetry' du dossier que vous avez extrait en tapant dans votre terminal : 
   * <code>cd /le_chemin/vers/le/dossier/PoDEM-master/poetry</code>
 * Exécuter le programme [**start.py**](poetry/start.py) en tapant dans votre terminal :
   * <code>python start.py</code>
 * Suivre les instructions de la console.
 #### Avec l'interface graphique de votre système d'exploitation
-* NE PAS TOUCHER AU CONTENU À L'INTÉRIEUR DU DOSSIER <code>poetry</code>.
 * Se déplacer dans le répertoire 'poetry' du dossier que vous avez extrait à l'aide de l'explorateur de fichier.
 * Cliquer sur le fichier <code>start.py</code>.
 * Suivre les instructions de la console.
